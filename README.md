@@ -12,7 +12,7 @@ In the PhD project, the scope of knowledge is limited to architectural knowledge
 
 To approach the automated explanation, we envision three broad categories of tools: knowledge extractors, knowledge analyzers, and knowledge presenters. A common knowledge representation bridges the three categories. They work together in an (eco)system to serve the goal of generating and presenting knowledge. This is all illustrated in the figure below:
 
-![Building blocks.](/building-blocks.svg)
+![Building blocks.](/figures/building-blocks.svg)
 
 1. Knowledge extractors
 
@@ -52,7 +52,7 @@ And our labeled property graph schemas for source code structure:
 
 - LPG schema for detailed structure knowledge
 
-    ![Expanded LPG schema.](/expanded.svg)
+    ![Expanded LPG schema.](/figures/expanded.svg)
 
     With the node labels defined as:
 
@@ -72,7 +72,7 @@ And our labeled property graph schemas for source code structure:
 
 - LPG schema for abstract structure knowledge
 
-    ![Compacted LPG schema.](/compacted.svg)
+    ![Compacted LPG schema.](/figures/compacted.svg)
 
     When a detailed graph is available, an abstracted version can be derived by applying the following definitions of edges and then removing _Variable_ and _Script_ nodes (and consequently their connected edges):
 
@@ -85,10 +85,26 @@ And our labeled property graph schemas for source code structure:
  
     Finally, and example of an LPG that complies to the abstract schema:
 
-    ![An instance of the strategy design pattern in JHotDraw.](/strategy-jhotdraw.svg)
+    ![An instance of the strategy design pattern in JHotDraw.](/figures/strategy-jhotdraw.svg)
 
 ### Knowledge Extractors
 
+The above [MSR'23](https://doi.org/10.1109/MSR59073.2023.00029) paper also presents [javapers](https://github.com/rsatrioadi/javapers). It takes a directory of Java source files (up to source level 16) and extracts knowledge graph instances that comply with our graph schemas. It supports extracting both the abstracted and detailed knowledge graph instances. It leverages the [Spoon](https://spoon.gforge.inria.fr/) library. Javapers can provide the LPG in either XML, JSON, or CSV format. The JSON format complies with Cytoscape's format. The [neo4j-support](../../javapers/tree/main/neo4j-support) folder in the javapers repository provides a way to import the LPG into Neo4j.
+
+
+
+#### Knowledge graph extractors
+
+#### Role stereotype classifiers
+
 ### Knowledge Analyzers
 
+#### Software component summarization
+
+#### Deductive software architecture recovery
+
 ### Knowledge Presenters
+
+#### Visualization efforts
+
+#### What is a good software architecture explanation
