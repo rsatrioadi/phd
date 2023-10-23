@@ -16,7 +16,7 @@ To approach the automated explanation, we envision three broad categories of too
 
 ![Building blocks.](/figures/building-blocks.svg)
 
-TODO: add a structure view for the building blocks.
+TODO: add a logical view for the building blocks.
 
 1. Knowledge extractors
 
