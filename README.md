@@ -36,7 +36,7 @@ TODO: add a structure view for the building blocks.
 
    TODO: connect with the notion of ontology
 
-## Studies and Experiments
+## Studies, Experiments, Tools, etc.
 
 ### On Knowledge Representation
 
