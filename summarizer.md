@@ -1,4 +1,4 @@
-#### Software component summarization
+### Software component summarization
 
 In [Achieving High-Level Software Component Summarization via Hierarchical Chain-of-Thought Prompting and Static Code Analysis (ICoDSE'23)](icodse.org) (presented on September '23, proceedings pending) we presented an approach for automated software component summarization, combining static analysis with the emerging capabilities of a Large Language Model (LLM). In short, we use LLM to generate summaries of individual Java methods from their source code and then gather the summaries of all methods under a class to then generate a summary of that class. Analogously, we gather the summaries of all classes under a package to then generate a summary of that package.
 

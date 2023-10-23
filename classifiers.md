@@ -1,4 +1,4 @@
-#### Role stereotype classifiers
+### Role stereotype classifiers
 
 Our journal paper [Role stereotypes in software designs and their evolution (JSS vol.189)](https://doi.org/10.1016/j.jss.2022.111296) describes our effort to classify (Java) classes into role stereotypes. But first: **Role stereotypes** are abstract characterisations of the responsibilities of the building blocks of software applications. The role a class plays within a software system reflects its design intention. [Wirfs-Brock](https://www.wikidata.org/wiki/Q967529) introduced the following six role stereotypes: **_Information Holder_**, which knows information; **_Structurer_**, which maintains object relationships; **_Service Provider_**, which offers computing services; **_Coordinator_**, which delegates tasks to others; **_Controller_**, which directs other’s actions; and **_Interfacer_**, which transforms information. While these stereotypes were introduced in a “forward” way during design, we instead apply this notion retroactively—given the source code of a class, which role stereotype best describes it?
 

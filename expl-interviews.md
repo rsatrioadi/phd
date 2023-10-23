@@ -1,4 +1,4 @@
-#### What is a good software architecture explanation?
+### What is a good software architecture explanation?
 
 Ultimately, the goal of this PhD project is to provide a software architecture explanation based on the knowledge we can discover from the implementation of the software system. However, a big question remains before we can actually generate an explanation: **_What is a (good) software architecture explanation?_** To answer this, our initial approach involved conducting observation studies during software architecture explanation sessions. However, our efforts encountered challenges, as many companies declined participation due to confidentiality concerns. We managed to conduct a single observation session with an open-source project, which provided limited insights. To ensure a more robust study, we subsequently designed an interview-based approach.
 
