@@ -1,5 +1,7 @@
 #### A knowledge graph representation for software structure
 
+[↑ back](/README.md)
+
 Our knowledge representation is outlined in [Enabling Analysis and Reasoning on Software Systems through Knowledge Graph Representation (MSR'23)](https://doi.org/10.1109/MSR59073.2023.00029). Below is an excerpt describing the requirements for the representation:
 
 -    **R1: Abstract & Concrete.** We want our knowledge representation to support an abstract view that is free from implementation details so as to enable architecture-level analysis. This means the representation does not have to be back-convertible into source code. For example, our representation should not differentiate whether a data-structure is a struct, class, or record. At the same time, we want to be able to support relating high level views to concrete implementation level.

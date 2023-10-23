@@ -1,5 +1,7 @@
 ### Deductive software architecture recovery
 
+[↑ back](/README.md)
+
 We submitted a paper to ICSE-NIER'24 titled “Deductive Software Architecture Recovery via Chain-of-thought Prompting” (currently under review). Diverse techniques have been proposed for recovering software architecture from a system's  implementation. These existing approaches are *inductive* (bottom-up), i.e., the system's architecture is reconstructed only from facts specified at the source-code level. We envision a *deductive* (top-down) approach, which uses an architectural model as a high-level blueprint to classify source code units into architectural components. The approach is outlined below:
 
 1. **Reference Architecture Definition**

@@ -1,5 +1,7 @@
 ### Visualization efforts
 
+[↑ back](/README.md)
+
 One way that knowledge can be presented is trough (interactive) visualization. We have a visualization tool that takes as input the JSON-formatted LPG. It is developed using the [Cytoscape](https://js.cytoscape.org) javascript library. It is live and can be interacted with [here](https://rsatrioadi.github.io/classviz/?p=jhotdraw-trc-sum-rs). This particular showcase presents the structure of a Java project [JHotDraw](../../../jhotdraw/tree/5.1-clean) and also includes the following analysis results:
 
 1. Role stereotypes (as described [here](/classifiers.md)) in the form of node colors.
