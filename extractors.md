@@ -1,6 +1,6 @@
 ### Knowledge graph extractors
 
-The above [MSR'23](https://doi.org/10.1109/MSR59073.2023.00029) paper also presents [javapers](../../../javapers). It takes a directory of Java source files (up to source level 16) and performs static analysis to extract knowledge graph instances that comply with our graph schemas. It supports extracting both the abstracted and detailed knowledge graph instances. It leverages the [Spoon](https://spoon.gforge.inria.fr/) library.
+The previously mentioned [MSR'23](https://doi.org/10.1109/MSR59073.2023.00029) paper also presents [javapers](../../../javapers). It takes a directory of Java source files (up to source level 16) and performs static analysis to extract knowledge graph instances that comply with our graph schemas. It supports extracting both the abstracted and detailed knowledge graph instances. It leverages the [Spoon](https://spoon.gforge.inria.fr/) library.
 
 Javapers can provide the LPG in either XML, JSON, or CSV format. The JSON format complies with [Cytoscape](https://js.cytoscape.org/)'s format. It looks like this:
 
