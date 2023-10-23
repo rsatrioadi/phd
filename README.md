@@ -36,22 +36,23 @@ TODO: add a structure view for the building blocks.
 
 ## Studies and Experiments
 
-### Knowledge Representation
+### On Knowledge Representation
 
 - [A knowledge graph representation for software structure](/representation.md)
 
-### Knowledge Extractors
+### On Knowledge Extraction
 
 - [Knowledge graph extractors](/extractors.md)
 
-### Knowledge Analyzers
+### On Knowledge Analysis
 
 - [Role stereotype classifiers](/classifiers.md)
 - [Software component summarization](/summarizer.md)
 - [Deductive software architecture recovery](/deductive-sar.md)
 
-### Knowledge Presenters
+### On Knowledge Presentation
 
 - [Visualization efforts](/viz.md)
+- [UML or Box-and-Line?](/uml-bnl.md)
 - [What is a good software architecture explanation?](/expl-interviews.md)
   
