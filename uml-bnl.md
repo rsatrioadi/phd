@@ -1,6 +1,6 @@
 ### UML or Box-and-Line?
 
-Diagrams can be a way that a software system is presented. UML was promoted to be the standard way to depict software systems, however we also find that non-standardized practice is widespread in software eingineering. Therefore, we explore the questions:
+Diagrams can be a way that a software system is presented. UML was promoted to be the standard way to depict software systems, however we also find that non-standardized practice is widespread in software eingineering, in the form of what we call box-and-line (B&L) diagrams. Therefore, we explore the questions:
 
 - Is either UML or B&L diagram better than the other at conveying software architecture design?
     - Which aspects of software architecture design are better communicated using either type of diagram?
