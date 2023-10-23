@@ -1,6 +1,6 @@
 # Start Here
 
-This repository decribes and links to the works related to my PhD project. The working title is “Automated Software Architecture Explanation.” For a little more information, I'd like to subtitle it “Generating and Presenting Software Architectural Knowledge from Implementation.” By the way, this is Satrio Adi Rukmono from TU Eindhoven. My supervisors are Michel Chaudron and Lina Ochoa.
+This repository decribes and links to the works related to my PhD project. The working title is “Automated Software Architecture Explanation.” For a little more information, I'd like to subtitle it “Generating and Presenting Software Architectural Knowledge from Implementation.” By the way, this is Satrio Adi Rukmono from TU Eindhoven. My supervisors are [Michel Chaudron](https://research.tue.nl/en/persons/michel-rv-chaudron) and [Lina Ochoa](../../../../lmove).
 
 ## Background
 
@@ -10,7 +10,7 @@ In the PhD project, the scope of knowledge is limited to architectural knowledge
 
 ## Building Blocks
 
-To approach the automated explanation, we envision three broad categories of tools: knowledge extractors, knowledge analyzers, and knowledge presenters. A common knowledge representation bridges the three categories. They work together in an (eco)system to serve the goal of generating and presenting knowledge. This is all illustrated in the figure below:
+To approach the automated explanation, we envision three broad categories of tools: knowledge extractors, knowledge analyzers, and knowledge presenters. A common knowledge representation bridges the three categories. They work together in an (eco)system to serve the goal of generating and presenting knowledge. The flow of collaboration is illustrated in the figure below:
 
 ![Building blocks.](/figures/building-blocks.svg)
 
@@ -89,15 +89,50 @@ And our labeled property graph schemas for source code structure:
 
 ### Knowledge Extractors
 
-The above [MSR'23](https://doi.org/10.1109/MSR59073.2023.00029) paper also presents [javapers](https://github.com/rsatrioadi/javapers). It takes a directory of Java source files (up to source level 16) and extracts knowledge graph instances that comply with our graph schemas. It supports extracting both the abstracted and detailed knowledge graph instances. It leverages the [Spoon](https://spoon.gforge.inria.fr/) library. Javapers can provide the LPG in either XML, JSON, or CSV format. The JSON format complies with Cytoscape's format. The [neo4j-support](../../javapers/tree/main/neo4j-support) folder in the javapers repository provides a way to import the LPG into Neo4j.
-
-
-
 #### Knowledge graph extractors
+
+The above [MSR'23](https://doi.org/10.1109/MSR59073.2023.00029) paper also presents [javapers](../../../javapers). It takes a directory of Java source files (up to source level 16) and performs static analysis to extract knowledge graph instances that comply with our graph schemas. It supports extracting both the abstracted and detailed knowledge graph instances. It leverages the [Spoon](https://spoon.gforge.inria.fr/) library.
+
+Javapers can provide the LPG in either XML, JSON, or CSV format. The JSON format complies with [Cytoscape](https://js.cytoscape.org/)'s format. It looks like this:
+
+```json
+{
+  "elements": {
+    "nodes": [
+      {
+        "data": {
+          "id": <node_id>,
+          "labels": [...],
+          "properties": {
+            ...
+          }
+        }
+      }, ...
+    ],
+    "edges": [
+      {
+        "data": {
+          "id": <edge_id>,
+          "source": <src_node_id>,
+          "target": <tgt_node_id>,
+          "label": ...,
+          "properties": {
+            ...
+          }
+        }
+      }, ...
+    ]
+```
+
+The [neo4j-support](../../../javapers/tree/main/neo4j-support) folder in the javapers repository provides a way to import the LPG in JSON into a [Neo4j](https://neo4j.com/) graph database. You can then perform analyses with [Cypher queries](https://neo4j.com/docs/getting-started/cypher-intro/).
+
+There are two other tools that can potentially be used for knowledge extractors in our ecosystem: [Rascal](https://www.rascal-mpl.org/) and [srcML](https://www.srcml.org/) with [srcType](../../../../srcML/srcType). In particular, [Matteo Asuni](../../../../matteasu) did the initial work in converting a Rascal [M3 model for C++](https://www.rascal-mpl.org/docs/Packages/Clair/API/lang/cpp/M3/) into our graph schema. Both Rascal and srcML enable higher-level extraction supporting diverse programming languages.
+
+### Knowledge Analyzers
 
 #### Role stereotype classifiers
 
-### Knowledge Analyzers
+A journal paper [Role stereotypes in software designs and their evolution (JSS vol.189)](https://doi.org/10.1016/j.jss.2022.111296) describes our effort to classify (Java) classes into role stereotypes. But first: Role stereotypes are abstract characterisations of the responsibilities of the building blocks of software applications. The role a class plays within a software system reflects its design intention. [Wirfs-Brock](https://www.wikidata.org/wiki/Q967529) introduced the following six role stereotypes: _Information Holder_, which knows information; _Structurer_, which maintains object relationships; _Service Provider_, which offers computing services; _Coordinator_, which delegates tasks to others; _Controller_, which directs other’s actions; and _Interfacer_, which transforms information. While these stereotypes were introduced in a “forward” way during design, we instead apply this notion retroactively—given the source code of a class, which role stereotype best describes it?
 
 #### Software component summarization
 
