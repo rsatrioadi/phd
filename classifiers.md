@@ -8,5 +8,5 @@ The original classifier was constructed by performing machine learning on static
 
 Potential uses of/open research questions regarding role stereotypes:
 
-- We believe there are typical interaction patterns between role stereotypes. Known design patterns can also benefit from this notion, e.g., adapters are by definition Interfacers. This role stereotype information may then counts as “crumbs” of architectural knowledge within source code.
+- We believe there are typical interaction patterns between role stereotypes. Known design patterns can also benefit from this notion, e.g., strategies are Service Providers hidden behind an Interfacer. This role stereotype information may then counts as “crumbs” of architectural knowledge within source code.
 - We believe role stereotype information can be used to fine-tune smell detections. For example, the threshold of how many attributes a class should have must be different between an Information Holder and a Service Provider.
