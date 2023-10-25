@@ -12,7 +12,7 @@ In the PhD project, the scope of knowledge is limited to architectural knowledge
 
 ## Building Blocks
 
-To approach the automated explanation, we envision three broad categories of tools: **knowledge extractors**, **knowledge analyzers**, and **knowledge presenters**. A common knowledge representation bridges the three categories. They work together in an (eco)system to serve the goal of generating and presenting knowledge. The flow of collaboration is illustrated in the figure below:
+To approach the automated explanation, we envision three broad categories of tools: **knowledge extractors**, **knowledge analyzers**, and **knowledge presenters**. A common **knowledge representation** bridges the three categories. They work together in an (eco)system to serve the goal of generating and presenting knowledge. The flow of collaboration is illustrated in the figure below:
 
 ![Building blocks.](/figures/building-blocks.svg)
 
