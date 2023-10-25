@@ -1,6 +1,6 @@
 # Start Here
 
-This repository decribes and links to the works related to my PhD project. The working title is “Automated Software Architecture Explanation.” To expand a bit on what that entails, I'd like to subtitle it “Generating and Presenting Software Architectural Knowledge from Implementation.” 
+This repository describes and links to the works related to my PhD project. The working title is “Automated Software Architecture Explanation.” To expand a bit on what that entails, I'd like to subtitle it “Generating and Presenting Software Architectural Knowledge from Implementation.” 
 
 By the way, this is Satrio Adi Rukmono from the Eindhoven University of Technology (TU/e). My supervisors are [Michel Chaudron](https://research.tue.nl/en/persons/michel-rv-chaudron) and [Lina Ochoa](../../../../lmove).
 
