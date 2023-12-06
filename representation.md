@@ -51,7 +51,41 @@ Based on the requirements, we describe our LPG schemas for source code structure
     * _S **calls** T_ when _Structure S_ has a script that calls an operation of _Structure T_. It is what is usually considered in a “dependency graph”.
     * _S **accesses** T_ when _Structure S_ has a script that directly access a field of _Structure T_.
  
-    Finally, an example of an LPG that complies to the abstract schema:
+    Finally, an example of an LPG that complies to the abstract schema, rendered in a UML-class-diagram-like styling:
 
     <!-- ![An instance of the strategy design pattern in JHotDraw.](/figures/strategy-jhotdraw.svg) -->
     <img src="/figures/strategy-jhotdraw.svg" width=600 alt="An instance of the strategy design pattern in JHotDraw." />
+
+    We mainly use a particular JSON format to store our knowledge graphs. From the above example, taking just a subset of the graph involving the two topmost nodes: `ChangeConnectionHandle` and `Figure`, the corresponding JSON looks like:
+
+    ```json
+    { "elements": {
+        "nodes": [
+          { "data": {
+              "id": "node1",
+              "labels": ["Structure"],
+              "properties": {
+                "simpleName": "ChangeConnectionHandle",
+                "kind": "abstract" }}},
+          { "data": {
+              "id": "node2",
+              "labels": ["Structure"],
+              "properties": {
+                "simpleName": "Figure",
+                "kind": "interface" }}}],
+        "edges": [
+          { "data": {
+              "id": "edge1",
+              "label": "holds",
+              "source": "node1",
+              "target": "node2",
+              "properties": {} }},
+          { "data": {
+              "id": "edge2",
+              "label": "calls",
+              "source": "node1",
+              "target": "node2",
+              "properties": {} }}]}}
+    ```
+
+    About this format and more can be found in [Knowledge graph extractors](/extractors.md).
