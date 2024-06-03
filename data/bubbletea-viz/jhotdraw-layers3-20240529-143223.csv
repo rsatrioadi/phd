@@ -1,0 +1,366 @@
+package,class,layer,count
+CH.ifa.draw.applet,CH.ifa.draw.applet.DrawApplet,Cross-Cutting,0.2222222222222222
+CH.ifa.draw.applet,CH.ifa.draw.applet.DrawApplet,Domain Layer,0.1111111111111111
+CH.ifa.draw.applet,CH.ifa.draw.applet.DrawApplet,Presentation Layer,0.5555555555555556
+CH.ifa.draw.applet,CH.ifa.draw.applet.DrawApplet,Service Layer,0.1111111111111111
+CH.ifa.draw.applet,CH.ifa.draw.applet.SleeperThread,Presentation Layer,1.0
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,Presentation Layer,0.5555555555555556
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,Cross-Cutting,0.2222222222222222
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,Service Layer,0.16666666666666666
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,Data Source Layer,0.05555555555555555
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.ChopPolygonConnector,Cross-Cutting,0.5
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.ChopPolygonConnector,Service Layer,0.5
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.DiamondFigure,Domain Layer,0.6
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.DiamondFigure,Presentation Layer,0.4
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,Domain Layer,0.7647058823529411
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,Data Source Layer,0.058823529411764705
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,Presentation Layer,0.11764705882352941
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,Cross-Cutting,0.058823529411764705
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonHandle,Domain Layer,0.5
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonHandle,Service Layer,0.25
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonHandle,Presentation Layer,0.25
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonScaleHandle,Domain Layer,0.6666666666666666
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonScaleHandle,Presentation Layer,0.16666666666666666
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonScaleHandle,Cross-Cutting,0.16666666666666666
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonTool,Service Layer,0.42857142857142855
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonTool,Cross-Cutting,0.14285714285714285
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonTool,Domain Layer,0.14285714285714285
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonTool,Presentation Layer,0.2857142857142857
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,Domain Layer,0.7692307692307693
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,Presentation Layer,0.15384615384615385
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,Data Source Layer,0.07692307692307693
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleRotationHandle,Domain Layer,0.16666666666666666
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleRotationHandle,Presentation Layer,0.16666666666666666
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleRotationHandle,Cross-Cutting,0.5
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleRotationHandle,Service Layer,0.16666666666666666
+CH.ifa.draw.figures,CH.ifa.draw.figures.ArrowTip,Domain Layer,0.16666666666666666
+CH.ifa.draw.figures,CH.ifa.draw.figures.ArrowTip,Cross-Cutting,0.3333333333333333
+CH.ifa.draw.figures,CH.ifa.draw.figures.ArrowTip,Presentation Layer,0.16666666666666666
+CH.ifa.draw.figures,CH.ifa.draw.figures.ArrowTip,Data Source Layer,0.3333333333333333
+CH.ifa.draw.figures,CH.ifa.draw.figures.AttributeFigure,Presentation Layer,0.125
+CH.ifa.draw.figures,CH.ifa.draw.figures.AttributeFigure,Domain Layer,0.75
+CH.ifa.draw.figures,CH.ifa.draw.figures.AttributeFigure,Cross-Cutting,0.125
+CH.ifa.draw.figures,CH.ifa.draw.figures.BorderDecorator,Cross-Cutting,0.3333333333333333
+CH.ifa.draw.figures,CH.ifa.draw.figures.BorderDecorator,Domain Layer,0.3333333333333333
+CH.ifa.draw.figures,CH.ifa.draw.figures.BorderDecorator,Presentation Layer,0.3333333333333333
+CH.ifa.draw.figures,CH.ifa.draw.figures.BorderTool,Service Layer,0.5
+CH.ifa.draw.figures,CH.ifa.draw.figures.BorderTool,Domain Layer,0.5
+CH.ifa.draw.figures,CH.ifa.draw.figures.ChopEllipseConnector,Cross-Cutting,0.5
+CH.ifa.draw.figures,CH.ifa.draw.figures.ChopEllipseConnector,Domain Layer,0.5
+CH.ifa.draw.figures,CH.ifa.draw.figures.ConnectedTextTool,Service Layer,1.0
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowConnection,Cross-Cutting,0.4
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowConnection,Presentation Layer,0.2
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowConnection,Domain Layer,0.4
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowHandle,Domain Layer,0.4
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowHandle,Presentation Layer,0.2
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowHandle,Service Layer,0.4
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowTextLocator,Presentation Layer,1.0
+CH.ifa.draw.figures,CH.ifa.draw.figures.EllipseFigure,Domain Layer,0.36363636363636365
+CH.ifa.draw.figures,CH.ifa.draw.figures.EllipseFigure,Presentation Layer,0.36363636363636365
+CH.ifa.draw.figures,CH.ifa.draw.figures.EllipseFigure,Cross-Cutting,0.18181818181818182
+CH.ifa.draw.figures,CH.ifa.draw.figures.EllipseFigure,Data Source Layer,0.09090909090909091
+CH.ifa.draw.figures,CH.ifa.draw.figures.FigureAttributes,Domain Layer,0.8571428571428571
+CH.ifa.draw.figures,CH.ifa.draw.figures.FigureAttributes,Data Source Layer,0.14285714285714285
+CH.ifa.draw.figures,CH.ifa.draw.figures.FontSizeHandle,Domain Layer,0.5
+CH.ifa.draw.figures,CH.ifa.draw.figures.FontSizeHandle,Presentation Layer,0.25
+CH.ifa.draw.figures,CH.ifa.draw.figures.FontSizeHandle,Service Layer,0.25
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupCommand,Service Layer,0.6666666666666666
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupCommand,Domain Layer,0.3333333333333333
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupFigure,Domain Layer,0.8571428571428571
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupFigure,Cross-Cutting,0.14285714285714285
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupHandle,Domain Layer,0.5
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupHandle,Presentation Layer,0.5
+CH.ifa.draw.figures,CH.ifa.draw.figures.ImageFigure,Domain Layer,0.6666666666666666
+CH.ifa.draw.figures,CH.ifa.draw.figures.ImageFigure,Presentation Layer,0.2222222222222222
+CH.ifa.draw.figures,CH.ifa.draw.figures.ImageFigure,Data Source Layer,0.1111111111111111
+CH.ifa.draw.figures,CH.ifa.draw.figures.InsertImageCommand,Service Layer,0.5
+CH.ifa.draw.figures,CH.ifa.draw.figures.InsertImageCommand,Presentation Layer,0.5
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,Presentation Layer,0.06666666666666667
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,Domain Layer,0.6666666666666666
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,Service Layer,0.23333333333333334
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,Cross-Cutting,0.03333333333333333
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineDecoration,Presentation Layer,1.0
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineFigure,Domain Layer,1.0
+CH.ifa.draw.figures,CH.ifa.draw.figures.NumberTextFigure,Domain Layer,0.5
+CH.ifa.draw.figures,CH.ifa.draw.figures.NumberTextFigure,Presentation Layer,0.5
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineConnector,Domain Layer,1.0
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,Domain Layer,0.7407407407407407
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,Cross-Cutting,0.1111111111111111
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,Presentation Layer,0.14814814814814814
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineHandle,Domain Layer,1.0
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineLocator,Domain Layer,1.0
+CH.ifa.draw.figures,CH.ifa.draw.figures.RadiusHandle,Domain Layer,0.6
+CH.ifa.draw.figures,CH.ifa.draw.figures.RadiusHandle,Presentation Layer,0.2
+CH.ifa.draw.figures,CH.ifa.draw.figures.RadiusHandle,Service Layer,0.2
+CH.ifa.draw.figures,CH.ifa.draw.figures.RectangleFigure,Domain Layer,0.5555555555555556
+CH.ifa.draw.figures,CH.ifa.draw.figures.RectangleFigure,Presentation Layer,0.4444444444444444
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,Domain Layer,0.6153846153846154
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,Presentation Layer,0.3076923076923077
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,Cross-Cutting,0.07692307692307693
+CH.ifa.draw.figures,CH.ifa.draw.figures.ScribbleTool,Presentation Layer,0.6
+CH.ifa.draw.figures,CH.ifa.draw.figures.ScribbleTool,Cross-Cutting,0.2
+CH.ifa.draw.figures,CH.ifa.draw.figures.ScribbleTool,Domain Layer,0.2
+CH.ifa.draw.figures,CH.ifa.draw.figures.ShortestDistanceConnector,Cross-Cutting,0.25
+CH.ifa.draw.figures,CH.ifa.draw.figures.ShortestDistanceConnector,Presentation Layer,0.25
+CH.ifa.draw.figures,CH.ifa.draw.figures.ShortestDistanceConnector,Domain Layer,0.5
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,Domain Layer,0.5757575757575758
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,Service Layer,0.12121212121212122
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,Presentation Layer,0.21212121212121213
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,Cross-Cutting,0.09090909090909091
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextTool,Cross-Cutting,0.16666666666666666
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextTool,Presentation Layer,0.6666666666666666
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextTool,Domain Layer,0.16666666666666666
+CH.ifa.draw.figures,CH.ifa.draw.figures.UngroupCommand,Service Layer,1.0
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,Domain Layer,1.0
+CH.ifa.draw.framework,CH.ifa.draw.framework.Connector,Domain Layer,0.5
+CH.ifa.draw.framework,CH.ifa.draw.framework.Connector,Presentation Layer,0.5
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,Domain Layer,0.7407407407407407
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,Presentation Layer,0.037037037037037035
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,Cross-Cutting,0.18518518518518517
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,Data Source Layer,0.037037037037037035
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingChangeEvent,Cross-Cutting,0.6666666666666666
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingChangeEvent,Domain Layer,0.3333333333333333
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingChangeListener,Service Layer,0.5
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingChangeListener,Presentation Layer,0.5
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingEditor,Domain Layer,0.16666666666666666
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingEditor,Service Layer,0.3333333333333333
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingEditor,Presentation Layer,0.3333333333333333
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingEditor,Cross-Cutting,0.16666666666666666
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,Service Layer,0.225
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,Domain Layer,0.25
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,Cross-Cutting,0.1
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,Presentation Layer,0.425
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,Domain Layer,0.65625
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,Cross-Cutting,0.125
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,Presentation Layer,0.1875
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,Service Layer,0.03125
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureChangeEvent,Cross-Cutting,0.25
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureChangeEvent,Domain Layer,0.5
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureChangeEvent,Data Source Layer,0.25
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureChangeListener,Domain Layer,0.8
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureChangeListener,Service Layer,0.2
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureEnumeration,Domain Layer,1.0
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureSelection,Data Source Layer,0.6666666666666666
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureSelection,Cross-Cutting,0.3333333333333333
+CH.ifa.draw.framework,CH.ifa.draw.framework.HJDError,Cross-Cutting,1.0
+CH.ifa.draw.framework,CH.ifa.draw.framework.Handle,Presentation Layer,0.45454545454545453
+CH.ifa.draw.framework,CH.ifa.draw.framework.Handle,Cross-Cutting,0.2727272727272727
+CH.ifa.draw.framework,CH.ifa.draw.framework.Handle,Service Layer,0.09090909090909091
+CH.ifa.draw.framework,CH.ifa.draw.framework.Handle,Domain Layer,0.18181818181818182
+CH.ifa.draw.framework,CH.ifa.draw.framework.Locator,Domain Layer,1.0
+CH.ifa.draw.framework,CH.ifa.draw.framework.Painter,Presentation Layer,1.0
+CH.ifa.draw.framework,CH.ifa.draw.framework.PointConstrainer,Domain Layer,1.0
+CH.ifa.draw.framework,CH.ifa.draw.framework.Tool,Service Layer,0.14285714285714285
+CH.ifa.draw.framework,CH.ifa.draw.framework.Tool,Cross-Cutting,0.14285714285714285
+CH.ifa.draw.framework,CH.ifa.draw.framework.Tool,Presentation Layer,0.7142857142857143
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.AnimationDecorator,Domain Layer,0.5
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.AnimationDecorator,Cross-Cutting,0.2
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.AnimationDecorator,Presentation Layer,0.1
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.AnimationDecorator,Data Source Layer,0.2
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.Animator,Service Layer,0.5
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.Animator,Domain Layer,0.25
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.Animator,Presentation Layer,0.25
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.BouncingDrawing,Cross-Cutting,0.2
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.BouncingDrawing,Service Layer,0.8
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.FollowURLTool,Presentation Layer,0.5
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.FollowURLTool,Service Layer,0.5
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApp,Cross-Cutting,0.3333333333333333
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApp,Presentation Layer,0.3333333333333333
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApp,Service Layer,0.3333333333333333
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApplet,Cross-Cutting,0.4
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApplet,Presentation Layer,0.6
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawViewer,Cross-Cutting,0.5714285714285714
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawViewer,Domain Layer,0.14285714285714285
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawViewer,Service Layer,0.14285714285714285
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawViewer,Presentation Layer,0.14285714285714285
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.MySelectionTool,Cross-Cutting,0.5
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.MySelectionTool,Presentation Layer,0.5
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.PatternPainter,Presentation Layer,0.5
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.PatternPainter,Service Layer,0.5
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.URLTool,Service Layer,0.6
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.URLTool,Presentation Layer,0.4
+CH.ifa.draw.samples.net,CH.ifa.draw.samples.net.NetApp,Presentation Layer,1.0
+CH.ifa.draw.samples.net,CH.ifa.draw.samples.net.NodeFigure,Cross-Cutting,0.14285714285714285
+CH.ifa.draw.samples.net,CH.ifa.draw.samples.net.NodeFigure,Domain Layer,0.2857142857142857
+CH.ifa.draw.samples.net,CH.ifa.draw.samples.net.NodeFigure,Presentation Layer,0.5714285714285714
+CH.ifa.draw.samples.nothing,CH.ifa.draw.samples.nothing.NothingApp,Presentation Layer,1.0
+CH.ifa.draw.samples.nothing,CH.ifa.draw.samples.nothing.NothingApplet,Cross-Cutting,1.0
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertApplet,Service Layer,1.0
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertApplication,Service Layer,1.0
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertDependency,Domain Layer,1.0
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,Domain Layer,0.6666666666666666
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,Presentation Layer,0.20833333333333334
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,Service Layer,0.08333333333333333
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,Data Source Layer,0.041666666666666664
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigureCreationTool,Cross-Cutting,1.0
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractConnector,Cross-Cutting,0.2
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractConnector,Service Layer,0.1
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractConnector,Domain Layer,0.4
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractConnector,Presentation Layer,0.2
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractConnector,Data Source Layer,0.1
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,Service Layer,0.12121212121212122
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,Domain Layer,0.5454545454545454
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,Presentation Layer,0.18181818181818182
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,Cross-Cutting,0.09090909090909091
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,Data Source Layer,0.06060606060606061
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,Domain Layer,0.25
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,Cross-Cutting,0.3333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,Presentation Layer,0.3333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,Service Layer,0.08333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractLocator,Domain Layer,0.6666666666666666
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractLocator,Data Source Layer,0.3333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractTool,Service Layer,0.2727272727272727
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractTool,Presentation Layer,0.6363636363636364
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractTool,Cross-Cutting,0.09090909090909091
+CH.ifa.draw.standard,CH.ifa.draw.standard.ActionTool,Service Layer,0.5
+CH.ifa.draw.standard,CH.ifa.draw.standard.ActionTool,Domain Layer,0.25
+CH.ifa.draw.standard,CH.ifa.draw.standard.ActionTool,Presentation Layer,0.25
+CH.ifa.draw.standard,CH.ifa.draw.standard.AlignCommand,Service Layer,0.6666666666666666
+CH.ifa.draw.standard,CH.ifa.draw.standard.AlignCommand,Cross-Cutting,0.3333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.BoxHandleKit,Cross-Cutting,0.36363636363636365
+CH.ifa.draw.standard,CH.ifa.draw.standard.BoxHandleKit,Presentation Layer,0.45454545454545453
+CH.ifa.draw.standard,CH.ifa.draw.standard.BoxHandleKit,Service Layer,0.09090909090909091
+CH.ifa.draw.standard,CH.ifa.draw.standard.BoxHandleKit,Domain Layer,0.09090909090909091
+CH.ifa.draw.standard,CH.ifa.draw.standard.BringToFrontCommand,Service Layer,0.6666666666666666
+CH.ifa.draw.standard,CH.ifa.draw.standard.BringToFrontCommand,Cross-Cutting,0.3333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.BufferedUpdateStrategy,Domain Layer,0.5
+CH.ifa.draw.standard,CH.ifa.draw.standard.BufferedUpdateStrategy,Presentation Layer,0.5
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeAttributeCommand,Service Layer,0.6666666666666666
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeAttributeCommand,Presentation Layer,0.3333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeConnectionEndHandle,Domain Layer,1.0
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeConnectionHandle,Presentation Layer,0.5
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeConnectionHandle,Service Layer,0.25
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeConnectionHandle,Domain Layer,0.25
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeConnectionStartHandle,Domain Layer,1.0
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChopBoxConnector,Cross-Cutting,0.5
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChopBoxConnector,Service Layer,0.5
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,Domain Layer,0.7
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,Presentation Layer,0.03333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,Service Layer,0.1
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,Cross-Cutting,0.13333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,Data Source Layer,0.03333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionHandle,Domain Layer,0.2
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionHandle,Presentation Layer,0.6
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionHandle,Service Layer,0.2
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionTool,Service Layer,0.5
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionTool,Domain Layer,0.16666666666666666
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionTool,Presentation Layer,0.3333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.CopyCommand,Service Layer,1.0
+CH.ifa.draw.standard,CH.ifa.draw.standard.CreationTool,Service Layer,0.2
+CH.ifa.draw.standard,CH.ifa.draw.standard.CreationTool,Presentation Layer,0.6
+CH.ifa.draw.standard,CH.ifa.draw.standard.CreationTool,Domain Layer,0.2
+CH.ifa.draw.standard,CH.ifa.draw.standard.CutCommand,Service Layer,0.3333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.CutCommand,Domain Layer,0.3333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.CutCommand,Cross-Cutting,0.3333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,Domain Layer,0.4482758620689655
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,Cross-Cutting,0.20689655172413793
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,Service Layer,0.27586206896551724
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,Data Source Layer,0.06896551724137931
+CH.ifa.draw.standard,CH.ifa.draw.standard.DeleteCommand,Service Layer,0.6666666666666666
+CH.ifa.draw.standard,CH.ifa.draw.standard.DeleteCommand,Cross-Cutting,0.3333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.DragTracker,Service Layer,0.3333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.DragTracker,Presentation Layer,0.6666666666666666
+CH.ifa.draw.standard,CH.ifa.draw.standard.DuplicateCommand,Service Layer,0.6666666666666666
+CH.ifa.draw.standard,CH.ifa.draw.standard.DuplicateCommand,Presentation Layer,0.3333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.EastHandle,Presentation Layer,1.0
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureChangeEventMulticaster,Cross-Cutting,0.875
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureChangeEventMulticaster,Service Layer,0.125
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureEnumerator,Cross-Cutting,0.75
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureEnumerator,Domain Layer,0.25
+CH.ifa.draw.standard,CH.ifa.draw.standard.GridConstrainer,Domain Layer,0.75
+CH.ifa.draw.standard,CH.ifa.draw.standard.GridConstrainer,Service Layer,0.25
+CH.ifa.draw.standard,CH.ifa.draw.standard.HandleTracker,Cross-Cutting,0.25
+CH.ifa.draw.standard,CH.ifa.draw.standard.HandleTracker,Service Layer,0.25
+CH.ifa.draw.standard,CH.ifa.draw.standard.HandleTracker,Presentation Layer,0.5
+CH.ifa.draw.standard,CH.ifa.draw.standard.LocatorConnector,Data Source Layer,0.42857142857142855
+CH.ifa.draw.standard,CH.ifa.draw.standard.LocatorConnector,Domain Layer,0.14285714285714285
+CH.ifa.draw.standard,CH.ifa.draw.standard.LocatorConnector,Cross-Cutting,0.14285714285714285
+CH.ifa.draw.standard,CH.ifa.draw.standard.LocatorConnector,Presentation Layer,0.2857142857142857
+CH.ifa.draw.standard,CH.ifa.draw.standard.LocatorHandle,Domain Layer,1.0
+CH.ifa.draw.standard,CH.ifa.draw.standard.NorthEastHandle,Presentation Layer,1.0
+CH.ifa.draw.standard,CH.ifa.draw.standard.NorthHandle,Presentation Layer,1.0
+CH.ifa.draw.standard,CH.ifa.draw.standard.NorthWestHandle,Presentation Layer,1.0
+CH.ifa.draw.standard,CH.ifa.draw.standard.NullHandle,Cross-Cutting,0.5
+CH.ifa.draw.standard,CH.ifa.draw.standard.NullHandle,Presentation Layer,0.5
+CH.ifa.draw.standard,CH.ifa.draw.standard.OffsetLocator,Cross-Cutting,0.5714285714285714
+CH.ifa.draw.standard,CH.ifa.draw.standard.OffsetLocator,Domain Layer,0.42857142857142855
+CH.ifa.draw.standard,CH.ifa.draw.standard.PasteCommand,Service Layer,1.0
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,Cross-Cutting,0.5714285714285714
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,Domain Layer,0.07142857142857142
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,Presentation Layer,0.21428571428571427
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,Data Source Layer,0.14285714285714285
+CH.ifa.draw.standard,CH.ifa.draw.standard.ReverseFigureEnumerator,Cross-Cutting,0.5
+CH.ifa.draw.standard,CH.ifa.draw.standard.ReverseFigureEnumerator,Data Source Layer,0.25
+CH.ifa.draw.standard,CH.ifa.draw.standard.ReverseFigureEnumerator,Domain Layer,0.25
+CH.ifa.draw.standard,CH.ifa.draw.standard.SelectAreaTracker,Service Layer,0.25
+CH.ifa.draw.standard,CH.ifa.draw.standard.SelectAreaTracker,Presentation Layer,0.75
+CH.ifa.draw.standard,CH.ifa.draw.standard.SelectionTool,Service Layer,0.25
+CH.ifa.draw.standard,CH.ifa.draw.standard.SelectionTool,Presentation Layer,0.75
+CH.ifa.draw.standard,CH.ifa.draw.standard.SendToBackCommand,Service Layer,0.6666666666666666
+CH.ifa.draw.standard,CH.ifa.draw.standard.SendToBackCommand,Cross-Cutting,0.3333333333333333
+CH.ifa.draw.standard,CH.ifa.draw.standard.SimpleUpdateStrategy,Domain Layer,0.5
+CH.ifa.draw.standard,CH.ifa.draw.standard.SimpleUpdateStrategy,Presentation Layer,0.5
+CH.ifa.draw.standard,CH.ifa.draw.standard.SouthEastHandle,Presentation Layer,1.0
+CH.ifa.draw.standard,CH.ifa.draw.standard.SouthHandle,Presentation Layer,1.0
+CH.ifa.draw.standard,CH.ifa.draw.standard.SouthWestHandle,Presentation Layer,1.0
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,Cross-Cutting,0.3076923076923077
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,Service Layer,0.38461538461538464
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,Presentation Layer,0.07692307692307693
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,Domain Layer,0.23076923076923078
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,Presentation Layer,0.5660377358490566
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,Domain Layer,0.1509433962264151
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,Service Layer,0.24528301886792453
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,Cross-Cutting,0.03773584905660377
+CH.ifa.draw.standard,CH.ifa.draw.standard.TextHolder,Domain Layer,0.42857142857142855
+CH.ifa.draw.standard,CH.ifa.draw.standard.TextHolder,Presentation Layer,0.5714285714285714
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToggleGridCommand,Service Layer,1.0
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToolButton,Presentation Layer,0.7
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToolButton,Domain Layer,0.1
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToolButton,Cross-Cutting,0.2
+CH.ifa.draw.standard,CH.ifa.draw.standard.WestHandle,Presentation Layer,1.0
+CH.ifa.draw.util,CH.ifa.draw.util.Animatable,Service Layer,1.0
+CH.ifa.draw.util,CH.ifa.draw.util.Clipboard,Cross-Cutting,0.3333333333333333
+CH.ifa.draw.util,CH.ifa.draw.util.Clipboard,Data Source Layer,0.6666666666666666
+CH.ifa.draw.util,CH.ifa.draw.util.ColorMap,Cross-Cutting,0.2857142857142857
+CH.ifa.draw.util,CH.ifa.draw.util.ColorMap,Data Source Layer,0.42857142857142855
+CH.ifa.draw.util,CH.ifa.draw.util.ColorMap,Presentation Layer,0.14285714285714285
+CH.ifa.draw.util,CH.ifa.draw.util.ColorMap,Domain Layer,0.14285714285714285
+CH.ifa.draw.util,CH.ifa.draw.util.Command,Service Layer,0.5
+CH.ifa.draw.util,CH.ifa.draw.util.Command,Domain Layer,0.25
+CH.ifa.draw.util,CH.ifa.draw.util.Command,Cross-Cutting,0.25
+CH.ifa.draw.util,CH.ifa.draw.util.CommandButton,Presentation Layer,1.0
+CH.ifa.draw.util,CH.ifa.draw.util.CommandChoice,Service Layer,0.3333333333333333
+CH.ifa.draw.util,CH.ifa.draw.util.CommandChoice,Domain Layer,0.3333333333333333
+CH.ifa.draw.util,CH.ifa.draw.util.CommandChoice,Presentation Layer,0.3333333333333333
+CH.ifa.draw.util,CH.ifa.draw.util.CommandMenu,Domain Layer,0.25
+CH.ifa.draw.util,CH.ifa.draw.util.CommandMenu,Presentation Layer,0.625
+CH.ifa.draw.util,CH.ifa.draw.util.CommandMenu,Service Layer,0.125
+CH.ifa.draw.util,CH.ifa.draw.util.Filler,Cross-Cutting,0.6
+CH.ifa.draw.util,CH.ifa.draw.util.Filler,Domain Layer,0.4
+CH.ifa.draw.util,CH.ifa.draw.util.FloatingTextField,Presentation Layer,0.8888888888888888
+CH.ifa.draw.util,CH.ifa.draw.util.FloatingTextField,Cross-Cutting,0.1111111111111111
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,Domain Layer,0.3333333333333333
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,Cross-Cutting,0.6666666666666666
+CH.ifa.draw.util,CH.ifa.draw.util.Iconkit,Presentation Layer,0.25
+CH.ifa.draw.util,CH.ifa.draw.util.Iconkit,Data Source Layer,0.5
+CH.ifa.draw.util,CH.ifa.draw.util.Iconkit,Cross-Cutting,0.25
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,Presentation Layer,0.8888888888888888
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,Cross-Cutting,0.1111111111111111
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteIcon,Service Layer,0.16666666666666666
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteIcon,Domain Layer,0.16666666666666666
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteIcon,Cross-Cutting,0.5
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteIcon,Data Source Layer,0.16666666666666666
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteLayout,Presentation Layer,0.125
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteLayout,Service Layer,0.25
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteLayout,Cross-Cutting,0.625
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteListener,Presentation Layer,0.5
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteListener,Service Layer,0.5
+CH.ifa.draw.util,CH.ifa.draw.util.ReverseVectorEnumerator,Cross-Cutting,0.6666666666666666
+CH.ifa.draw.util,CH.ifa.draw.util.ReverseVectorEnumerator,Data Source Layer,0.3333333333333333
+CH.ifa.draw.util,CH.ifa.draw.util.Storable,Domain Layer,0.5
+CH.ifa.draw.util,CH.ifa.draw.util.Storable,Data Source Layer,0.5
+CH.ifa.draw.util,CH.ifa.draw.util.StorableInput,Data Source Layer,0.8571428571428571
+CH.ifa.draw.util,CH.ifa.draw.util.StorableInput,Domain Layer,0.14285714285714285
+CH.ifa.draw.util,CH.ifa.draw.util.StorableOutput,Data Source Layer,0.75
+CH.ifa.draw.util,CH.ifa.draw.util.StorableOutput,Service Layer,0.125
+CH.ifa.draw.util,CH.ifa.draw.util.StorableOutput,Cross-Cutting,0.125

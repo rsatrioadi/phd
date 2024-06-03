@@ -1,0 +1,1119 @@
+package,class,layer,count
+com.eteks.sweethome3d,com.eteks.sweethome3d.HomeFrameController,Service Layer,0.5
+com.eteks.sweethome3d,com.eteks.sweethome3d.HomeFrameController,Presentation Layer,0.5
+com.eteks.sweethome3d,com.eteks.sweethome3d.HomeFramePane,Presentation Layer,1.0
+com.eteks.sweethome3d,com.eteks.sweethome3d.HomeFramePane$LanguageChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d,com.eteks.sweethome3d.HomeFramePane$LanguageChangeListener,Presentation Layer,0.5
+com.eteks.sweethome3d,com.eteks.sweethome3d.MacOSXConfiguration,Service Layer,0.25
+com.eteks.sweethome3d,com.eteks.sweethome3d.MacOSXConfiguration,Presentation Layer,0.25
+com.eteks.sweethome3d,com.eteks.sweethome3d.MacOSXConfiguration,Cross-Cutting,0.5
+com.eteks.sweethome3d,com.eteks.sweethome3d.SweetHome3D,Data Source Layer,0.2857142857142857
+com.eteks.sweethome3d,com.eteks.sweethome3d.SweetHome3D,Service Layer,0.42857142857142855
+com.eteks.sweethome3d,com.eteks.sweethome3d.SweetHome3D,Cross-Cutting,0.2857142857142857
+com.eteks.sweethome3d,com.eteks.sweethome3d.SweetHome3D$FileContentManagerWithRecordedLastDirectories,Service Layer,1.0
+com.eteks.sweethome3d,com.eteks.sweethome3d.SweetHome3D$StandaloneBasicService,Cross-Cutting,0.75
+com.eteks.sweethome3d,com.eteks.sweethome3d.SweetHome3D$StandaloneBasicService,Service Layer,0.25
+com.eteks.sweethome3d,com.eteks.sweethome3d.SweetHome3D$StandaloneServiceManager,Service Layer,1.0
+com.eteks.sweethome3d,com.eteks.sweethome3d.SweetHome3D$StandaloneSingleInstanceService,Service Layer,0.75
+com.eteks.sweethome3d,com.eteks.sweethome3d.SweetHome3D$StandaloneSingleInstanceService,Data Source Layer,0.25
+com.eteks.sweethome3d,com.eteks.sweethome3d.SweetHome3DBootstrap,Cross-Cutting,1.0
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.AppletApplication,Service Layer,0.2857142857142857
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.AppletApplication,Cross-Cutting,0.42857142857142855
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.AppletApplication,Data Source Layer,0.2857142857142857
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.AppletApplication$AppletBasicService,Service Layer,0.4
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.AppletApplication$AppletBasicService,Cross-Cutting,0.6
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.AppletApplication$AppletFurnitureTable,Presentation Layer,1.0
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.AppletApplication$StandaloneServiceManager,Service Layer,1.0
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.AppletContentManager,Service Layer,0.5
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.AppletContentManager,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.AppletContentManager,Cross-Cutting,0.16666666666666666
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.AppletUserPreferences,Data Source Layer,0.375
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.AppletUserPreferences,Cross-Cutting,0.375
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.AppletUserPreferences,Service Layer,0.1875
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.AppletUserPreferences,Domain Layer,0.0625
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.HomeAppletController,Service Layer,0.7
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.HomeAppletController,Presentation Layer,0.2
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.HomeAppletController,Domain Layer,0.1
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.HomeAppletRecorder,Service Layer,0.5454545454545454
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.HomeAppletRecorder,Data Source Layer,0.36363636363636365
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.HomeAppletRecorder,Domain Layer,0.09090909090909091
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.HomeAppletRecorder$LengthOutputStream,Cross-Cutting,0.5
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.HomeAppletRecorder$LengthOutputStream,Data Source Layer,0.5
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.SweetHome3DApplet,Cross-Cutting,0.5
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.SweetHome3DApplet,Service Layer,0.5
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.SweetHome3DViewer,Cross-Cutting,1.0
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.ViewerHelper,Service Layer,0.5
+com.eteks.sweethome3d.applet,com.eteks.sweethome3d.applet.ViewerHelper,Cross-Cutting,0.5
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.AutoRecoveryManager,Service Layer,1.0
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.Base64,Data Source Layer,1.0
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.Base64$OutputStream,Data Source Layer,0.8
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.Base64$OutputStream,Service Layer,0.2
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.ContentDigestManager,Domain Layer,0.5
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.ContentDigestManager,Service Layer,0.3333333333333333
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.ContentDigestManager,Cross-Cutting,0.16666666666666666
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.ContentDigestManager$ZipEntryData,Domain Layer,0.3333333333333333
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.ContentDigestManager$ZipEntryData,Data Source Layer,0.6666666666666666
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DamagedHomeIOException,Domain Layer,1.0
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultFurnitureCatalog,Data Source Layer,0.5714285714285714
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultFurnitureCatalog,Domain Layer,0.42857142857142855
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultFurnitureCatalog$PropertyKey,Domain Layer,1.0
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultHomeInputStream,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultHomeInputStream,Data Source Layer,0.3333333333333333
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultHomeInputStream$CopiedInputStream,Data Source Layer,1.0
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultHomeInputStream$HomeObjectInputStream,Data Source Layer,1.0
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultHomeOutputStream,Data Source Layer,0.6
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultHomeOutputStream,Service Layer,0.4
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultHomeOutputStream$HomeContentObjectsTracker,Service Layer,0.5
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultHomeOutputStream$HomeContentObjectsTracker,Domain Layer,0.5
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultHomeOutputStream$HomeObjectOutputStream,Data Source Layer,1.0
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultLibrary,Domain Layer,0.3
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultLibrary,Cross-Cutting,0.2
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultLibrary,Data Source Layer,0.5
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultPatternTexture,Domain Layer,0.5
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultPatternTexture,Data Source Layer,0.125
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultPatternTexture,Cross-Cutting,0.25
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultPatternTexture,Presentation Layer,0.125
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultTexturesCatalog,Domain Layer,0.42857142857142855
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultTexturesCatalog,Service Layer,0.2857142857142857
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultTexturesCatalog,Data Source Layer,0.2857142857142857
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultTexturesCatalog$PropertyKey,Domain Layer,1.0
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultUserPreferences,Cross-Cutting,0.4444444444444444
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.DefaultUserPreferences,Data Source Layer,0.5555555555555556
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.FileUserPreferences,Data Source Layer,0.45
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.FileUserPreferences,Service Layer,0.3
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.FileUserPreferences,Cross-Cutting,0.2
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.FileUserPreferences,Domain Layer,0.05
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.FileUserPreferences$PortablePreferences,Cross-Cutting,1.0
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.FileUserPreferences$PreferencesURLContent,Data Source Layer,1.0
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.HomeContentContext,Service Layer,0.2
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.HomeContentContext,Domain Layer,0.4
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.HomeContentContext,Cross-Cutting,0.4
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.HomeFileRecorder,Data Source Layer,0.8888888888888888
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.HomeFileRecorder,Service Layer,0.1111111111111111
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.HomeURLContent,Data Source Layer,1.0
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.HomeXMLExporter,Domain Layer,1.0
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.HomeXMLExporter$PieceOfFurnitureExporter,Domain Layer,1.0
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.HomeXMLHandler,Data Source Layer,0.375
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.HomeXMLHandler,Cross-Cutting,0.125
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.HomeXMLHandler,Service Layer,0.25
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.HomeXMLHandler,Domain Layer,0.25
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.HomeXMLHandler$JoinedWall,Domain Layer,1.0
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.ObjectXMLExporter,Cross-Cutting,0.5
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.ObjectXMLExporter,Data Source Layer,0.5
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.URLContentClassLoader,Data Source Layer,1.0
+com.eteks.sweethome3d.io,com.eteks.sweethome3d.io.XMLWriter,Data Source Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Component3DManager,Service Layer,0.5555555555555556
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Component3DManager,Presentation Layer,0.2222222222222222
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Component3DManager,Cross-Cutting,0.1111111111111111
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Component3DManager,Data Source Layer,0.1111111111111111
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Component3DManager$ObservedCanvas3D,Presentation Layer,0.25
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Component3DManager$ObservedCanvas3D,Cross-Cutting,0.5
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Component3DManager$ObservedCanvas3D,Service Layer,0.25
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Component3DManager$RenderingErrorListenerManager,Service Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Component3DManager$RenderingErrorObserver,Cross-Cutting,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Component3DManager$RenderingObserver,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Component3DManager$RenderingObserver,Cross-Cutting,0.6666666666666666
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.DAELoader,Domain Layer,0.2
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.DAELoader,Data Source Layer,0.8
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.DAELoader$DAEHandler,Data Source Layer,0.6
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.DAELoader$DAEHandler,Domain Layer,0.4
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Ground3D,Service Layer,0.5
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Ground3D,Domain Layer,0.5
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Ground3D$LevelAreas,Domain Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.HomePieceOfFurniture3D,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.HomePieceOfFurniture3D,Service Layer,0.3333333333333333
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.HomePieceOfFurniture3D$DefaultMaterialAndTexture,Domain Layer,0.7142857142857143
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.HomePieceOfFurniture3D$DefaultMaterialAndTexture,Data Source Layer,0.14285714285714285
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.HomePieceOfFurniture3D$DefaultMaterialAndTexture,Cross-Cutting,0.14285714285714285
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.HomePieceOfFurniture3D$LightSelectionListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.HomePieceOfFurniture3D$LightSelectionListener,Service Layer,0.5
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Label3D,Domain Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader,Cross-Cutting,0.2
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader,Domain Layer,0.4
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader,Data Source Layer,0.4
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader$Chunk3DS,Domain Layer,0.5
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader$Chunk3DS,Data Source Layer,0.5
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader$ChunkID,Data Source Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader$ChunksInputStream,Data Source Layer,0.8461538461538461
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader$ChunksInputStream,Service Layer,0.07692307692307693
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader$ChunksInputStream,Domain Layer,0.07692307692307693
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader$Face3DS,Domain Layer,0.8888888888888888
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader$Face3DS,Data Source Layer,0.1111111111111111
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader$Material3DS,Domain Layer,0.8888888888888888
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader$Material3DS,Cross-Cutting,0.1111111111111111
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader$Mesh3DS,Domain Layer,0.8333333333333334
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader$Mesh3DS,Cross-Cutting,0.16666666666666666
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Max3DSLoader$Mesh3DSSharedVertex,Domain Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.ModelManager,Cross-Cutting,0.05263157894736842
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.ModelManager,Service Layer,0.3157894736842105
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.ModelManager,Domain Layer,0.5263157894736842
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.ModelManager,Data Source Layer,0.10526315789473684
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.ModelManager$ModelObserver,Domain Layer,0.5
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.ModelManager$ModelObserver,Service Layer,0.5
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.ModelManager$SVGPathSupport,Cross-Cutting,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.OBJLoader,Data Source Layer,0.8
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.OBJLoader,Domain Layer,0.2
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.OBJLoader$Face,Domain Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.OBJLoader$Geometry,Domain Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.OBJLoader$Group,Domain Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.OBJLoader$Line,Domain Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.OBJMaterial,Domain Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.OBJWriter,Data Source Layer,0.5882352941176471
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.OBJWriter,Domain Layer,0.35294117647058826
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.OBJWriter,Service Layer,0.058823529411764705
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.OBJWriter$ComparableAppearance,Cross-Cutting,0.5
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.OBJWriter$ComparableAppearance,Domain Layer,0.25
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.OBJWriter$ComparableAppearance,Data Source Layer,0.25
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Object3DBranch,Cross-Cutting,0.5
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Object3DBranch,Service Layer,0.5
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Object3DBranch$TextureKey,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Object3DBranch$TextureKey,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Object3DBranchFactory,Domain Layer,0.5
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Object3DBranchFactory,Service Layer,0.5
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.PhotoRenderer,Service Layer,0.6666666666666666
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.PhotoRenderer,Data Source Layer,0.16666666666666666
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.PhotoRenderer,Cross-Cutting,0.16666666666666666
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.PhotoRenderer$BufferedImageDisplay,Domain Layer,0.2
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.PhotoRenderer$BufferedImageDisplay,Service Layer,0.2
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.PhotoRenderer$BufferedImageDisplay,Data Source Layer,0.2
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.PhotoRenderer$BufferedImageDisplay,Cross-Cutting,0.2
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.PhotoRenderer$BufferedImageDisplay,Presentation Layer,0.2
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.PhotoRenderer$PhotoObject3DFactory,Domain Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.PhotoRenderer$SphereLightWithNoRepresentation,Domain Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.PhotoRenderer$TransparentTextureKey,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.PhotoRenderer$TransparentTextureKey,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.PhotoRenderer$Triangle,Domain Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Room3D,Domain Layer,0.3333333333333333
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Room3D,Service Layer,0.3333333333333333
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Room3D,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.TextureManager,Service Layer,0.4
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.TextureManager,Domain Layer,0.4
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.TextureManager,Data Source Layer,0.2
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.TextureManager$ComparableTexture,Cross-Cutting,0.25
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.TextureManager$ComparableTexture,Domain Layer,0.5
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.TextureManager$ComparableTexture,Data Source Layer,0.25
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.TextureManager$ComparableTextureAngleTuple,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.TextureManager$ComparableTextureAngleTuple,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.TextureManager$RotatedContentKey,Cross-Cutting,0.6666666666666666
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.TextureManager$RotatedContentKey,Domain Layer,0.3333333333333333
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.TextureManager$TextureObserver,Data Source Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Wall3D,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Wall3D,Service Layer,0.3333333333333333
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Wall3D$DoorOrWindowArea,Domain Layer,1.0
+com.eteks.sweethome3d.j3d,com.eteks.sweethome3d.j3d.Wall3D$ModelRotationTuple,Domain Layer,1.0
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.BackgroundImageWizardTest,Cross-Cutting,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.BackgroundImageWizardTest,Service Layer,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.CatalogTreeTest,Cross-Cutting,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.CatalogTreeTest,Presentation Layer,0.25
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.CatalogTreeTest,Domain Layer,0.25
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.FurnitureTableTest,Cross-Cutting,0.2
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.FurnitureTableTest,Presentation Layer,0.4
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.FurnitureTableTest,Domain Layer,0.2
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.FurnitureTableTest,Service Layer,0.2
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.HomeCameraTest,Cross-Cutting,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.HomeCameraTest,Service Layer,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.HomeControllerTest,Cross-Cutting,0.125
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.HomeControllerTest,Domain Layer,0.125
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.HomeControllerTest,Service Layer,0.125
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.HomeControllerTest,Presentation Layer,0.625
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.HomeControllerTest$ControllerTest,Presentation Layer,1.0
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.HomeControllerTest$ViewTest,Presentation Layer,1.0
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.HomeFileRecorderTest,Domain Layer,0.6
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.HomeFileRecorderTest,Cross-Cutting,0.2
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.HomeFileRecorderTest,Data Source Layer,0.2
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.HomeFurniturePanelTest,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.HomeFurniturePanelTest,Presentation Layer,0.6666666666666666
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.HomeTest,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.HomeTest,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.IconManagerTest,Cross-Cutting,1.0
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.ImportedFurnitureWizardTest,Cross-Cutting,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.ImportedFurnitureWizardTest,Presentation Layer,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.ImportedTextureWizardTest,Cross-Cutting,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.ImportedTextureWizardTest,Service Layer,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.LevelTest,Cross-Cutting,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.LevelTest,Service Layer,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.ModelManagerTest,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.ModelManagerTest,Data Source Layer,0.6666666666666666
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.OBJWriterTest,Cross-Cutting,0.25
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.OBJWriterTest,Data Source Layer,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.OBJWriterTest,Service Layer,0.25
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.OperatingSystemTest,Cross-Cutting,1.0
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PackageDependenciesTest,Cross-Cutting,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PackageDependenciesTest,Service Layer,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PhotoCreationTest,Cross-Cutting,0.25
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PhotoCreationTest,Presentation Layer,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PhotoCreationTest,Domain Layer,0.25
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PlanComponentTest,Cross-Cutting,0.25
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PlanComponentTest,Presentation Layer,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PlanComponentTest,Service Layer,0.25
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PlanComponentTest$PlanTestFrame,Presentation Layer,1.0
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PlanComponentWithFurnitureTest,Cross-Cutting,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PlanComponentWithFurnitureTest,Service Layer,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PlanComponentWithFurnitureTest$TestFrame,Presentation Layer,1.0
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PlanControllerTest,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PlanControllerTest,Service Layer,0.6666666666666666
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PrintTest,Cross-Cutting,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.PrintTest,Presentation Layer,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.RoomTest,Service Layer,0.4
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.RoomTest,Presentation Layer,0.4
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.RoomTest,Domain Layer,0.2
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.RoomTest$RoomTestFrame,Service Layer,1.0
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.TestUtilities,Cross-Cutting,1.0
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.ThreadedTaskControllerTest,Cross-Cutting,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.ThreadedTaskControllerTest,Service Layer,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.TransferHandlerTest,Cross-Cutting,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.TransferHandlerTest,Presentation Layer,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.UserPreferencesPanelTest,Cross-Cutting,0.25
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.UserPreferencesPanelTest,Presentation Layer,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.UserPreferencesPanelTest,Domain Layer,0.25
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.WallPanelTest,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.WallPanelTest,Presentation Layer,0.6666666666666666
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.WizardControllerTest,Service Layer,0.3333333333333333
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.WizardControllerTest,Presentation Layer,0.6666666666666666
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.WizardControllerTest$ControllerTest,Service Layer,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.WizardControllerTest$ControllerTest,Cross-Cutting,0.5
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.WizardControllerTest$ControllerTest$FirstStep,Presentation Layer,0.6
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.WizardControllerTest$ControllerTest$FirstStep,Service Layer,0.2
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.WizardControllerTest$ControllerTest$FirstStep,Cross-Cutting,0.2
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.WizardControllerTest$ControllerTest$FirstStepView,Presentation Layer,1.0
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.WizardControllerTest$ControllerTest$SecondStep,Presentation Layer,0.6
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.WizardControllerTest$ControllerTest$SecondStep,Service Layer,0.4
+com.eteks.sweethome3d.junit,com.eteks.sweethome3d.junit.WizardControllerTest$ControllerTest$SecondStepView,Presentation Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.AspectRatio,Cross-Cutting,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.BackgroundImage,Domain Layer,0.9230769230769231
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.BackgroundImage,Service Layer,0.07692307692307693
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Baseboard,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Camera,Domain Layer,0.88
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Camera,Cross-Cutting,0.04
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Camera,Service Layer,0.08
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.CatalogDoorOrWindow,Domain Layer,0.8947368421052632
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.CatalogDoorOrWindow,Service Layer,0.10526315789473684
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.CatalogItem,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.CatalogLight,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.CatalogPieceOfFurniture,Domain Layer,0.9811320754716981
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.CatalogPieceOfFurniture,Cross-Cutting,0.018867924528301886
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.CatalogTexture,Domain Layer,0.9411764705882353
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.CatalogTexture,Cross-Cutting,0.058823529411764705
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.CollectionChangeSupport,Service Layer,0.2
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.CollectionChangeSupport,Domain Layer,0.8
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.CollectionEvent,Cross-Cutting,0.2
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.CollectionEvent,Domain Layer,0.8
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.CollectionListener,Service Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Compass,Cross-Cutting,0.11538461538461539
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Compass,Domain Layer,0.8076923076923077
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Compass,Data Source Layer,0.038461538461538464
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Compass,Service Layer,0.038461538461538464
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Compass$GeographicPoint,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Compass$GeographicPoint,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Content,Data Source Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.DamagedHomeRecorderException,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.DimensionLine,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.DoorOrWindow,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Elevatable,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.FurnitureCatalog,Domain Layer,0.5
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.FurnitureCatalog,Service Layer,0.375
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.FurnitureCatalog,Cross-Cutting,0.125
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.FurnitureCategory,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Home,Domain Layer,0.7524752475247525
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Home,Service Layer,0.2079207920792079
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Home,Data Source Layer,0.0297029702970297
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Home,Cross-Cutting,0.009900990099009901
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeApplication,Service Layer,0.3076923076923077
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeApplication,Domain Layer,0.38461538461538464
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeApplication,Cross-Cutting,0.3076923076923077
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeDescriptor,Domain Layer,0.75
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeDescriptor,Data Source Layer,0.25
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeDoorOrWindow,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeEnvironment,Domain Layer,0.7659574468085106
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeEnvironment,Data Source Layer,0.0425531914893617
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeEnvironment,Cross-Cutting,0.0425531914893617
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeEnvironment,Service Layer,0.14893617021276595
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeFurnitureGroup,Domain Layer,0.8387096774193549
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeFurnitureGroup,Service Layer,0.04838709677419355
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeFurnitureGroup,Cross-Cutting,0.11290322580645161
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeFurnitureGroup$LocationAndSizeChangeListener,Domain Layer,0.5
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeFurnitureGroup$LocationAndSizeChangeListener,Service Layer,0.5
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeLight,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeMaterial,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeObject,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomePieceOfFurniture,Service Layer,0.02
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomePieceOfFurniture,Domain Layer,0.97
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomePieceOfFurniture,Presentation Layer,0.01
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomePrint,Domain Layer,0.35714285714285715
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomePrint,Cross-Cutting,0.6428571428571429
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeRecorder,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeRecorder,Data Source Layer,0.3333333333333333
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.HomeTexture,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.IllegalHomonymException,Cross-Cutting,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.InterruptedRecorderException,Cross-Cutting,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Label,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Label,Presentation Layer,0.3
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Label,Service Layer,0.03333333333333333
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.LengthUnit,Cross-Cutting,0.21428571428571427
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.LengthUnit,Domain Layer,0.7142857142857143
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.LengthUnit,Presentation Layer,0.07142857142857142
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.LengthUnit$MeterFamilyFormat,Domain Layer,0.25
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.LengthUnit$MeterFamilyFormat,Cross-Cutting,0.75
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.LengthUnit$SquareFootAreaFormatWithUnit,Domain Layer,0.5
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.LengthUnit$SquareFootAreaFormatWithUnit,Cross-Cutting,0.5
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.LengthUnit$SquareMeterAreaFormatWithUnit,Cross-Cutting,0.5
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.LengthUnit$SquareMeterAreaFormatWithUnit,Domain Layer,0.5
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Level,Service Layer,0.047619047619047616
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Level,Domain Layer,0.9523809523809523
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Library,Service Layer,0.125
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Library,Domain Layer,0.5
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Library,Data Source Layer,0.25
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Library,Cross-Cutting,0.125
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Light,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.LightSource,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.NotEnoughSpaceRecorderException,Cross-Cutting,0.5
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.NotEnoughSpaceRecorderException,Domain Layer,0.5
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.ObserverCamera,Domain Layer,0.8823529411764706
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.ObserverCamera,Service Layer,0.11764705882352941
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.PatternsCatalog,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.PieceOfFurniture,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Polyline,Domain Layer,0.9166666666666666
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Polyline,Service Layer,0.08333333333333333
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.RecorderException,Cross-Cutting,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Room,Domain Layer,0.9180327868852459
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Room,Service Layer,0.06557377049180328
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Room,Presentation Layer,0.01639344262295082
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Sash,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Selectable,Domain Layer,0.8
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Selectable,Service Layer,0.2
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.SelectionEvent,Domain Layer,0.5
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.SelectionEvent,Cross-Cutting,0.5
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.SelectionListener,Service Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.TextStyle,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.TextureImage,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.TexturesCatalog,Domain Layer,0.75
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.TexturesCatalog,Service Layer,0.25
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.TexturesCategory,Domain Layer,1.0
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.UserPreferences,Domain Layer,0.4642857142857143
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.UserPreferences,Data Source Layer,0.10714285714285714
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.UserPreferences,Service Layer,0.2261904761904762
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.UserPreferences,Cross-Cutting,0.11904761904761904
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.UserPreferences,Presentation Layer,0.08333333333333333
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.UserPreferences$PrefixedResourceBundle,Cross-Cutting,0.6666666666666666
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.UserPreferences$PrefixedResourceBundle,Data Source Layer,0.3333333333333333
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Wall,Domain Layer,0.8888888888888888
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Wall,Service Layer,0.07936507936507936
+com.eteks.sweethome3d.model,com.eteks.sweethome3d.model.Wall,Presentation Layer,0.031746031746031744
+com.eteks.sweethome3d.plugin,com.eteks.sweethome3d.plugin.HomePluginController,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.plugin,com.eteks.sweethome3d.plugin.HomePluginController,Service Layer,0.6666666666666666
+com.eteks.sweethome3d.plugin,com.eteks.sweethome3d.plugin.Plugin,Domain Layer,0.3076923076923077
+com.eteks.sweethome3d.plugin,com.eteks.sweethome3d.plugin.Plugin,Cross-Cutting,0.46153846153846156
+com.eteks.sweethome3d.plugin,com.eteks.sweethome3d.plugin.Plugin,Service Layer,0.15384615384615385
+com.eteks.sweethome3d.plugin,com.eteks.sweethome3d.plugin.Plugin,Data Source Layer,0.07692307692307693
+com.eteks.sweethome3d.plugin,com.eteks.sweethome3d.plugin.PluginAction,Cross-Cutting,0.3
+com.eteks.sweethome3d.plugin,com.eteks.sweethome3d.plugin.PluginAction,Service Layer,0.6
+com.eteks.sweethome3d.plugin,com.eteks.sweethome3d.plugin.PluginAction,Presentation Layer,0.1
+com.eteks.sweethome3d.plugin,com.eteks.sweethome3d.plugin.PluginManager,Service Layer,0.375
+com.eteks.sweethome3d.plugin,com.eteks.sweethome3d.plugin.PluginManager,Data Source Layer,0.375
+com.eteks.sweethome3d.plugin,com.eteks.sweethome3d.plugin.PluginManager,Domain Layer,0.25
+com.eteks.sweethome3d.plugin,com.eteks.sweethome3d.plugin.PluginManager$PluginLibrary,Data Source Layer,0.36363636363636365
+com.eteks.sweethome3d.plugin,com.eteks.sweethome3d.plugin.PluginManager$PluginLibrary,Cross-Cutting,0.6363636363636364
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.AutoCommitSpinner,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.AutoCommitSpinner$SpinnerModuloNumberModel,Domain Layer,0.3333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.AutoCommitSpinner$SpinnerModuloNumberModel,Presentation Layer,0.6666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.AutoCompleteTextField,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.AutoCompleteTextField$AutoCompleteDocument,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.AutoCompleteTextField$AutoCompleteDocument,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.BackgroundImageWizardStepsPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.BackgroundImageWizardStepsPanel$OriginImagePreviewComponent,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.BackgroundImageWizardStepsPanel$ScaleImagePreviewComponent,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.BaseboardChoiceComponent,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.CatalogItemToolTip,Presentation Layer,0.8
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.CatalogItemToolTip,Cross-Cutting,0.2
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ColorButton,Presentation Layer,0.8333333333333334
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ColorButton,Service Layer,0.16666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ColorButton$ColorChart,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ColorButton$ColorCode,Domain Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ColorButton$GrayColorChart,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ColorButton$PaletteComboBox,Domain Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ColorButton$PalettesColorChooserPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ColorButton$RecentColorsPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.CompassPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ControllerAction,Service Layer,0.6666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ControllerAction,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FileContentManager,Data Source Layer,0.42857142857142855
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FileContentManager,Domain Layer,0.2857142857142857
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FileContentManager,Presentation Layer,0.14285714285714285
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FileContentManager,Service Layer,0.14285714285714285
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FileContentManager$DirectoryChooser,Presentation Layer,0.6666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FileContentManager$DirectoryChooser,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FileContentManager$DirectoryChooser$DirectoryNode,Data Source Layer,0.6
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FileContentManager$DirectoryChooser$DirectoryNode,Domain Layer,0.4
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FontNameComboBox,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogListPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogListPanel$CatalogCellRenderer,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogListPanel$FurnitureCatalogListModel,Service Layer,0.4
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogListPanel$FurnitureCatalogListModel,Domain Layer,0.4
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogListPanel$FurnitureCatalogListModel,Presentation Layer,0.2
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogListPanel$FurnitureCatalogListModel$FurnitureCatalogListener,Service Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogListPanel$FurnitureCatalogListModel$FurnitureCatalogListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogListPanel$PreferencesChangeListener,Presentation Layer,0.6666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogListPanel$PreferencesChangeListener,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogTransferHandler,Data Source Layer,0.2
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogTransferHandler,Domain Layer,0.2
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogTransferHandler,Presentation Layer,0.4
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogTransferHandler,Service Layer,0.2
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogTree,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogTree$CatalogCellRenderer,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogTree$CatalogTreeModel,Service Layer,0.4444444444444444
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogTree$CatalogTreeModel,Domain Layer,0.4444444444444444
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogTree$CatalogTreeModel,Cross-Cutting,0.1111111111111111
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogTree$CatalogTreeModel$CatalogFurnitureListener,Domain Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureCatalogTree$CatalogTreeModel$CatalogFurnitureListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable,Presentation Layer,0.36363636363636365
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable,Service Layer,0.18181818181818182
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable,Data Source Layer,0.36363636363636365
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable,Domain Layer,0.09090909090909091
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable$FurnitureFilter,Domain Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable$FurnitureTableColumnModel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable$FurnitureTableColumnModel$LanguageChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable$FurnitureTableColumnModel$LanguageChangeListener,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable$FurnitureTreeTableModel,Service Layer,0.35
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable$FurnitureTreeTableModel,Domain Layer,0.3
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable$FurnitureTreeTableModel,Cross-Cutting,0.2
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable$FurnitureTreeTableModel,Presentation Layer,0.15
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable$TreeTableNameCellRenderer,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable$TreeTableNameCellRenderer$PanelWithInformationIcon,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable$UserPreferencesChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTable$UserPreferencesChangeListener,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTransferHandler,Data Source Layer,0.25
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTransferHandler,Service Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.FurnitureTransferHandler,Cross-Cutting,0.25
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HelpPane,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HelpPane$LanguageChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HelpPane$LanguageChangeListener,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.Home3DAttributesPanel,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.Home3DAttributesPanel,Service Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomeComponent3D,Presentation Layer,0.7272727272727273
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomeComponent3D,Cross-Cutting,0.18181818181818182
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomeComponent3D,Domain Layer,0.09090909090909091
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomeComponent3D$CameraInterpolator,Service Layer,0.6666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomeComponent3D$CameraInterpolator,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomeComponent3D$JCanvas3DWithNavigationPanel,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomeComponent3D$JCanvas3DWithNavigationPanel,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomeComponent3D$NavigationButton,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomeComponent3D$NavigationPanelChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomeComponent3D$NavigationPanelChangeListener,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomeFurniturePanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePDFPrinter,Service Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane,Presentation Layer,0.775
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane,Service Layer,0.1
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane,Data Source Layer,0.05
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane,Domain Layer,0.05
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane,Cross-Cutting,0.025
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane$ActionAdapter,Service Layer,0.42857142857142855
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane$ActionAdapter,Presentation Layer,0.2857142857142857
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane$ActionAdapter,Domain Layer,0.2857142857142857
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane$FocusCycleRootChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane$FocusCycleRootChangeListener,Service Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane$FocusOwnerChangeListener,Service Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane$FurnitureCatalogViewChangeListener,Service Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane$LanguageChangeListener,Cross-Cutting,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane$OBJExporter,Service Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane$PopupMenuListenerWithMouseLocation,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane$PopupMenuListenerWithMouseLocation,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane$RulersVisibilityChangeListener,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePane$SelectableFormat,Service Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePrintableComponent,Presentation Layer,0.5714285714285714
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePrintableComponent,Cross-Cutting,0.2857142857142857
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePrintableComponent,Service Layer,0.14285714285714285
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePrintableComponent$Variable,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomePrintableComponent$Variable,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomeTransferableList,Domain Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.HomeTransferableList,Data Source Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.IconManager,Service Layer,0.2
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.IconManager,Presentation Layer,0.4
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.IconManager,Cross-Cutting,0.4
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.IconManager$IconProxy,Presentation Layer,0.4
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.IconManager$IconProxy,Data Source Layer,0.2
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.IconManager$IconProxy,Cross-Cutting,0.4
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ImportedFurnitureWizardStepsPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ImportedFurnitureWizardStepsPanel$AbstractModelPreviewComponent,Cross-Cutting,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ImportedFurnitureWizardStepsPanel$AttributesPreviewComponent,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ImportedFurnitureWizardStepsPanel$AutoRepeatButton,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ImportedFurnitureWizardStepsPanel$IconPreviewComponent,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ImportedFurnitureWizardStepsPanel$RotationPreviewComponent,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ImportedTextureWizardStepsPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.InterruptedPrinterException,Cross-Cutting,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.JPEGImagesToVideo,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.JPEGImagesToVideo,Data Source Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.LabelPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.LevelPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.LevelPanel$LevelsTableModel,Presentation Layer,0.75
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.LevelPanel$LevelsTableModel,Domain Layer,0.25
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.LocatedTransferHandler,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.LocatedTransferHandler,Service Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ModelMaterialsComponent,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ModelMaterialsComponent$ModelMaterialsPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ModelMaterialsComponent$ModelMaterialsPanel$MaterialBlinker,Domain Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ModelMaterialsComponent$ModelMaterialsPanel$MaterialBlinker,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ModelMaterialsComponent$ModelMaterialsPanel$MaterialListCellRenderer,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ModelMaterialsComponent$ModelMaterialsPanel$MaterialsListModel,Service Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ModelMaterialsComponent$ModelMaterialsPanel$MaterialsListModel,Domain Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ModelPreviewComponent,Presentation Layer,0.7272727272727273
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ModelPreviewComponent,Domain Layer,0.2727272727272727
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ModelPreviewComponent$JCanvas3DWithNotifiedPaint,Service Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ModelPreviewComponent$JCanvas3DWithNotifiedPaint,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.MultipleLevelsPlanPanel,Presentation Layer,0.75
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.MultipleLevelsPlanPanel,Service Layer,0.1
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.MultipleLevelsPlanPanel,Data Source Layer,0.05
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.MultipleLevelsPlanPanel,Domain Layer,0.025
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.MultipleLevelsPlanPanel,Cross-Cutting,0.075
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.MultipleLevelsPlanPanel$LanguageChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.MultipleLevelsPlanPanel$LanguageChangeListener,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.MultipleLevelsPlanPanel$LevelLabel,Domain Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.NullableCheckBox,Presentation Layer,0.8571428571428571
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.NullableCheckBox,Domain Layer,0.14285714285714285
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.NullableSpinner,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.NullableSpinner$NullableSpinnerDateModel,Domain Layer,0.42857142857142855
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.NullableSpinner$NullableSpinnerDateModel,Presentation Layer,0.2857142857142857
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.NullableSpinner$NullableSpinnerDateModel,Cross-Cutting,0.14285714285714285
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.NullableSpinner$NullableSpinnerDateModel,Service Layer,0.14285714285714285
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.NullableSpinner$NullableSpinnerLengthModel,Domain Layer,0.8
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.NullableSpinner$NullableSpinnerLengthModel,Service Layer,0.2
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.NullableSpinner$NullableSpinnerModuloNumberModel,Domain Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.NullableSpinner$NullableSpinnerNumberModel,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.NullableSpinner$NullableSpinnerNumberModel,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ObserverCameraPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PageSetupPanel,Presentation Layer,0.6666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PageSetupPanel,Service Layer,0.3333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PhotoPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PhotoPanel$LanguageChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PhotoPanel$LanguageChangeListener,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PhotoSizeAndQualityPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PhotoSizeAndQualityPanel$LanguageChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PhotoSizeAndQualityPanel$LanguageChangeListener,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PhotosPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PhotosPanel$CamerasListModel,Service Layer,0.3333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PhotosPanel$CamerasListModel,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PhotosPanel$LanguageChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PhotosPanel$LanguageChangeListener,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanComponent,Service Layer,0.12244897959183673
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanComponent,Presentation Layer,0.7142857142857143
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanComponent,Cross-Cutting,0.14285714285714285
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanComponent,Data Source Layer,0.02040816326530612
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanComponent$IndicatorType,Domain Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanComponent$PieceOfFurnitureModelIcon,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanComponent$PieceOfFurniturePlanIcon,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanComponent$PieceOfFurnitureTopViewIcon,Domain Layer,0.16666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanComponent$PieceOfFurnitureTopViewIcon,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanComponent$PieceOfFurnitureTopViewIcon,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanComponent$PlanRulerComponent,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanComponent$SVGSupport,Service Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanComponent$UserPreferencesChangeListener,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanTransferHandler,Domain Layer,0.3333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanTransferHandler,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PlanTransferHandler,Service Layer,0.3333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PolylinePanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PolylinePanel$ArrowsStyle,Domain Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.PrintPreviewPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ProportionalLayout,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ProportionalLayout,Cross-Cutting,0.4166666666666667
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ProportionalLayout,Service Layer,0.08333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ResourceAction,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ResourceAction,Service Layer,0.6666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ResourceAction$AbstractDecoratedAction,Service Layer,0.375
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ResourceAction$AbstractDecoratedAction,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ResourceAction$AbstractDecoratedAction,Presentation Layer,0.125
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ResourceAction$ButtonAction,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ResourceAction$ButtonAction,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ResourceAction$LanguageChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ResourceAction$LanguageChangeListener,Service Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ResourceAction$MenuItemAction,Cross-Cutting,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ResourceAction$PopupMenuItemAction,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ResourceAction$PopupMenuItemAction,Service Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ResourceAction$ToolBarAction,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.RoomPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ScaledImageComponent,Presentation Layer,0.875
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ScaledImageComponent,Cross-Cutting,0.125
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.SwingTools,Presentation Layer,0.6666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.SwingTools,Domain Layer,0.041666666666666664
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.SwingTools,Cross-Cutting,0.20833333333333334
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.SwingTools,Data Source Layer,0.041666666666666664
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.SwingTools,Service Layer,0.041666666666666664
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.SwingTools$BrowserSupport,Cross-Cutting,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.SwingTools$MenuItemsVisibilityListener,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.SwingTools$MenuItemsVisibilityListener,Presentation Layer,0.6666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.SwingViewFactory,Service Layer,0.03333333333333333
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.SwingViewFactory,Presentation Layer,0.9666666666666667
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.TextureChoiceComponent,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.TextureChoiceComponent$TexturePanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.TextureChoiceComponent$TexturePanel$TextureIcon,Cross-Cutting,0.25
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.TextureChoiceComponent$TexturePanel$TextureIcon,Presentation Layer,0.75
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.TextureChoiceComponent$TexturePanel$TextureListCellRenderer,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.TextureChoiceComponent$TexturePanel$TexturesCatalogListModel,Domain Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.TextureChoiceComponent$TexturePanel$TexturesCatalogListModel,Service Layer,0.25
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.TextureChoiceComponent$TexturePanel$TexturesCatalogListModel,Presentation Layer,0.25
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.TextureChoiceComponent$TexturePanel$TexturesCatalogListModel$TexturesCatalogListener,Domain Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.TextureChoiceComponent$TexturePanel$TexturesCatalogListModel$TexturesCatalogListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.TextureChoiceComponent$TexturePanel$TexturesCatalogListener,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.TextureChoiceComponent$TexturePanel$TexturesCatalogListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ThreadedTaskPanel,Presentation Layer,0.8
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.ThreadedTaskPanel,Service Layer,0.2
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.UnfocusableToolBar,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.UserPreferencesPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.UserPreferencesPanel$AutoCommitLengthSpinner,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.UserPreferencesPanel$SpinnerLengthModel,Service Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.UserPreferencesPanel$SupportedLanguagesChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.UserPreferencesPanel$SupportedLanguagesChangeListener,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VideoPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VideoPanel$FrameGenerator,Domain Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VideoPanel$Image3DGenerator,Service Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VideoPanel$ImageDataSource,Data Source Layer,0.8333333333333334
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VideoPanel$ImageDataSource,Service Layer,0.16666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VideoPanel$ImageSourceStream,Service Layer,0.1111111111111111
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VideoPanel$ImageSourceStream,Data Source Layer,0.7777777777777778
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VideoPanel$ImageSourceStream,Cross-Cutting,0.1111111111111111
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VideoPanel$LanguageChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VideoPanel$LanguageChangeListener,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VideoPanel$PhotoImageGenerator,Service Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VisualTransferHandler,Service Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VisualTransferHandler,Presentation Layer,0.5
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VisualTransferHandler$DragGestureRecognizerWithVisualRepresentation,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VisualTransferHandler$DragListenerWithVisualRepresentation,Presentation Layer,0.8333333333333334
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.VisualTransferHandler$DragListenerWithVisualRepresentation,Cross-Cutting,0.16666666666666666
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.WallPanel,Presentation Layer,1.0
+com.eteks.sweethome3d.swing,com.eteks.sweethome3d.swing.WizardPane,Presentation Layer,1.0
+com.eteks.sweethome3d.tools,com.eteks.sweethome3d.tools.ExtensionsClassLoader,Data Source Layer,0.5
+com.eteks.sweethome3d.tools,com.eteks.sweethome3d.tools.ExtensionsClassLoader,Service Layer,0.25
+com.eteks.sweethome3d.tools,com.eteks.sweethome3d.tools.ExtensionsClassLoader,Cross-Cutting,0.25
+com.eteks.sweethome3d.tools,com.eteks.sweethome3d.tools.OperatingSystem,Cross-Cutting,0.7692307692307693
+com.eteks.sweethome3d.tools,com.eteks.sweethome3d.tools.OperatingSystem,Data Source Layer,0.23076923076923078
+com.eteks.sweethome3d.tools,com.eteks.sweethome3d.tools.OperatingSystem$MacOSXFileManager,Data Source Layer,1.0
+com.eteks.sweethome3d.tools,com.eteks.sweethome3d.tools.ResourceURLContent,Data Source Layer,1.0
+com.eteks.sweethome3d.tools,com.eteks.sweethome3d.tools.SimpleURLContent,Data Source Layer,1.0
+com.eteks.sweethome3d.tools,com.eteks.sweethome3d.tools.TemporaryURLContent,Data Source Layer,1.0
+com.eteks.sweethome3d.tools,com.eteks.sweethome3d.tools.URLContent,Data Source Layer,0.7777777777777778
+com.eteks.sweethome3d.tools,com.eteks.sweethome3d.tools.URLContent,Cross-Cutting,0.1111111111111111
+com.eteks.sweethome3d.tools,com.eteks.sweethome3d.tools.URLContent,Domain Layer,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.AbstractPhotoController,Service Layer,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.AbstractPhotoController,Cross-Cutting,0.35
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.AbstractPhotoController,Domain Layer,0.15
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.AbstractPhotoController,Data Source Layer,0.05
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.AbstractPhotoController,Presentation Layer,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.AbstractPhotoController$EnvironmentChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.AbstractPhotoController$EnvironmentChangeListener,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController,Presentation Layer,0.1875
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController,Service Layer,0.1875
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController,Domain Layer,0.5625
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController,Cross-Cutting,0.0625
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController$BackgroundImageUndoableEdit,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController$BackgroundImageUndoableEdit,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController$BackgroundImageWizardStepState,Presentation Layer,0.75
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController$BackgroundImageWizardStepState,Service Layer,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController$ImageChoiceStepState,Service Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController$ImageOriginStepState,Service Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BackgroundImageWizardController$ImageScaleStepState,Service Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BaseboardChoiceController,Domain Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BaseboardChoiceController,Service Layer,0.3888888888888889
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BaseboardChoiceController,Data Source Layer,0.05555555555555555
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BaseboardChoiceController,Presentation Layer,0.16666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.BaseboardChoiceController,Cross-Cutting,0.05555555555555555
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.CompassController,Presentation Layer,0.3181818181818182
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.CompassController,Service Layer,0.36363636363636365
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.CompassController,Domain Layer,0.2727272727272727
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.CompassController,Data Source Layer,0.045454545454545456
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.CompassController$CompassUndoableEdit,Service Layer,0.75
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.CompassController$CompassUndoableEdit,Domain Layer,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ContentManager,Data Source Layer,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ContentManager,Cross-Cutting,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ContentManager,Service Layer,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ContentManager,Presentation Layer,0.4
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.Controller,Presentation Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.DialogView,Presentation Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ExportableView,Data Source Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ExportableView,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ExportableView$FormatType,Cross-Cutting,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.FurnitureCatalogController,Service Layer,0.45454545454545453
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.FurnitureCatalogController,Presentation Layer,0.36363636363636365
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.FurnitureCatalogController,Domain Layer,0.18181818181818182
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.FurnitureCatalogController$AddedFurnitureSelector,Domain Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.FurnitureCatalogController$AddedFurnitureSelector,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.FurnitureCatalogController$FurnitureCatalogChangeListener,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.FurnitureCatalogController$FurnitureCatalogChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.FurnitureCatalogController$FurnitureCatalogViewChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.FurnitureCatalogController$FurnitureCatalogViewChangeListener,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.FurnitureController,Service Layer,0.5135135135135135
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.FurnitureController,Domain Layer,0.35135135135135137
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.FurnitureController,Presentation Layer,0.13513513513513514
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.FurnitureController$AlignedPieceOfFurniture,Domain Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.FurnitureController$AlignmentAction,Service Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HelpController,Service Layer,0.5333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HelpController,Presentation Layer,0.4
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HelpController,Cross-Cutting,0.06666666666666667
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HelpController$HelpDocument,Service Layer,0.16666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HelpController$HelpDocument,Cross-Cutting,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HelpController$HelpDocument,Domain Layer,0.16666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HelpController$HelpDocument,Data Source Layer,0.16666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HelpController$HelpDocument$HelpReader,Cross-Cutting,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HelpController$HelpDocument$HelpReader,Domain Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HelpController$HelpDocument$HelpReader,Service Layer,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HelpController$LanguageChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HelpController$LanguageChangeListener,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HelpView,Presentation Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.Home3DAttributesController,Service Layer,0.35
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.Home3DAttributesController,Presentation Layer,0.45
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.Home3DAttributesController,Domain Layer,0.1
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.Home3DAttributesController,Cross-Cutting,0.05
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.Home3DAttributesController,Data Source Layer,0.05
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.Home3DAttributesController$Home3DAttributesModificationUndoableEdit,Service Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController,Presentation Layer,0.35064935064935066
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController,Domain Layer,0.07792207792207792
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController,Service Layer,0.5584415584415584
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController,Cross-Cutting,0.012987012987012988
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController$FurnitureCatalogChangeListener,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController$FurnitureCatalogChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController$LanguageChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController$LanguageChangeListener,Presentation Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController$TexturesCatalogChangeListener,Domain Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController$TexturesCatalogChangeListener,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController$Update,Service Layer,0.2727272727272727
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController$Update,Domain Layer,0.3181818181818182
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController$Update,Cross-Cutting,0.3181818181818182
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController$Update,Data Source Layer,0.09090909090909091
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController$UpdatesHandler,Cross-Cutting,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController$UpdatesHandler,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController$UpdatesHandler,Domain Layer,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController$UserPreferencesChangeListener,Service Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController$UserPreferencesPropertiesChangeListener,Service Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController3D,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController3D,Domain Layer,0.125
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController3D,Presentation Layer,0.375
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController3D$CameraControllerState,Presentation Layer,0.4444444444444444
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController3D$CameraControllerState,Service Layer,0.4444444444444444
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController3D$CameraControllerState,Domain Layer,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController3D$ObserverCameraState,Domain Layer,0.4
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController3D$ObserverCameraState,Presentation Layer,0.4
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController3D$ObserverCameraState,Service Layer,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController3D$TopCameraState,Service Layer,0.4444444444444444
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController3D$TopCameraState,Domain Layer,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController3D$TopCameraState,Presentation Layer,0.4444444444444444
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController3D$UserPreferencesChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeController3D$UserPreferencesChangeListener,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeFurnitureController,Service Layer,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeFurnitureController,Presentation Layer,0.2153846153846154
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeFurnitureController,Domain Layer,0.5076923076923077
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeFurnitureController,Cross-Cutting,0.06153846153846154
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeFurnitureController,Data Source Layer,0.015384615384615385
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeFurnitureController$FurnitureModificationUndoableEdit,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeFurnitureController$FurnitureModificationUndoableEdit,Service Layer,0.6666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeFurnitureController$ModifiedDoorOrWindow,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeFurnitureController$ModifiedDoorOrWindow,Domain Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeFurnitureController$ModifiedFurnitureGroup,Domain Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeFurnitureController$ModifiedFurnitureGroup,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeFurnitureController$ModifiedLight,Domain Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeFurnitureController$ModifiedLight,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeFurnitureController$ModifiedPieceOfFurniture,Domain Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeView,Presentation Layer,0.7435897435897436
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeView,Domain Layer,0.05128205128205128
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeView,Service Layer,0.05128205128205128
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeView,Data Source Layer,0.10256410256410256
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.HomeView,Cross-Cutting,0.05128205128205128
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController,Service Layer,0.34782608695652173
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController,Domain Layer,0.5434782608695652
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController,Data Source Layer,0.06521739130434782
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController,Cross-Cutting,0.021739130434782608
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController,Presentation Layer,0.021739130434782608
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController$FurnitureAttributesStepState,Domain Layer,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController$FurnitureAttributesStepState,Service Layer,0.4
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController$FurnitureAttributesStepState,Presentation Layer,0.4
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController$FurnitureIconStepState,Service Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController$FurnitureModelStepState,Service Layer,0.75
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController$FurnitureModelStepState,Presentation Layer,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController$FurnitureOrientationStepState,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController$FurnitureOrientationStepState,Presentation Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController$ImportedFurnitureWizardStepState,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController$ImportedFurnitureWizardStepState,Cross-Cutting,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController$ImportedFurnitureWizardStepState,Presentation Layer,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardController$PieceOfFurnitureImportationUndoableEdit,Service Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedFurnitureWizardStepsView,Domain Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedTextureWizardController,Service Layer,0.47619047619047616
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedTextureWizardController,Domain Layer,0.2857142857142857
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedTextureWizardController,Cross-Cutting,0.09523809523809523
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedTextureWizardController,Data Source Layer,0.09523809523809523
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedTextureWizardController,Presentation Layer,0.047619047619047616
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedTextureWizardController$ImportedTextureWizardStepState,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedTextureWizardController$ImportedTextureWizardStepState,Presentation Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedTextureWizardController$TextureAttributesStepState,Presentation Layer,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedTextureWizardController$TextureAttributesStepState,Service Layer,0.8
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ImportedTextureWizardController$TextureImageStepState,Service Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LabelController,Presentation Layer,0.5454545454545454
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LabelController,Service Layer,0.2727272727272727
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LabelController,Domain Layer,0.18181818181818182
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LabelController$LabelCreationUndoableEdit,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LabelController$LabelCreationUndoableEdit,Service Layer,0.6666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LabelController$LabelModificationUndoableEdit,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LabelController$LabelModificationUndoableEdit,Service Layer,0.6666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LabelController$ModifiedLabel,Presentation Layer,0.6666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LabelController$ModifiedLabel,Domain Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LevelController,Service Layer,0.42857142857142855
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LevelController,Presentation Layer,0.23809523809523808
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LevelController,Domain Layer,0.23809523809523808
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LevelController,Data Source Layer,0.09523809523809523
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LevelController$LevelModificationUndoableEdit,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LevelController$LevelModificationUndoableEdit,Service Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LevelController$LevelModificationUndoableEdit,Domain Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LevelController$ModifiedLevel,Domain Layer,0.8
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.LevelController$ModifiedLevel,Cross-Cutting,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ModelMaterialsController,Service Layer,0.35294117647058826
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ModelMaterialsController,Presentation Layer,0.17647058823529413
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ModelMaterialsController,Cross-Cutting,0.11764705882352941
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ModelMaterialsController,Domain Layer,0.35294117647058826
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.Object3DFactory,Domain Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ObserverCameraController,Service Layer,0.3448275862068966
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ObserverCameraController,Presentation Layer,0.20689655172413793
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ObserverCameraController,Domain Layer,0.3448275862068966
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ObserverCameraController,Cross-Cutting,0.06896551724137931
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ObserverCameraController,Data Source Layer,0.034482758620689655
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PageSetupController,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PageSetupController,Presentation Layer,0.375
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PageSetupController,Cross-Cutting,0.125
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PageSetupController$HomePrintModificationUndoableEdit,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PageSetupController$HomePrintModificationUndoableEdit,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PhotoController,Service Layer,0.4444444444444444
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PhotoController,Presentation Layer,0.2222222222222222
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PhotoController,Domain Layer,0.2222222222222222
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PhotoController,Data Source Layer,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PhotoController$CameraChangeListener,Service Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PhotoController$HomeCameraChangeListener,Cross-Cutting,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PhotoController$HomeCameraChangeListener,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PhotosController,Service Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PhotosController,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PhotosController,Domain Layer,0.16666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PhotosController,Data Source Layer,0.08333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PhotosController,Cross-Cutting,0.08333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PhotosController$HomeStoredCamerasChangeListener,Service Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController,Domain Layer,0.14705882352941177
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController,Service Layer,0.47058823529411764
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController,Presentation Layer,0.35294117647058826
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController,Cross-Cutting,0.029411764705882353
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$AbstractModeChangeState,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$AbstractModeChangeState,Presentation Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$AbstractPolylineState,Cross-Cutting,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$AbstractRoomState,Presentation Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$AbstractWallState,Presentation Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CameraElevationState,Service Layer,0.42857142857142855
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CameraElevationState,Presentation Layer,0.42857142857142855
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CameraElevationState,Cross-Cutting,0.14285714285714285
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CameraPitchRotationState,Presentation Layer,0.5714285714285714
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CameraPitchRotationState,Service Layer,0.2857142857142857
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CameraPitchRotationState,Cross-Cutting,0.14285714285714285
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CameraYawRotationState,Presentation Layer,0.42857142857142855
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CameraYawRotationState,Service Layer,0.2857142857142857
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CameraYawRotationState,Cross-Cutting,0.14285714285714285
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CameraYawRotationState,Domain Layer,0.14285714285714285
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CompassResizeState,Presentation Layer,0.375
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CompassResizeState,Domain Layer,0.125
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CompassResizeState,Service Layer,0.375
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CompassResizeState,Cross-Cutting,0.125
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CompassRotationState,Service Layer,0.375
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CompassRotationState,Presentation Layer,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CompassRotationState,Cross-Cutting,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$CompassRotationState,Domain Layer,0.125
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$ControllerState,Domain Layer,0.16666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$ControllerState,Service Layer,0.4444444444444444
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$ControllerState,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$ControllerState,Cross-Cutting,0.05555555555555555
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineCreationState,Presentation Layer,0.7142857142857143
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineCreationState,Service Layer,0.2857142857142857
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineDrawingState,Presentation Layer,0.23076923076923078
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineDrawingState,Domain Layer,0.23076923076923078
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineDrawingState,Service Layer,0.46153846153846156
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineDrawingState,Cross-Cutting,0.07692307692307693
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineOffsetState,Presentation Layer,0.375
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineOffsetState,Service Layer,0.625
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineResizeState,Presentation Layer,0.4
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineResizeState,Service Layer,0.4
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineResizeState,Cross-Cutting,0.1
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DimensionLineResizeState,Domain Layer,0.1
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DragAndDropState,Presentation Layer,0.16666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DragAndDropState,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DragAndDropState,Cross-Cutting,0.16666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$DragAndDropState,Domain Layer,0.16666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$JoinedWall,Domain Layer,0.6923076923076923
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$JoinedWall,Service Layer,0.15384615384615385
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$JoinedWall,Cross-Cutting,0.15384615384615385
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$LabelCreationState,Presentation Layer,0.6666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$LabelCreationState,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$LabelElevationState,Service Layer,0.5555555555555556
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$LabelElevationState,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$LabelElevationState,Domain Layer,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$LabelRotationState,Presentation Layer,0.4
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$LabelRotationState,Service Layer,0.4
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$LabelRotationState,Cross-Cutting,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$LightPowerModificationState,Presentation Layer,0.42857142857142855
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$LightPowerModificationState,Service Layer,0.2857142857142857
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$LightPowerModificationState,Cross-Cutting,0.2857142857142857
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$Mode,Cross-Cutting,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PanningState,Presentation Layer,0.6666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PanningState,Service Layer,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PanningState,Cross-Cutting,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PanningState,Domain Layer,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureElevationState,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureElevationState,Service Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureElevationState,Cross-Cutting,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureElevationState,Domain Layer,0.2222222222222222
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureHeightState,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureHeightState,Service Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureHeightState,Cross-Cutting,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureHeightState,Domain Layer,0.2222222222222222
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureNameOffsetState,Presentation Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureNameOffsetState,Service Layer,0.375
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureNameOffsetState,Cross-Cutting,0.125
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureNameRotationState,Domain Layer,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureNameRotationState,Service Layer,0.6666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureNameRotationState,Cross-Cutting,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureNameRotationState,Presentation Layer,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurniturePitchRotationState,Service Layer,0.375
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurniturePitchRotationState,Domain Layer,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurniturePitchRotationState,Presentation Layer,0.375
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureResizeState,Presentation Layer,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureResizeState,Service Layer,0.4
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureResizeState,Domain Layer,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureResizeState,Cross-Cutting,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureRollRotationState,Service Layer,0.375
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureRollRotationState,Domain Layer,0.375
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureRollRotationState,Presentation Layer,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureRotationState,Service Layer,0.3
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureRotationState,Domain Layer,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureRotationState,Presentation Layer,0.4
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PieceOfFurnitureRotationState,Cross-Cutting,0.1
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PointMagnetizedToClosestWallOrRoomPoint,Service Layer,0.6
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PointMagnetizedToClosestWallOrRoomPoint,Cross-Cutting,0.4
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PointWithAngleMagnetism,Domain Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PointWithAngleMagnetism,Cross-Cutting,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PolylineCreationState,Presentation Layer,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PolylineCreationState,Service Layer,0.75
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PolylineDrawingState,Service Layer,0.35714285714285715
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PolylineDrawingState,Presentation Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PolylineDrawingState,Cross-Cutting,0.14285714285714285
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PolylineResizeState,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PolylineResizeState,Presentation Layer,0.3
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PolylineResizeState,Cross-Cutting,0.1
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$PolylineResizeState,Domain Layer,0.1
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RectangleSelectionState,Service Layer,0.5714285714285714
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RectangleSelectionState,Cross-Cutting,0.14285714285714285
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RectangleSelectionState,Presentation Layer,0.2857142857142857
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$ResizedPieceOfFurniture,Service Layer,0.125
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$ResizedPieceOfFurniture,Domain Layer,0.75
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$ResizedPieceOfFurniture,Presentation Layer,0.125
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomAreaOffsetState,Domain Layer,0.125
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomAreaOffsetState,Service Layer,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomAreaOffsetState,Presentation Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomAreaOffsetState,Cross-Cutting,0.125
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomAreaRotationState,Domain Layer,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomAreaRotationState,Service Layer,0.5555555555555556
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomAreaRotationState,Cross-Cutting,0.2222222222222222
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomAreaRotationState,Presentation Layer,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomCreationState,Presentation Layer,0.42857142857142855
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomCreationState,Service Layer,0.42857142857142855
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomCreationState,Domain Layer,0.14285714285714285
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomDrawingState,Service Layer,0.46153846153846156
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomDrawingState,Cross-Cutting,0.15384615384615385
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomDrawingState,Presentation Layer,0.3076923076923077
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomDrawingState,Domain Layer,0.07692307692307693
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomNameOffsetState,Service Layer,0.375
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomNameOffsetState,Presentation Layer,0.375
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomNameOffsetState,Cross-Cutting,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomNameRotationState,Presentation Layer,0.4444444444444444
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomNameRotationState,Service Layer,0.2222222222222222
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomNameRotationState,Cross-Cutting,0.2222222222222222
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomNameRotationState,Domain Layer,0.1111111111111111
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomPointWithAngleMagnetism,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomPointWithAngleMagnetism,Domain Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomResizeState,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomResizeState,Presentation Layer,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomResizeState,Domain Layer,0.1
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$RoomResizeState,Cross-Cutting,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$SelectionMoveState,Presentation Layer,0.2727272727272727
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$SelectionMoveState,Service Layer,0.6363636363636364
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$SelectionMoveState,Domain Layer,0.09090909090909091
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$SelectionState,Cross-Cutting,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$SelectionState,Presentation Layer,0.6
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$SelectionState,Service Layer,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$WallCreationState,Presentation Layer,0.5714285714285714
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$WallCreationState,Service Layer,0.42857142857142855
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$WallDrawingState,Service Layer,0.35714285714285715
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$WallDrawingState,Domain Layer,0.35714285714285715
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$WallDrawingState,Presentation Layer,0.2857142857142857
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$WallPointWithAngleMagnetism,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$WallPointWithAngleMagnetism,Domain Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$WallResizeState,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$WallResizeState,Domain Layer,0.1
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$WallResizeState,Presentation Layer,0.3
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanController$WallResizeState,Cross-Cutting,0.1
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanView,Presentation Layer,0.8148148148148148
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanView,Domain Layer,0.07407407407407407
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanView,Data Source Layer,0.037037037037037035
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PlanView,Cross-Cutting,0.07407407407407407
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PolylineController,Service Layer,0.34782608695652173
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PolylineController,Presentation Layer,0.17391304347826086
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PolylineController,Domain Layer,0.43478260869565216
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PolylineController,Cross-Cutting,0.043478260869565216
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PolylineController$ModifiedPolyline,Domain Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PolylineController$PolylinesModificationUndoableEdit,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PolylineController$PolylinesModificationUndoableEdit,Service Layer,0.6666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PrintPreviewController,Service Layer,0.6666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.PrintPreviewController,Presentation Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.RoomController,Service Layer,0.3
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.RoomController,Presentation Layer,0.225
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.RoomController,Cross-Cutting,0.05
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.RoomController,Domain Layer,0.425
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.RoomController$ModifiedRoom,Domain Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.RoomController$ModifiedWall,Domain Layer,0.75
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.RoomController$ModifiedWall,Service Layer,0.25
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.RoomController$ModifiedWallSide,Service Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.RoomController$ModifiedWallSide,Domain Layer,0.6666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.RoomController$RoomsAndWallSidesModificationUndoableEdit,Cross-Cutting,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.RoomController$RoomsAndWallSidesModificationUndoableEdit,Service Layer,0.6666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.RoomController$WallSide,Domain Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.TextureChoiceController,Cross-Cutting,0.07142857142857142
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.TextureChoiceController,Domain Layer,0.21428571428571427
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.TextureChoiceController,Presentation Layer,0.2857142857142857
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.TextureChoiceController,Service Layer,0.42857142857142855
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.TextureChoiceView,Presentation Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ThreadedTaskController,Cross-Cutting,0.4
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ThreadedTaskController,Service Layer,0.4
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ThreadedTaskController,Presentation Layer,0.2
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ThreadedTaskController$ExceptionHandler,Cross-Cutting,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ThreadedTaskView,Cross-Cutting,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ThreadedTaskView,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.TransferableView,Service Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.TransferableView$DataType,Domain Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.TransferableView$DataType,Cross-Cutting,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.TransferableView$TransferObserver,Service Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.UserPreferencesController,Service Layer,0.5
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.UserPreferencesController,Presentation Layer,0.24074074074074073
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.UserPreferencesController,Cross-Cutting,0.14814814814814814
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.UserPreferencesController,Domain Layer,0.09259259259259259
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.UserPreferencesController,Data Source Layer,0.018518518518518517
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.VideoController,Service Layer,0.44
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.VideoController,Presentation Layer,0.16
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.VideoController,Domain Layer,0.16
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.VideoController,Cross-Cutting,0.16
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.VideoController,Data Source Layer,0.08
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.VideoController$HomeEnvironmentChangeListener,Service Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ViewFactory,Presentation Layer,0.7586206896551724
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ViewFactory,Service Layer,0.2413793103448276
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ViewFactoryAdapter,Cross-Cutting,0.16666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ViewFactoryAdapter,Service Layer,0.43333333333333335
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ViewFactoryAdapter,Presentation Layer,0.36666666666666664
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.ViewFactoryAdapter,Domain Layer,0.03333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.WallController,Service Layer,0.18518518518518517
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.WallController,Presentation Layer,0.24074074074074073
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.WallController,Domain Layer,0.5370370370370371
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.WallController,Cross-Cutting,0.037037037037037035
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.WallController$ModifiedWall,Domain Layer,1.0
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.WallController$WallsModificationUndoableEdit,Service Layer,0.6666666666666666
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.WallController$WallsModificationUndoableEdit,Domain Layer,0.3333333333333333
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.WizardController,Presentation Layer,0.7058823529411765
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.WizardController,Service Layer,0.17647058823529413
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.WizardController,Cross-Cutting,0.11764705882352941
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.WizardController$WizardControllerStepState,Cross-Cutting,0.23076923076923078
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.WizardController$WizardControllerStepState,Service Layer,0.6153846153846154
+com.eteks.sweethome3d.viewcontroller,com.eteks.sweethome3d.viewcontroller.WizardController$WizardControllerStepState,Presentation Layer,0.15384615384615385

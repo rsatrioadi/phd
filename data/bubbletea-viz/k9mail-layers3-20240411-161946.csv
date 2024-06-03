@@ -1,0 +1,786 @@
+package,class,layer,count
+com.fsck.k9,com.fsck.k9.Throttle$MyTimerTask,Service Layer,0.5
+com.fsck.k9,com.fsck.k9.Throttle$MyTimerTask,Presentation Layer,0.5
+com.fsck.k9,com.fsck.k9.Throttle,Execution Layer,0.5
+com.fsck.k9,com.fsck.k9.Throttle,Service Layer,0.5
+com.fsck.k9,com.fsck.k9.PRNGFixes,Utility Layer,1.0
+com.fsck.k9,com.fsck.k9.BaseAccount,Domain Layer,1.0
+com.fsck.k9,com.fsck.k9.Throttle$MyTimerTask$HandlerRunnable,Service Layer,1.0
+com.fsck.k9,com.fsck.k9.K9,Presentation Layer,0.291970802919708
+com.fsck.k9,com.fsck.k9.K9,Service Layer,0.3284671532846715
+com.fsck.k9,com.fsck.k9.K9,Domain Layer,0.25547445255474455
+com.fsck.k9,com.fsck.k9.K9,Data Source Layer,0.072992700729927
+com.fsck.k9,com.fsck.k9.K9,Utility Layer,0.0364963503649635
+com.fsck.k9,com.fsck.k9.K9,None,0.014598540145985401
+com.fsck.k9,com.fsck.k9.EmailAddressValidator,Domain Layer,1.0
+com.fsck.k9,com.fsck.k9.Account$SortType,Domain Layer,0.5
+com.fsck.k9,com.fsck.k9.Account$SortType,Presentation Layer,0.5
+com.fsck.k9,com.fsck.k9.Globals,Utility Layer,1.0
+com.fsck.k9,com.fsck.k9.FontSizes,Presentation Layer,0.13513513513513514
+com.fsck.k9,com.fsck.k9.FontSizes,Domain Layer,0.8108108108108109
+com.fsck.k9,com.fsck.k9.FontSizes,Data Source Layer,0.05405405405405406
+com.fsck.k9,com.fsck.k9.NotificationSetting,Domain Layer,0.8125
+com.fsck.k9,com.fsck.k9.NotificationSetting,Utility Layer,0.0625
+com.fsck.k9,com.fsck.k9.NotificationSetting,Data Source Layer,0.0625
+com.fsck.k9,com.fsck.k9.NotificationSetting,Presentation Layer,0.0625
+com.fsck.k9,com.fsck.k9.Preferences,Data Source Layer,0.4
+com.fsck.k9,com.fsck.k9.Preferences,Service Layer,0.2
+com.fsck.k9,com.fsck.k9.Preferences,Domain Layer,0.4
+com.fsck.k9,com.fsck.k9.Clock,Utility Layer,1.0
+com.fsck.k9,com.fsck.k9.Account,Data Source Layer,0.06369426751592357
+com.fsck.k9,com.fsck.k9.Account,Domain Layer,0.8535031847133758
+com.fsck.k9,com.fsck.k9.Account,Service Layer,0.07643312101910828
+com.fsck.k9,com.fsck.k9.Account,Presentation Layer,0.006369426751592357
+com.fsck.k9,com.fsck.k9.K9$ApplicationAware,Service Layer,1.0
+com.fsck.k9,com.fsck.k9.Identity,Domain Layer,1.0
+com.fsck.k9,com.fsck.k9.Account$DeletePolicy,Domain Layer,1.0
+com.fsck.k9.account,com.fsck.k9.account.AccountCreator,Service Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.FolderList$FolderListAdapter,Presentation Layer,0.42857142857142855
+com.fsck.k9.activity,com.fsck.k9.activity.FolderList$FolderListAdapter,Domain Layer,0.21428571428571427
+com.fsck.k9.activity,com.fsck.k9.activity.FolderList$FolderListAdapter,Service Layer,0.07142857142857142
+com.fsck.k9.activity,com.fsck.k9.activity.FolderList$FolderListAdapter,Data Source Layer,0.2857142857142857
+com.fsck.k9.activity,com.fsck.k9.activity.Accounts$AccountsHandler,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.MessageCompose,Presentation Layer,0.6666666666666666
+com.fsck.k9.activity,com.fsck.k9.activity.MessageCompose,Domain Layer,0.2
+com.fsck.k9.activity,com.fsck.k9.activity.MessageCompose,Service Layer,0.13333333333333333
+com.fsck.k9.activity,com.fsck.k9.activity.MessageInfoHolder,Domain Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.Search,Presentation Layer,0.75
+com.fsck.k9.activity,com.fsck.k9.activity.Search,Service Layer,0.25
+com.fsck.k9.activity,com.fsck.k9.activity.ColorPickerDialog$OnColorChangedListener,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.K9PreferenceActivity,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.MessageList$StorageListenerImplementation,Presentation Layer,0.5
+com.fsck.k9.activity,com.fsck.k9.activity.MessageList$StorageListenerImplementation,Domain Layer,0.5
+com.fsck.k9.activity,com.fsck.k9.activity.K9Activity,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.K9ActivityCommon,Data Source Layer,0.2
+com.fsck.k9.activity,com.fsck.k9.activity.K9ActivityCommon,Presentation Layer,0.8
+com.fsck.k9.activity,com.fsck.k9.activity.AccountList,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.LauncherShortcuts,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.Accounts$PasswordPromptDialog,Presentation Layer,0.8333333333333334
+com.fsck.k9.activity,com.fsck.k9.activity.Accounts$PasswordPromptDialog,Service Layer,0.16666666666666666
+com.fsck.k9.activity,com.fsck.k9.activity.Accounts$AccountClickListener,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.ColorPickerDialog,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.ChooseFolder,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.EditIdentity,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.MessageCompose$Action,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.UnreadWidgetConfiguration,Presentation Layer,0.6666666666666666
+com.fsck.k9.activity,com.fsck.k9.activity.UnreadWidgetConfiguration,Data Source Layer,0.3333333333333333
+com.fsck.k9.activity,com.fsck.k9.activity.EmailAddressList,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.K9PreferenceActivity$PreferenceChangeListener,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.Accounts$AccountsAdapter,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.AccountList$AccountsAdapter,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.FolderList$FolderClickListener,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.Accounts,Presentation Layer,0.8421052631578947
+com.fsck.k9.activity,com.fsck.k9.activity.Accounts,Service Layer,0.15789473684210525
+com.fsck.k9.activity,com.fsck.k9.activity.MessageLoaderHelper,Service Layer,0.42857142857142855
+com.fsck.k9.activity,com.fsck.k9.activity.MessageLoaderHelper,Presentation Layer,0.5714285714285714
+com.fsck.k9.activity,com.fsck.k9.activity.ConfirmationDialog,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.AlternateRecipientAdapter$AlternateRecipientListener,Domain Layer,0.5
+com.fsck.k9.activity,com.fsck.k9.activity.AlternateRecipientAdapter$AlternateRecipientListener,Presentation Layer,0.5
+com.fsck.k9.activity,com.fsck.k9.activity.FolderList$FolderListHandler,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.K9ListActivity,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.ChooseFolder$ChooseFolderHandler,Presentation Layer,0.6666666666666666
+com.fsck.k9.activity,com.fsck.k9.activity.ChooseFolder$ChooseFolderHandler,Service Layer,0.3333333333333333
+com.fsck.k9.activity,com.fsck.k9.activity.ActivityListener,Presentation Layer,0.21739130434782608
+com.fsck.k9.activity,com.fsck.k9.activity.ActivityListener,Service Layer,0.5217391304347826
+com.fsck.k9.activity,com.fsck.k9.activity.ActivityListener,Domain Layer,0.21739130434782608
+com.fsck.k9.activity,com.fsck.k9.activity.ActivityListener,Data Source Layer,0.043478260869565216
+com.fsck.k9.activity,com.fsck.k9.activity.NotificationDeleteConfirmation,Presentation Layer,0.6
+com.fsck.k9.activity,com.fsck.k9.activity.NotificationDeleteConfirmation,Service Layer,0.4
+com.fsck.k9.activity,com.fsck.k9.activity.ChooseIdentity,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.UpgradeDatabases,Presentation Layer,0.5
+com.fsck.k9.activity,com.fsck.k9.activity.UpgradeDatabases,Service Layer,0.5
+com.fsck.k9.activity,com.fsck.k9.activity.Accounts$ImportSelectionDialog,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.AlternateRecipientAdapter,Presentation Layer,0.5454545454545454
+com.fsck.k9.activity,com.fsck.k9.activity.AlternateRecipientAdapter,Domain Layer,0.45454545454545453
+com.fsck.k9.activity,com.fsck.k9.activity.MessageLoaderHelper$MessageLoaderCallbacks,Service Layer,0.625
+com.fsck.k9.activity,com.fsck.k9.activity.MessageLoaderHelper$MessageLoaderCallbacks,Presentation Layer,0.25
+com.fsck.k9.activity,com.fsck.k9.activity.MessageLoaderHelper$MessageLoaderCallbacks,Domain Layer,0.125
+com.fsck.k9.activity,com.fsck.k9.activity.K9ActivityCommon$K9ActivityMagic,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.UpgradeDatabases$UpgradeDatabaseBroadcastReceiver,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.AlternateRecipientAdapter$RecipientTokenHolder,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.FolderList,Presentation Layer,0.6153846153846154
+com.fsck.k9.activity,com.fsck.k9.activity.FolderList,Data Source Layer,0.15384615384615385
+com.fsck.k9.activity,com.fsck.k9.activity.FolderList,Service Layer,0.23076923076923078
+com.fsck.k9.activity,com.fsck.k9.activity.Accounts$SimpleDialog,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.MessageReferenceHelper,Domain Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.MessageReference,Domain Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.ManageIdentities,Presentation Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.FolderList$FolderListAdapter$FolderListFilter,Domain Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.FolderListFilter,Domain Layer,1.0
+com.fsck.k9.activity,com.fsck.k9.activity.MessageList,Presentation Layer,0.7692307692307693
+com.fsck.k9.activity,com.fsck.k9.activity.MessageList,Data Source Layer,0.038461538461538464
+com.fsck.k9.activity,com.fsck.k9.activity.MessageList,Service Layer,0.17307692307692307
+com.fsck.k9.activity,com.fsck.k9.activity.MessageList,Domain Layer,0.019230769230769232
+com.fsck.k9.activity,com.fsck.k9.activity.FolderInfoHolder,Domain Layer,0.5714285714285714
+com.fsck.k9.activity,com.fsck.k9.activity.FolderInfoHolder,Service Layer,0.42857142857142855
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.PgpEnabledErrorDialog$OnOpenPgpDisableListener,Domain Layer,1.0
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.RecipientLoader,Service Layer,0.5
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.RecipientLoader,Data Source Layer,0.5
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.PgpInlineDialog,Presentation Layer,1.0
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.PgpSignOnlyDialog,Presentation Layer,1.0
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.AttachmentPresenter$AttachmentMvpView,Service Layer,0.2222222222222222
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.AttachmentPresenter$AttachmentMvpView,Presentation Layer,0.7777777777777778
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.ComposeCryptoStatus,Service Layer,0.1111111111111111
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.ComposeCryptoStatus,Domain Layer,0.8888888888888888
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.IdentityAdapter,Presentation Layer,0.75
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.IdentityAdapter,Data Source Layer,0.125
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.IdentityAdapter,Domain Layer,0.125
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.RecipientPresenter$RecipientsChangedListener,Domain Layer,1.0
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.PgpEncryptDescriptionDialog,Presentation Layer,1.0
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.PgpEnabledErrorDialog,Service Layer,0.5
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.PgpEnabledErrorDialog,Presentation Layer,0.5
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.RecipientAdapter,Presentation Layer,0.6666666666666666
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.RecipientAdapter,Domain Layer,0.3333333333333333
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.PgpSignOnlyDialog$OnOpenPgpSignOnlyChangeListener,Service Layer,1.0
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.ComposeCryptoStatus$ComposeCryptoStatusBuilder,Domain Layer,1.0
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.MessageActions,Presentation Layer,0.6666666666666666
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.MessageActions,Service Layer,0.3333333333333333
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.PgpInlineDialog$OnOpenPgpInlineChangeListener,Domain Layer,1.0
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.RecipientMvpView,Presentation Layer,0.8775510204081632
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.RecipientMvpView,Domain Layer,0.12244897959183673
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.RecipientPresenter,Presentation Layer,0.4411764705882353
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.RecipientPresenter,Service Layer,0.3235294117647059
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.RecipientPresenter,Domain Layer,0.20588235294117646
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.RecipientPresenter,Data Source Layer,0.029411764705882353
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.AttachmentPresenter,Service Layer,0.36363636363636365
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.AttachmentPresenter,Presentation Layer,0.5454545454545454
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.AttachmentPresenter,Domain Layer,0.09090909090909091
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.AttachmentPresenter$AttachmentsChangedListener,Service Layer,0.5
+com.fsck.k9.activity.compose,com.fsck.k9.activity.compose.AttachmentPresenter$AttachmentsChangedListener,Domain Layer,0.5
+com.fsck.k9.activity.loader,com.fsck.k9.activity.loader.AttachmentContentLoader,Data Source Layer,1.0
+com.fsck.k9.activity.loader,com.fsck.k9.activity.loader.AttachmentInfoLoader,Data Source Layer,1.0
+com.fsck.k9.activity.misc,com.fsck.k9.activity.misc.ContactPictureLoader$FallbackGlideModelLoader,Data Source Layer,1.0
+com.fsck.k9.activity.misc,com.fsck.k9.activity.misc.ContactPictureLoader$FallbackGlideBitmapDecoder,Data Source Layer,0.5
+com.fsck.k9.activity.misc,com.fsck.k9.activity.misc.ContactPictureLoader$FallbackGlideBitmapDecoder,Domain Layer,0.5
+com.fsck.k9.activity.misc,com.fsck.k9.activity.misc.ContactPictureLoader,Data Source Layer,1.0
+com.fsck.k9.activity.misc,com.fsck.k9.activity.misc.ContactPictureLoader$FallbackGlideParams,Domain Layer,1.0
+com.fsck.k9.activity.misc,com.fsck.k9.activity.misc.SwipeGestureDetector$OnSwipeGestureListener,Presentation Layer,1.0
+com.fsck.k9.activity.misc,com.fsck.k9.activity.misc.Attachment,Domain Layer,0.6666666666666666
+com.fsck.k9.activity.misc,com.fsck.k9.activity.misc.Attachment,Data Source Layer,0.16666666666666666
+com.fsck.k9.activity.misc,com.fsck.k9.activity.misc.Attachment,Presentation Layer,0.16666666666666666
+com.fsck.k9.activity.misc,com.fsck.k9.activity.misc.ExtendedAsyncTask,Presentation Layer,1.0
+com.fsck.k9.activity.misc,com.fsck.k9.activity.misc.SwipeGestureDetector,Presentation Layer,1.0
+com.fsck.k9.activity.misc,com.fsck.k9.activity.misc.NonConfigurationInstance,Service Layer,0.5
+com.fsck.k9.activity.misc,com.fsck.k9.activity.misc.NonConfigurationInstance,Presentation Layer,0.5
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.OpenPgpAppSelectDialog,Presentation Layer,0.6666666666666666
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.OpenPgpAppSelectDialog,Service Layer,0.3333333333333333
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.OpenPgpAppSelectDialog$ApgDeprecationDialogFragment,Presentation Layer,1.0
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AccountSetupOptions,Presentation Layer,1.0
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AuthTypeAdapter,Domain Layer,0.3333333333333333
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AuthTypeAdapter,Presentation Layer,0.6666666666666666
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.OpenPgpAppSelectDialog$OpenPgpProviderEntry,Domain Layer,1.0
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AccountSetupAccountType,Service Layer,0.3333333333333333
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AccountSetupAccountType,Presentation Layer,0.6666666666666666
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AccountSetupOutgoing,Presentation Layer,0.875
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AccountSetupOutgoing,Service Layer,0.125
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AccountSettings,Presentation Layer,1.0
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.SpinnerOption,Domain Layer,0.5
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.SpinnerOption,Presentation Layer,0.5
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.FolderSettings,Domain Layer,0.3333333333333333
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.FolderSettings,Presentation Layer,0.6666666666666666
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AccountSetupCheckSettings,Presentation Layer,1.0
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AccountSetupComposition,Presentation Layer,1.0
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.ConnectionSecurityAdapter,Presentation Layer,0.3333333333333333
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.ConnectionSecurityAdapter,Service Layer,0.6666666666666666
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.WelcomeMessage,Presentation Layer,1.0
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AccountSetupIncoming,Service Layer,0.2857142857142857
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AccountSetupIncoming,Presentation Layer,0.5714285714285714
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AccountSetupIncoming,Domain Layer,0.14285714285714285
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.FontSizeSettings,Service Layer,0.3333333333333333
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.FontSizeSettings,Presentation Layer,0.6666666666666666
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AccountSetupNames,Presentation Layer,1.0
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.SliderPreference,Domain Layer,0.6666666666666666
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.SliderPreference,Presentation Layer,0.3333333333333333
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.ConnectionSecurityHolder,Utility Layer,1.0
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.Prefs,Presentation Layer,1.0
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.OpenPgpAppSelectDialog$OpenPgpAppSelectFragment,Presentation Layer,1.0
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AuthTypeHolder,Domain Layer,1.0
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AccountSetupBasics,Presentation Layer,0.8181818181818182
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AccountSetupBasics,Service Layer,0.09090909090909091
+com.fsck.k9.activity.setup,com.fsck.k9.activity.setup.AccountSetupBasics,Domain Layer,0.09090909090909091
+com.fsck.k9.autocrypt,com.fsck.k9.autocrypt.AutocryptHeaderParser,Domain Layer,1.0
+com.fsck.k9.autocrypt,com.fsck.k9.autocrypt.AutocryptOperations,Service Layer,0.75
+com.fsck.k9.autocrypt,com.fsck.k9.autocrypt.AutocryptOperations,Domain Layer,0.25
+com.fsck.k9.autocrypt,com.fsck.k9.autocrypt.AutocryptOpenPgpApiInteractor,Domain Layer,0.5
+com.fsck.k9.autocrypt,com.fsck.k9.autocrypt.AutocryptOpenPgpApiInteractor,Data Source Layer,0.5
+com.fsck.k9.autocrypt,com.fsck.k9.autocrypt.AutocryptHeader,Domain Layer,1.0
+com.fsck.k9.cache,com.fsck.k9.cache.TemporaryAttachmentStore,Data Source Layer,1.0
+com.fsck.k9.cache,com.fsck.k9.cache.EmailProviderCacheCursor,Domain Layer,0.7
+com.fsck.k9.cache,com.fsck.k9.cache.EmailProviderCacheCursor,Data Source Layer,0.3
+com.fsck.k9.cache,com.fsck.k9.cache.EmailProviderCache,Data Source Layer,0.1
+com.fsck.k9.cache,com.fsck.k9.cache.EmailProviderCache,Service Layer,0.3
+com.fsck.k9.cache,com.fsck.k9.cache.EmailProviderCache,Domain Layer,0.6
+com.fsck.k9.controller,com.fsck.k9.controller.ProgressBodyFactory$ProgressListener,Service Layer,1.0
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerPushReceiver,Service Layer,0.8
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerPushReceiver,Data Source Layer,0.1
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerPushReceiver,Presentation Layer,0.1
+com.fsck.k9.controller,com.fsck.k9.controller.MemorizingMessagingListener,Service Layer,0.4166666666666667
+com.fsck.k9.controller,com.fsck.k9.controller.MemorizingMessagingListener,Domain Layer,0.5833333333333334
+com.fsck.k9.controller,com.fsck.k9.controller.SimpleMessagingListener,Service Layer,0.7142857142857143
+com.fsck.k9.controller,com.fsck.k9.controller.SimpleMessagingListener,Domain Layer,0.23809523809523808
+com.fsck.k9.controller,com.fsck.k9.controller.SimpleMessagingListener,Presentation Layer,0.023809523809523808
+com.fsck.k9.controller,com.fsck.k9.controller.SimpleMessagingListener,Data Source Layer,0.023809523809523808
+com.fsck.k9.controller,com.fsck.k9.controller.PendingCommandSerializer,Service Layer,0.3333333333333333
+com.fsck.k9.controller,com.fsck.k9.controller.PendingCommandSerializer,Data Source Layer,0.6666666666666666
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerCommands$PendingMoveOrCopy,Service Layer,0.75
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerCommands$PendingMoveOrCopy,Domain Layer,0.25
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerCommands$PendingEmptyTrash,Domain Layer,0.3333333333333333
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerCommands$PendingEmptyTrash,Service Layer,0.6666666666666666
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerCommands$PendingMarkAllAsRead,Domain Layer,0.3333333333333333
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerCommands$PendingMarkAllAsRead,Service Layer,0.6666666666666666
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerCommands$PendingCommand,Domain Layer,0.5
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerCommands$PendingCommand,Service Layer,0.5
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingListener,Service Layer,0.6190476190476191
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingListener,Domain Layer,0.2857142857142857
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingListener,Data Source Layer,0.07142857142857142
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingListener,Presentation Layer,0.023809523809523808
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingController$MessageActor,Domain Layer,1.0
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerCommands$PendingAppend,Domain Layer,0.6666666666666666
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerCommands$PendingAppend,Service Layer,0.3333333333333333
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingController$Command,Domain Layer,1.0
+com.fsck.k9.controller,com.fsck.k9.controller.UidReverseComparator,Domain Layer,1.0
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingController,Service Layer,0.835820895522388
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingController,Domain Layer,0.11940298507462686
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingController,Presentation Layer,0.014925373134328358
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingController,Data Source Layer,0.029850746268656716
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerCommands$PendingExpunge,Service Layer,0.6666666666666666
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerCommands$PendingExpunge,Domain Layer,0.3333333333333333
+com.fsck.k9.controller,com.fsck.k9.controller.MessagingControllerCommands$PendingSetFlag,Service Layer,1.0
+com.fsck.k9.crypto,com.fsck.k9.crypto.MessageCryptoStructureDetector,Domain Layer,0.8888888888888888
+com.fsck.k9.crypto,com.fsck.k9.crypto.MessageCryptoStructureDetector,Data Source Layer,0.1111111111111111
+com.fsck.k9.crypto,com.fsck.k9.crypto.OpenPgpApiHelper,Service Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragment,Presentation Layer,0.532258064516129
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragment,Domain Layer,0.27419354838709675
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragment,Service Layer,0.14516129032258066
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragment,Utility Layer,0.016129032258064516
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragment,Data Source Layer,0.03225806451612903
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragmentComparators$SenderComparator,Data Source Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.ProgressDialogFragment,Presentation Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.AttachmentDownloadDialogFragment,Data Source Layer,0.25
+com.fsck.k9.fragment,com.fsck.k9.fragment.AttachmentDownloadDialogFragment,Presentation Layer,0.75
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragmentComparators$ArrivalComparator,Data Source Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.ProgressDialogFragment$CancelListener,Presentation Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragment$MessageListActivityListener,Presentation Layer,0.9
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragment$MessageListActivityListener,Domain Layer,0.1
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListAdapter,Presentation Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragmentComparators$FlaggedComparator,Data Source Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragmentComparators$SubjectComparator,Data Source Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragmentComparators$AttachmentComparator,Data Source Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragmentComparators$UnreadComparator,Data Source Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListHandler,Service Layer,0.4444444444444444
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListHandler,Presentation Layer,0.5555555555555556
+com.fsck.k9.fragment,com.fsck.k9.fragment.AttachmentDownloadDialogFragment$AttachmentDownloadCancelListener,Domain Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.ConfirmationDialogFragment,Presentation Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageViewHolder,Presentation Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragmentComparators$ComparatorChain,Domain Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.ConfirmationDialogFragment$ConfirmationDialogFragmentListener,Presentation Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragmentComparators$DateComparator,Data Source Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragmentComparators$ReverseIdComparator,Data Source Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragment$MessageListFragmentListener,Presentation Layer,0.29411764705882354
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragment$MessageListFragmentListener,Domain Layer,0.35294117647058826
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragment$MessageListFragmentListener,Service Layer,0.35294117647058826
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragment$ActionModeCallback,Presentation Layer,1.0
+com.fsck.k9.fragment,com.fsck.k9.fragment.MessageListFragmentComparators$ReverseComparator,Domain Layer,1.0
+com.fsck.k9.helper,com.fsck.k9.helper.MergeCursor,Data Source Layer,0.7317073170731707
+com.fsck.k9.helper,com.fsck.k9.helper.MergeCursor,Domain Layer,0.21951219512195122
+com.fsck.k9.helper,com.fsck.k9.helper.MergeCursor,Presentation Layer,0.024390243902439025
+com.fsck.k9.helper,com.fsck.k9.helper.MergeCursor,Service Layer,0.024390243902439025
+com.fsck.k9.helper,com.fsck.k9.helper.EmailHelper,Domain Layer,1.0
+com.fsck.k9.helper,com.fsck.k9.helper.IdentityHelper,Service Layer,1.0
+com.fsck.k9.helper,com.fsck.k9.helper.MergeCursorWithUniqueId,Data Source Layer,0.75
+com.fsck.k9.helper,com.fsck.k9.helper.MergeCursorWithUniqueId,Presentation Layer,0.25
+com.fsck.k9.helper,com.fsck.k9.helper.UrlEncodingHelper,Utility Layer,1.0
+com.fsck.k9.helper,com.fsck.k9.helper.MessageHelper,Domain Layer,0.6666666666666666
+com.fsck.k9.helper,com.fsck.k9.helper.MessageHelper,Service Layer,0.16666666666666666
+com.fsck.k9.helper,com.fsck.k9.helper.MessageHelper,Utility Layer,0.16666666666666666
+com.fsck.k9.helper,com.fsck.k9.helper.FileHelper,Data Source Layer,0.6666666666666666
+com.fsck.k9.helper,com.fsck.k9.helper.FileHelper,Utility Layer,0.16666666666666666
+com.fsck.k9.helper,com.fsck.k9.helper.FileHelper,Service Layer,0.16666666666666666
+com.fsck.k9.helper,com.fsck.k9.helper.K9AlarmManager,Data Source Layer,0.6666666666666666
+com.fsck.k9.helper,com.fsck.k9.helper.K9AlarmManager,Service Layer,0.3333333333333333
+com.fsck.k9.helper,com.fsck.k9.helper.UnreadWidgetProperties,Service Layer,0.3333333333333333
+com.fsck.k9.helper,com.fsck.k9.helper.UnreadWidgetProperties,Data Source Layer,0.16666666666666666
+com.fsck.k9.helper,com.fsck.k9.helper.UnreadWidgetProperties,Domain Layer,0.5
+com.fsck.k9.helper,com.fsck.k9.helper.SizeFormatter,Utility Layer,1.0
+com.fsck.k9.helper,com.fsck.k9.helper.FileBrowserHelper,Presentation Layer,0.6666666666666666
+com.fsck.k9.helper,com.fsck.k9.helper.FileBrowserHelper,Data Source Layer,0.3333333333333333
+com.fsck.k9.helper,com.fsck.k9.helper.ParcelableUtil,Data Source Layer,1.0
+com.fsck.k9.helper,com.fsck.k9.helper.RetainFragment,Data Source Layer,0.5714285714285714
+com.fsck.k9.helper,com.fsck.k9.helper.RetainFragment,Presentation Layer,0.2857142857142857
+com.fsck.k9.helper,com.fsck.k9.helper.RetainFragment,Domain Layer,0.14285714285714285
+com.fsck.k9.helper,com.fsck.k9.helper.FileBrowserHelper$FileBrowserFailOverCallback,Domain Layer,0.5
+com.fsck.k9.helper,com.fsck.k9.helper.FileBrowserHelper$FileBrowserFailOverCallback,Presentation Layer,0.5
+com.fsck.k9.helper,com.fsck.k9.helper.MailTo,Domain Layer,0.7142857142857143
+com.fsck.k9.helper,com.fsck.k9.helper.MailTo,Data Source Layer,0.14285714285714285
+com.fsck.k9.helper,com.fsck.k9.helper.MailTo,Utility Layer,0.14285714285714285
+com.fsck.k9.helper,com.fsck.k9.helper.Contacts,Data Source Layer,0.6666666666666666
+com.fsck.k9.helper,com.fsck.k9.helper.Contacts,Domain Layer,0.1111111111111111
+com.fsck.k9.helper,com.fsck.k9.helper.Contacts,Presentation Layer,0.1111111111111111
+com.fsck.k9.helper,com.fsck.k9.helper.Contacts,Service Layer,0.1111111111111111
+com.fsck.k9.helper,com.fsck.k9.helper.SimpleTextWatcher,Presentation Layer,1.0
+com.fsck.k9.helper,com.fsck.k9.helper.ContactPicture,Presentation Layer,1.0
+com.fsck.k9.helper,com.fsck.k9.helper.ClipboardManager,Data Source Layer,1.0
+com.fsck.k9.helper,com.fsck.k9.helper.MailTo$CaseInsensitiveParamWrapper,Domain Layer,1.0
+com.fsck.k9.helper,com.fsck.k9.helper.ReplyToParser,Service Layer,0.5
+com.fsck.k9.helper,com.fsck.k9.helper.ReplyToParser,Domain Layer,0.5
+com.fsck.k9.helper,com.fsck.k9.helper.ExceptionHelper,Service Layer,1.0
+com.fsck.k9.helper,com.fsck.k9.helper.Utility,Data Source Layer,0.1
+com.fsck.k9.helper,com.fsck.k9.helper.Utility,Utility Layer,0.4
+com.fsck.k9.helper,com.fsck.k9.helper.Utility,Service Layer,0.15
+com.fsck.k9.helper,com.fsck.k9.helper.Utility,Presentation Layer,0.15
+com.fsck.k9.helper,com.fsck.k9.helper.Utility,Domain Layer,0.2
+com.fsck.k9.helper,com.fsck.k9.helper.Preconditions,Domain Layer,1.0
+com.fsck.k9.helper.jsoup,com.fsck.k9.helper.jsoup.NodeFilter,Service Layer,1.0
+com.fsck.k9.helper.jsoup,com.fsck.k9.helper.jsoup.AdvancedNodeTraversor,Service Layer,1.0
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$SamsungGalaxySStorageProvider,Presentation Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$SamsungGalaxySStorageProvider,Data Source Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$ExternalStorageProvider,Data Source Layer,0.75
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$ExternalStorageProvider,Service Layer,0.125
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$ExternalStorageProvider,Presentation Layer,0.125
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LocalStore,Domain Layer,0.2413793103448276
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LocalStore,Data Source Layer,0.5862068965517241
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LocalStore,Service Layer,0.1724137931034483
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LockableDatabase$StorageListener,Data Source Layer,1.0
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LockableDatabase$DbCallback,Data Source Layer,1.0
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.CryptoResultAnnotation,Domain Layer,0.7619047619047619
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.CryptoResultAnnotation,Utility Layer,0.047619047619047616
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.CryptoResultAnnotation,Service Layer,0.09523809523809523
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.CryptoResultAnnotation,Presentation Layer,0.09523809523809523
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.AttachmentViewInfo,Domain Layer,1.0
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.DatabasePreviewType,Service Layer,0.25
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.DatabasePreviewType,Data Source Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.DatabasePreviewType,Domain Layer,0.25
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LocalFolder$MoreMessages,Data Source Layer,1.0
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LocalMimeMessage,Domain Layer,1.0
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$HtcIncredibleStorageProvider,Presentation Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$HtcIncredibleStorageProvider,Data Source Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.MessageHelper,Domain Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.MessageHelper,Utility Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StoreSchemaDefinition$RealMigrationsHelper,Data Source Layer,1.0
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LockableDatabase,Data Source Layer,0.2857142857142857
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LockableDatabase,Service Layer,0.42857142857142855
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LockableDatabase,Domain Layer,0.2857142857142857
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LocalFolder,Data Source Layer,0.23684210526315788
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LocalFolder,Domain Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LocalFolder,Service Layer,0.2631578947368421
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.MessageRemovalListener,Domain Layer,1.0
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.TempFileBody,Data Source Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.TempFileBody,Domain Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.MimePartStreamParser$PartBuilder,Domain Layer,0.6923076923076923
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.MimePartStreamParser$PartBuilder,Service Layer,0.15384615384615385
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.MimePartStreamParser$PartBuilder,Data Source Layer,0.15384615384615385
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LockableDatabase$SchemaDefinition,Domain Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LockableDatabase$SchemaDefinition,Data Source Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.MessageViewInfoExtractor,Service Layer,1.0
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$InternalStorageProvider,Data Source Layer,0.625
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$InternalStorageProvider,Domain Layer,0.125
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$InternalStorageProvider,Presentation Layer,0.125
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$InternalStorageProvider,Service Layer,0.125
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.MessageViewInfo,Domain Layer,1.0
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.AttachmentResolver,Domain Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.AttachmentResolver,Data Source Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.DeferredFileBody,Domain Layer,0.5714285714285714
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.DeferredFileBody,Data Source Layer,0.42857142857142855
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.FileBackedBody,Data Source Layer,0.4
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.FileBackedBody,Domain Layer,0.6
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LocalBodyPart,Domain Layer,1.0
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$FixedStorageProviderBase,Data Source Layer,0.6666666666666666
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$FixedStorageProviderBase,Domain Layer,0.16666666666666666
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$FixedStorageProviderBase,Service Layer,0.16666666666666666
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$StorageProvider,Service Layer,0.25
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$StorageProvider,Data Source Layer,0.375
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$StorageProvider,Domain Layer,0.375
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LocalMessage,Domain Layer,0.8148148148148148
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LocalMessage,Data Source Layer,0.1111111111111111
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LocalMessage,Service Layer,0.07407407407407407
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.MimePartStreamParser,Data Source Layer,1.0
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$StorageListener,Data Source Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager$StorageListener,Service Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LocalStore$BatchSetSelection,Domain Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LocalStore$BatchSetSelection,Data Source Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.LocalPart,Domain Layer,1.0
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager,Domain Layer,0.2857142857142857
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager,Service Layer,0.2857142857142857
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StorageManager,Data Source Layer,0.42857142857142855
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.BinaryAttachmentBody,Domain Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.BinaryAttachmentBody,Data Source Layer,0.5
+com.fsck.k9.mailstore,com.fsck.k9.mailstore.StoreSchemaDefinition,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo61,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo44,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo54,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo42,Service Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo37,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo60,Service Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo40,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo32,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo52,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo36,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo51,Service Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo35,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo45,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo33,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo43,Service Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo46,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo39,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo51$MimeStructureState,Domain Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationsHelper,Data Source Layer,0.4
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationsHelper,Presentation Layer,0.2
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationsHelper,Domain Layer,0.2
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationsHelper,Service Layer,0.2
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo48,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo53,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo50,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo41,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo49,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.Migrations,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo47,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo31,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo30,Data Source Layer,1.0
+com.fsck.k9.mailstore.migrations,com.fsck.k9.mailstore.migrations.MigrationTo34,Data Source Layer,1.0
+com.fsck.k9.mailstore.util,com.fsck.k9.mailstore.util.DeferredFileOutputStream,Domain Layer,1.0
+com.fsck.k9.mailstore.util,com.fsck.k9.mailstore.util.FileFactory,Data Source Layer,1.0
+com.fsck.k9.mailstore.util,com.fsck.k9.mailstore.util.FlowedMessageUtils,Service Layer,0.25
+com.fsck.k9.mailstore.util,com.fsck.k9.mailstore.util.FlowedMessageUtils,Utility Layer,0.5
+com.fsck.k9.mailstore.util,com.fsck.k9.mailstore.util.FlowedMessageUtils,Domain Layer,0.25
+com.fsck.k9.message,com.fsck.k9.message.IdentityHeaderBuilder,Domain Layer,1.0
+com.fsck.k9.message,com.fsck.k9.message.MessageBuilder$Callback,Service Layer,0.5
+com.fsck.k9.message,com.fsck.k9.message.MessageBuilder$Callback,Presentation Layer,0.25
+com.fsck.k9.message,com.fsck.k9.message.MessageBuilder$Callback,Domain Layer,0.25
+com.fsck.k9.message,com.fsck.k9.message.SimpleMessageBuilder,Service Layer,1.0
+com.fsck.k9.message,com.fsck.k9.message.AutocryptStatusInteractor$RecipientAutocryptStatus,Domain Layer,1.0
+com.fsck.k9.message,com.fsck.k9.message.PgpMessageBuilder,Service Layer,0.5
+com.fsck.k9.message,com.fsck.k9.message.PgpMessageBuilder,Domain Layer,0.25
+com.fsck.k9.message,com.fsck.k9.message.PgpMessageBuilder,Data Source Layer,0.25
+com.fsck.k9.message,com.fsck.k9.message.ComposePgpEnableByDefaultDecider,Domain Layer,1.0
+com.fsck.k9.message,com.fsck.k9.message.ComposePgpInlineDecider,Domain Layer,1.0
+com.fsck.k9.message,com.fsck.k9.message.AutocryptStatusInteractor$RecipientAutocryptStatusType,Domain Layer,1.0
+com.fsck.k9.message,com.fsck.k9.message.IdentityField,Domain Layer,1.0
+com.fsck.k9.message,com.fsck.k9.message.TextBodyBuilder,Domain Layer,0.7
+com.fsck.k9.message,com.fsck.k9.message.TextBodyBuilder,Service Layer,0.2
+com.fsck.k9.message,com.fsck.k9.message.TextBodyBuilder,Presentation Layer,0.1
+com.fsck.k9.message,com.fsck.k9.message.AutocryptStatusInteractor,Service Layer,1.0
+com.fsck.k9.message,com.fsck.k9.message.IdentityHeaderParser,Domain Layer,1.0
+com.fsck.k9.message,com.fsck.k9.message.MessageBuilder,Domain Layer,0.8387096774193549
+com.fsck.k9.message,com.fsck.k9.message.MessageBuilder,Presentation Layer,0.03225806451612903
+com.fsck.k9.message,com.fsck.k9.message.MessageBuilder,Service Layer,0.12903225806451613
+com.fsck.k9.message.extractors,com.fsck.k9.message.extractors.MessagePreviewCreator,Service Layer,1.0
+com.fsck.k9.message.extractors,com.fsck.k9.message.extractors.EncryptionDetector,Domain Layer,1.0
+com.fsck.k9.message.extractors,com.fsck.k9.message.extractors.AttachmentCounter,Domain Layer,0.5
+com.fsck.k9.message.extractors,com.fsck.k9.message.extractors.AttachmentCounter,Service Layer,0.5
+com.fsck.k9.message.extractors,com.fsck.k9.message.extractors.AttachmentInfoExtractor,Data Source Layer,0.5
+com.fsck.k9.message.extractors,com.fsck.k9.message.extractors.AttachmentInfoExtractor,Domain Layer,0.5
+com.fsck.k9.message.extractors,com.fsck.k9.message.extractors.PreviewTextExtractor,Service Layer,1.0
+com.fsck.k9.message.extractors,com.fsck.k9.message.extractors.TextPartFinder,Domain Layer,1.0
+com.fsck.k9.message.extractors,com.fsck.k9.message.extractors.BodyTextExtractor,Service Layer,1.0
+com.fsck.k9.message.extractors,com.fsck.k9.message.extractors.PreviewResult,Domain Layer,0.7142857142857143
+com.fsck.k9.message.extractors,com.fsck.k9.message.extractors.PreviewResult,Presentation Layer,0.14285714285714285
+com.fsck.k9.message.extractors,com.fsck.k9.message.extractors.PreviewResult,Utility Layer,0.14285714285714285
+com.fsck.k9.message.extractors,com.fsck.k9.message.extractors.MessageFulltextCreator,Data Source Layer,0.5
+com.fsck.k9.message.extractors,com.fsck.k9.message.extractors.MessageFulltextCreator,Domain Layer,0.5
+com.fsck.k9.message.html,com.fsck.k9.message.html.HtmlProcessor,Utility Layer,0.3333333333333333
+com.fsck.k9.message.html,com.fsck.k9.message.html.HtmlProcessor,Domain Layer,0.6666666666666666
+com.fsck.k9.message.html,com.fsck.k9.message.html.UriLinkifier,Presentation Layer,1.0
+com.fsck.k9.message.html,com.fsck.k9.message.html.UriParser,Service Layer,1.0
+com.fsck.k9.message.html,com.fsck.k9.message.html.HeadCleaner,Utility Layer,1.0
+com.fsck.k9.message.html,com.fsck.k9.message.html.HttpUriParser,Data Source Layer,1.0
+com.fsck.k9.message.html,com.fsck.k9.message.html.HtmlConverter,Presentation Layer,0.5714285714285714
+com.fsck.k9.message.html,com.fsck.k9.message.html.HtmlConverter,Service Layer,0.14285714285714285
+com.fsck.k9.message.html,com.fsck.k9.message.html.HtmlConverter,Domain Layer,0.14285714285714285
+com.fsck.k9.message.html,com.fsck.k9.message.html.HtmlConverter,Utility Layer,0.14285714285714285
+com.fsck.k9.message.html,com.fsck.k9.message.html.EthereumUriParser,Presentation Layer,1.0
+com.fsck.k9.message.html,com.fsck.k9.message.html.BitcoinUriParser,Service Layer,1.0
+com.fsck.k9.message.html,com.fsck.k9.message.html.HtmlSanitizer,Data Source Layer,1.0
+com.fsck.k9.message.html,com.fsck.k9.message.html.HeadCleaner$CleaningVisitor,Domain Layer,1.0
+com.fsck.k9.message.html,com.fsck.k9.message.html.HtmlConverter$ListTagHandler,Presentation Layer,1.0
+com.fsck.k9.message.html,com.fsck.k9.message.html.HtmlConverter$HtmlToTextTagHandler,Utility Layer,1.0
+com.fsck.k9.message.quote,com.fsck.k9.message.quote.InsertableHtmlContent,Domain Layer,0.9230769230769231
+com.fsck.k9.message.quote,com.fsck.k9.message.quote.InsertableHtmlContent,Presentation Layer,0.07692307692307693
+com.fsck.k9.message.quote,com.fsck.k9.message.quote.TextQuoteCreator,Service Layer,1.0
+com.fsck.k9.message.quote,com.fsck.k9.message.quote.HtmlQuoteCreator,Service Layer,1.0
+com.fsck.k9.message.signature,com.fsck.k9.message.signature.HtmlSignatureRemover,Domain Layer,1.0
+com.fsck.k9.message.signature,com.fsck.k9.message.signature.HtmlSignatureRemover$StripSignatureFilter,Domain Layer,0.5
+com.fsck.k9.message.signature,com.fsck.k9.message.signature.HtmlSignatureRemover$StripSignatureFilter,Utility Layer,0.5
+com.fsck.k9.message.signature,com.fsck.k9.message.signature.TextSignatureRemover,Domain Layer,1.0
+com.fsck.k9.notification,com.fsck.k9.notification.CertificateErrorNotifications,Data Source Layer,0.5
+com.fsck.k9.notification,com.fsck.k9.notification.CertificateErrorNotifications,Presentation Layer,0.5
+com.fsck.k9.notification,com.fsck.k9.notification.SendFailedNotifications,Presentation Layer,0.5
+com.fsck.k9.notification,com.fsck.k9.notification.SendFailedNotifications,Data Source Layer,0.5
+com.fsck.k9.notification,com.fsck.k9.notification.NotificationContentCreator,Service Layer,1.0
+com.fsck.k9.notification,com.fsck.k9.notification.NotificationIds,Utility Layer,1.0
+com.fsck.k9.notification,com.fsck.k9.notification.NotificationController,Domain Layer,0.3125
+com.fsck.k9.notification,com.fsck.k9.notification.NotificationController,Utility Layer,0.0625
+com.fsck.k9.notification,com.fsck.k9.notification.NotificationController,Service Layer,0.3125
+com.fsck.k9.notification,com.fsck.k9.notification.NotificationController,Presentation Layer,0.25
+com.fsck.k9.notification,com.fsck.k9.notification.NotificationController,Data Source Layer,0.0625
+com.fsck.k9.notification,com.fsck.k9.notification.DeviceNotifications,Service Layer,1.0
+com.fsck.k9.notification,com.fsck.k9.notification.NotificationData,Domain Layer,0.6428571428571429
+com.fsck.k9.notification,com.fsck.k9.notification.NotificationData,Data Source Layer,0.07142857142857142
+com.fsck.k9.notification,com.fsck.k9.notification.NotificationData,Service Layer,0.2857142857142857
+com.fsck.k9.notification,com.fsck.k9.notification.NewMailNotifications,Service Layer,1.0
+com.fsck.k9.notification,com.fsck.k9.notification.WearNotifications,Service Layer,1.0
+com.fsck.k9.notification,com.fsck.k9.notification.AuthenticationErrorNotifications,Presentation Layer,0.5
+com.fsck.k9.notification,com.fsck.k9.notification.AuthenticationErrorNotifications,Data Source Layer,0.5
+com.fsck.k9.notification,com.fsck.k9.notification.SyncNotifications,Data Source Layer,0.5
+com.fsck.k9.notification,com.fsck.k9.notification.SyncNotifications,Presentation Layer,0.5
+com.fsck.k9.notification,com.fsck.k9.notification.RemoveNotificationResult,Service Layer,0.2857142857142857
+com.fsck.k9.notification,com.fsck.k9.notification.RemoveNotificationResult,Utility Layer,0.14285714285714285
+com.fsck.k9.notification,com.fsck.k9.notification.RemoveNotificationResult,Domain Layer,0.42857142857142855
+com.fsck.k9.notification,com.fsck.k9.notification.RemoveNotificationResult,Data Source Layer,0.14285714285714285
+com.fsck.k9.notification,com.fsck.k9.notification.NotificationActionCreator,Service Layer,0.875
+com.fsck.k9.notification,com.fsck.k9.notification.NotificationActionCreator,Presentation Layer,0.125
+com.fsck.k9.notification,com.fsck.k9.notification.LockScreenNotification,Presentation Layer,0.5
+com.fsck.k9.notification,com.fsck.k9.notification.LockScreenNotification,Service Layer,0.5
+com.fsck.k9.notification,com.fsck.k9.notification.NotificationGroupKeys,Utility Layer,1.0
+com.fsck.k9.notification,com.fsck.k9.notification.NotificationActionService,Service Layer,1.0
+com.fsck.k9.notification,com.fsck.k9.notification.AddNotificationResult,Service Layer,0.4
+com.fsck.k9.notification,com.fsck.k9.notification.AddNotificationResult,Domain Layer,0.6
+com.fsck.k9.power,com.fsck.k9.power.DeviceIdleManager,Presentation Layer,0.6666666666666666
+com.fsck.k9.power,com.fsck.k9.power.DeviceIdleManager,Service Layer,0.3333333333333333
+com.fsck.k9.power,com.fsck.k9.power.DozeChecker,Domain Layer,1.0
+com.fsck.k9.power,com.fsck.k9.power.DeviceIdleReceiver,Service Layer,1.0
+com.fsck.k9.power,com.fsck.k9.power.DeviceIdleManager$RealDeviceIdleManager,Service Layer,0.5
+com.fsck.k9.power,com.fsck.k9.power.DeviceIdleManager$RealDeviceIdleManager,Data Source Layer,0.5
+com.fsck.k9.power,com.fsck.k9.power.DeviceIdleManager$NoOpDeviceIdleManager,Service Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.FolderSettings,Service Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.GlobalSettings$DirectorySetting,Data Source Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.GlobalSettings$SettingsUpgraderV12,Service Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.Settings$BooleanSetting,Service Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.Settings$PseudoEnumSetting,Domain Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.SettingsExporter,Data Source Layer,0.3333333333333333
+com.fsck.k9.preferences,com.fsck.k9.preferences.SettingsExporter,Service Layer,0.3333333333333333
+com.fsck.k9.preferences,com.fsck.k9.preferences.SettingsExporter,Utility Layer,0.3333333333333333
+com.fsck.k9.preferences,com.fsck.k9.preferences.GlobalSettings$LanguageSetting,Domain Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.Settings$EnumSetting,Data Source Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.CheckBoxListPreference,Domain Layer,0.6666666666666666
+com.fsck.k9.preferences,com.fsck.k9.preferences.CheckBoxListPreference,Presentation Layer,0.3333333333333333
+com.fsck.k9.preferences,com.fsck.k9.preferences.Settings,Service Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.GlobalSettings$TimeSetting,Domain Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.SettingsImporter$ImportedServerSettings,Domain Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.Settings$ColorSetting,Domain Layer,0.6666666666666666
+com.fsck.k9.preferences,com.fsck.k9.preferences.Settings$ColorSetting,Utility Layer,0.3333333333333333
+com.fsck.k9.preferences,com.fsck.k9.preferences.AccountSettings$RingtoneSetting,Domain Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.AccountSettings$DeletePolicySetting,Data Source Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.Settings$IntegerRangeSetting,Domain Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.Settings$WebFontSizeSetting,Data Source Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.GlobalSettings$SubThemeSetting,Domain Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.GlobalSettings,Service Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.AccountSettings$StringResourceSetting,Domain Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.AccountSettings$IntegerResourceSetting,Service Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.GlobalSettings$SettingsUpgraderV31,Service Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.AccountSettings$StorageProviderSetting,Domain Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.Settings$SettingsUpgrader,Service Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.StorageEditor,Data Source Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.GlobalSettings$SettingsUpgraderV24,Service Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.SettingsImporter,Service Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.IdentitySettings$SignatureSetting,Data Source Layer,0.5
+com.fsck.k9.preferences,com.fsck.k9.preferences.IdentitySettings$SignatureSetting,Domain Layer,0.5
+com.fsck.k9.preferences,com.fsck.k9.preferences.Settings$SettingsDescription,Domain Layer,0.8
+com.fsck.k9.preferences,com.fsck.k9.preferences.Settings$SettingsDescription,Utility Layer,0.2
+com.fsck.k9.preferences,com.fsck.k9.preferences.IdentitySettings,Service Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.IdentitySettings$OptionalEmailAddressSetting,Domain Layer,0.5
+com.fsck.k9.preferences,com.fsck.k9.preferences.IdentitySettings$OptionalEmailAddressSetting,Service Layer,0.25
+com.fsck.k9.preferences,com.fsck.k9.preferences.IdentitySettings$OptionalEmailAddressSetting,Utility Layer,0.25
+com.fsck.k9.preferences,com.fsck.k9.preferences.Storage,Domain Layer,0.2222222222222222
+com.fsck.k9.preferences,com.fsck.k9.preferences.Storage,Data Source Layer,0.7777777777777778
+com.fsck.k9.preferences,com.fsck.k9.preferences.TimePickerPreference,Presentation Layer,0.6666666666666666
+com.fsck.k9.preferences,com.fsck.k9.preferences.TimePickerPreference,Data Source Layer,0.3333333333333333
+com.fsck.k9.preferences,com.fsck.k9.preferences.Settings$StringSetting,Domain Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.Settings$FontSizeSetting,Data Source Layer,1.0
+com.fsck.k9.preferences,com.fsck.k9.preferences.GlobalSettings$ThemeSetting,Utility Layer,0.25
+com.fsck.k9.preferences,com.fsck.k9.preferences.GlobalSettings$ThemeSetting,Domain Layer,0.75
+com.fsck.k9.preferences,com.fsck.k9.preferences.AccountSettings,Service Layer,0.5
+com.fsck.k9.preferences,com.fsck.k9.preferences.AccountSettings,Data Source Layer,0.5
+com.fsck.k9.provider,com.fsck.k9.provider.AttachmentProvider,Presentation Layer,0.125
+com.fsck.k9.provider,com.fsck.k9.provider.AttachmentProvider,Data Source Layer,0.375
+com.fsck.k9.provider,com.fsck.k9.provider.AttachmentProvider,Service Layer,0.125
+com.fsck.k9.provider,com.fsck.k9.provider.AttachmentProvider,Domain Layer,0.375
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$MessagesQueryHandler,Service Layer,0.5
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$MessagesQueryHandler,Data Source Layer,0.5
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$AccountNumberExtractor,Domain Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$CountExtractor,Domain Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$DeleteUriExtractor,Data Source Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.EmailProvider,Data Source Layer,0.6666666666666666
+com.fsck.k9.provider,com.fsck.k9.provider.EmailProvider,Domain Layer,0.16666666666666666
+com.fsck.k9.provider,com.fsck.k9.provider.EmailProvider,Presentation Layer,0.16666666666666666
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$AccountColorExtractor,Domain Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$HasAttachmentsExtractor,Domain Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$MessageInfoHolderRetrieverListener,Service Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.DecryptedFileProvider,Data Source Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$ThrottlingQueryHandler,Domain Layer,0.5
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$ThrottlingQueryHandler,Data Source Layer,0.5
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$SubjectExtractor,Domain Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$PreviewExtractor,Domain Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$IncrementExtractor,Service Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$HasStarExtractor,Domain Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$ReverseDateComparator,Domain Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.AttachmentTempFileProvider,Data Source Layer,0.8333333333333334
+com.fsck.k9.provider,com.fsck.k9.provider.AttachmentTempFileProvider,Service Layer,0.16666666666666666
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider,Data Source Layer,0.5
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider,Presentation Layer,0.16666666666666666
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider,Service Layer,0.3333333333333333
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$QueryHandler,Domain Layer,0.5
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$QueryHandler,Data Source Layer,0.5
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$FieldExtractor,Data Source Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.EmailProvider$SpecialColumnsCursor,Data Source Layer,0.9285714285714286
+com.fsck.k9.provider,com.fsck.k9.provider.EmailProvider$SpecialColumnsCursor,Domain Layer,0.07142857142857142
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$AccountsQueryHandler,Data Source Layer,0.6666666666666666
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$AccountsQueryHandler,Domain Layer,0.3333333333333333
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$AccountExtractor,Domain Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$SenderAddressExtractor,Domain Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$UnreadQueryHandler,Data Source Layer,0.5
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$UnreadQueryHandler,Service Layer,0.5
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$IdExtractor,Data Source Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.AttachmentTempFileProvider$AttachmentTempFileProviderCleanupReceiver,Data Source Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$SenderExtractor,Domain Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$MonitoredCursor,Data Source Layer,0.9090909090909091
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$MonitoredCursor,Presentation Layer,0.022727272727272728
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$MonitoredCursor,Domain Layer,0.045454545454545456
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$MonitoredCursor,Service Layer,0.022727272727272728
+com.fsck.k9.provider,com.fsck.k9.provider.UnreadWidgetProvider,Presentation Layer,0.25
+com.fsck.k9.provider,com.fsck.k9.provider.UnreadWidgetProvider,Service Layer,0.5
+com.fsck.k9.provider,com.fsck.k9.provider.UnreadWidgetProvider,Data Source Layer,0.25
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$SendDateExtractor,Domain Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$UriExtractor,Domain Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.EmailProvider$IdTrickeryCursor,Data Source Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.DecryptedFileProvider$DecryptedFileProviderCleanupReceiver,Data Source Layer,1.0
+com.fsck.k9.provider,com.fsck.k9.provider.MessageProvider$UnreadExtractor,Domain Layer,1.0
+com.fsck.k9.remotecontrol,com.fsck.k9.remotecontrol.AccountReceiver,Service Layer,1.0
+com.fsck.k9.remotecontrol,com.fsck.k9.remotecontrol.K9AccountReceptor,Service Layer,1.0
+com.fsck.k9.remotecontrol,com.fsck.k9.remotecontrol.K9RemoteControl,Service Layer,1.0
+com.fsck.k9.search,com.fsck.k9.search.SearchAccount,Domain Layer,0.7777777777777778
+com.fsck.k9.search,com.fsck.k9.search.SearchAccount,Service Layer,0.2222222222222222
+com.fsck.k9.search,com.fsck.k9.search.SearchSpecification,Domain Layer,0.6666666666666666
+com.fsck.k9.search,com.fsck.k9.search.SearchSpecification,Data Source Layer,0.3333333333333333
+com.fsck.k9.search,com.fsck.k9.search.LocalSearch,Domain Layer,0.7391304347826086
+com.fsck.k9.search,com.fsck.k9.search.LocalSearch,Presentation Layer,0.043478260869565216
+com.fsck.k9.search,com.fsck.k9.search.LocalSearch,Data Source Layer,0.08695652173913043
+com.fsck.k9.search,com.fsck.k9.search.LocalSearch,Service Layer,0.13043478260869565
+com.fsck.k9.search,com.fsck.k9.search.ConditionsTreeNode,Presentation Layer,0.09090909090909091
+com.fsck.k9.search,com.fsck.k9.search.ConditionsTreeNode,Data Source Layer,0.18181818181818182
+com.fsck.k9.search,com.fsck.k9.search.ConditionsTreeNode,Service Layer,0.09090909090909091
+com.fsck.k9.search,com.fsck.k9.search.ConditionsTreeNode,Domain Layer,0.6363636363636364
+com.fsck.k9.search,com.fsck.k9.search.SqlQueryBuilder,Service Layer,0.5
+com.fsck.k9.search,com.fsck.k9.search.SqlQueryBuilder,Data Source Layer,0.5
+com.fsck.k9.search,com.fsck.k9.search.SearchSpecification$SearchCondition,Domain Layer,0.6666666666666666
+com.fsck.k9.search,com.fsck.k9.search.SearchSpecification$SearchCondition,Data Source Layer,0.3333333333333333
+com.fsck.k9.service,com.fsck.k9.service.RemoteControlReceiver,Service Layer,1.0
+com.fsck.k9.service,com.fsck.k9.service.RemoteControlService,Service Layer,1.0
+com.fsck.k9.service,com.fsck.k9.service.ShutdownReceiver,Service Layer,1.0
+com.fsck.k9.service,com.fsck.k9.service.PollService,Service Layer,0.8
+com.fsck.k9.service,com.fsck.k9.service.PollService,Presentation Layer,0.2
+com.fsck.k9.service,com.fsck.k9.service.SleepService,Service Layer,1.0
+com.fsck.k9.service,com.fsck.k9.service.MailService,Domain Layer,0.1875
+com.fsck.k9.service,com.fsck.k9.service.MailService,Service Layer,0.6875
+com.fsck.k9.service,com.fsck.k9.service.MailService,Data Source Layer,0.0625
+com.fsck.k9.service,com.fsck.k9.service.MailService,Presentation Layer,0.0625
+com.fsck.k9.service,com.fsck.k9.service.StorageGoneReceiver,Data Source Layer,1.0
+com.fsck.k9.service,com.fsck.k9.service.CoreService,Service Layer,0.7142857142857143
+com.fsck.k9.service,com.fsck.k9.service.CoreService,Data Source Layer,0.14285714285714285
+com.fsck.k9.service,com.fsck.k9.service.CoreService,Presentation Layer,0.14285714285714285
+com.fsck.k9.service,com.fsck.k9.service.CoreReceiver,Service Layer,1.0
+com.fsck.k9.service,com.fsck.k9.service.PushService,Service Layer,0.8
+com.fsck.k9.service,com.fsck.k9.service.PushService,Presentation Layer,0.2
+com.fsck.k9.service,com.fsck.k9.service.StorageReceiver,Service Layer,1.0
+com.fsck.k9.service,com.fsck.k9.service.PollService$Listener,Service Layer,0.5714285714285714
+com.fsck.k9.service,com.fsck.k9.service.PollService$Listener,Domain Layer,0.42857142857142855
+com.fsck.k9.service,com.fsck.k9.service.DatabaseUpgradeService,Service Layer,0.75
+com.fsck.k9.service,com.fsck.k9.service.DatabaseUpgradeService,Presentation Layer,0.25
+com.fsck.k9.service,com.fsck.k9.service.BootReceiver,Service Layer,0.75
+com.fsck.k9.service,com.fsck.k9.service.BootReceiver,Data Source Layer,0.25
+com.fsck.k9.setup,com.fsck.k9.setup.ServerNameSuggester,Service Layer,1.0
+com.fsck.k9.ui,com.fsck.k9.ui.EolConvertingEditText,Presentation Layer,1.0
+com.fsck.k9.ui,com.fsck.k9.ui.ContactBadge,Service Layer,0.3333333333333333
+com.fsck.k9.ui,com.fsck.k9.ui.ContactBadge,Presentation Layer,0.6666666666666666
+com.fsck.k9.ui.compose,com.fsck.k9.ui.compose.QuotedMessagePresenter,Presentation Layer,0.4166666666666667
+com.fsck.k9.ui.compose,com.fsck.k9.ui.compose.QuotedMessagePresenter,Domain Layer,0.4166666666666667
+com.fsck.k9.ui.compose,com.fsck.k9.ui.compose.QuotedMessagePresenter,Service Layer,0.16666666666666666
+com.fsck.k9.ui.compose,com.fsck.k9.ui.compose.QuotedMessageMvpView,Domain Layer,0.2222222222222222
+com.fsck.k9.ui.compose,com.fsck.k9.ui.compose.QuotedMessageMvpView,Presentation Layer,0.6666666666666666
+com.fsck.k9.ui.compose,com.fsck.k9.ui.compose.QuotedMessageMvpView,Service Layer,0.1111111111111111
+com.fsck.k9.ui.crypto,com.fsck.k9.ui.crypto.MessageCryptoAnnotations,Domain Layer,0.8
+com.fsck.k9.ui.crypto,com.fsck.k9.ui.crypto.MessageCryptoAnnotations,Data Source Layer,0.2
+com.fsck.k9.ui.crypto,com.fsck.k9.ui.crypto.MessageCryptoHelper,Service Layer,1.0
+com.fsck.k9.ui.crypto,com.fsck.k9.ui.crypto.MessageCryptoCallback,Service Layer,0.6666666666666666
+com.fsck.k9.ui.crypto,com.fsck.k9.ui.crypto.MessageCryptoCallback,Domain Layer,0.3333333333333333
+com.fsck.k9.ui.message,com.fsck.k9.ui.message.LocalMessageExtractorLoader,Domain Layer,0.3333333333333333
+com.fsck.k9.ui.message,com.fsck.k9.ui.message.LocalMessageExtractorLoader,Service Layer,0.3333333333333333
+com.fsck.k9.ui.message,com.fsck.k9.ui.message.LocalMessageExtractorLoader,Presentation Layer,0.3333333333333333
+com.fsck.k9.ui.message,com.fsck.k9.ui.message.LocalMessageLoader,Domain Layer,0.6666666666666666
+com.fsck.k9.ui.message,com.fsck.k9.ui.message.LocalMessageLoader,Data Source Layer,0.3333333333333333
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.AttachmentViewCallback,Domain Layer,1.0
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.MessageViewFragment,Presentation Layer,0.5882352941176471
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.MessageViewFragment,Domain Layer,0.23529411764705882
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.MessageViewFragment,Service Layer,0.17647058823529413
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.AttachmentController,Service Layer,0.3333333333333333
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.AttachmentController,Data Source Layer,0.3333333333333333
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.AttachmentController,Domain Layer,0.3333333333333333
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.MessageCryptoPresenter$MessageCryptoMvpView,Domain Layer,0.2
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.MessageCryptoPresenter$MessageCryptoMvpView,Presentation Layer,0.8
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.MessageTopView,Presentation Layer,1.0
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.MessageContainerView$SavedState,Data Source Layer,1.0
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.CryptoInfoDialog$OnClickShowCryptoKeyListener,Presentation Layer,1.0
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.MessageViewFragment$MessageViewFragmentListener,Presentation Layer,0.5555555555555556
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.MessageViewFragment$MessageViewFragmentListener,Service Layer,0.3333333333333333
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.MessageViewFragment$MessageViewFragmentListener,Domain Layer,0.1111111111111111
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.LockedAttachmentView,Presentation Layer,0.6666666666666666
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.LockedAttachmentView,Domain Layer,0.3333333333333333
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.OnCryptoClickListener,Presentation Layer,1.0
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.AttachmentController$IntentAndResolvedActivitiesCount,Presentation Layer,0.25
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.AttachmentController$IntentAndResolvedActivitiesCount,Data Source Layer,0.5
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.AttachmentController$IntentAndResolvedActivitiesCount,Domain Layer,0.25
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.MessageContainerView$OnRenderingFinishedListener,Data Source Layer,1.0
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.MessageContainerView,Domain Layer,0.11764705882352941
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.MessageContainerView,Presentation Layer,0.8823529411764706
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.CryptoInfoDialog,Presentation Layer,1.0
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.AttachmentView,Presentation Layer,0.75
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.AttachmentView,Domain Layer,0.25
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.MessageCryptoPresenter,Presentation Layer,0.9090909090909091
+com.fsck.k9.ui.messageview,com.fsck.k9.ui.messageview.MessageCryptoPresenter,Domain Layer,0.09090909090909091
+com.fsck.k9.view,com.fsck.k9.view.MessageHeader$OnLayoutChangedListener,Presentation Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.HighlightDialogFragment,Presentation Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.CryptoModeSelector$CryptoStatusSelectedListener,Service Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.ViewSwitcher,Presentation Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.NonLockingScrollView,Presentation Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.MessageCryptoDisplayStatus,Domain Layer,0.6666666666666666
+com.fsck.k9.view,com.fsck.k9.view.MessageCryptoDisplayStatus,Service Layer,0.3333333333333333
+com.fsck.k9.view,com.fsck.k9.view.MessageWebView,Presentation Layer,0.5
+com.fsck.k9.view,com.fsck.k9.view.MessageWebView,Service Layer,0.25
+com.fsck.k9.view,com.fsck.k9.view.MessageWebView,Data Source Layer,0.25
+com.fsck.k9.view,com.fsck.k9.view.MessageHeader,Presentation Layer,0.9411764705882353
+com.fsck.k9.view,com.fsck.k9.view.MessageHeader,Domain Layer,0.058823529411764705
+com.fsck.k9.view,com.fsck.k9.view.ClientCertificateSpinner,Domain Layer,0.25
+com.fsck.k9.view,com.fsck.k9.view.ClientCertificateSpinner,Presentation Layer,0.5
+com.fsck.k9.view,com.fsck.k9.view.ClientCertificateSpinner,Service Layer,0.25
+com.fsck.k9.view,com.fsck.k9.view.K9WebViewClient,Data Source Layer,0.25
+com.fsck.k9.view,com.fsck.k9.view.K9WebViewClient,Presentation Layer,0.75
+com.fsck.k9.view,com.fsck.k9.view.MessageWebView$OnPageFinishedListener,Presentation Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.ClientCertificateSpinner$OnClientCertificateChangedListener,Domain Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.MessageTitleView,Presentation Layer,0.6666666666666666
+com.fsck.k9.view,com.fsck.k9.view.MessageTitleView,Domain Layer,0.3333333333333333
+com.fsck.k9.view,com.fsck.k9.view.K9WebViewClient$LollipopWebViewClient,Data Source Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.K9WebViewClient$PreLollipopWebViewClient,Data Source Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.RecipientSelectView$Recipient,Domain Layer,0.75
+com.fsck.k9.view,com.fsck.k9.view.RecipientSelectView$Recipient,Presentation Layer,0.125
+com.fsck.k9.view,com.fsck.k9.view.RecipientSelectView$Recipient,Data Source Layer,0.125
+com.fsck.k9.view,com.fsck.k9.view.FoldableLinearLayout,Presentation Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.RecipientSelectView$TokenListener,Domain Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.ToolableViewAnimator,Presentation Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.ViewSwitcher$OnSwitchCompleteListener,Presentation Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.NonLockingScrollView$HierarchyTreeChangeListener,Presentation Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.MessageCryptoStatusView,Presentation Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.FoldableLinearLayout$SavedState,Domain Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.LinearViewAnimator,Presentation Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.MessageHeader$SavedState,Data Source Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.ThemeUtils,Presentation Layer,1.0
+com.fsck.k9.view,com.fsck.k9.view.RecipientSelectView,Presentation Layer,0.6666666666666666
+com.fsck.k9.view,com.fsck.k9.view.RecipientSelectView,Domain Layer,0.23809523809523808
+com.fsck.k9.view,com.fsck.k9.view.RecipientSelectView,Service Layer,0.09523809523809523
+com.fsck.k9.view,com.fsck.k9.view.CryptoModeSelector,Presentation Layer,0.5
+com.fsck.k9.view,com.fsck.k9.view.CryptoModeSelector,Domain Layer,0.5
+com.fsck.k9.view,com.fsck.k9.view.ColorChip,Domain Layer,1.0
+com.fsck.k9.widget.list,com.fsck.k9.widget.list.MessageListWidgetProvider,Service Layer,0.6666666666666666
+com.fsck.k9.widget.list,com.fsck.k9.widget.list.MessageListWidgetProvider,Presentation Layer,0.3333333333333333
+com.fsck.k9.widget.list,com.fsck.k9.widget.list.MessageListWidgetService,Service Layer,1.0
+com.fsck.k9.widget.list,com.fsck.k9.widget.list.MessageListRemoteViewFactory,Presentation Layer,0.7777777777777778
+com.fsck.k9.widget.list,com.fsck.k9.widget.list.MessageListRemoteViewFactory,Data Source Layer,0.1111111111111111
+com.fsck.k9.widget.list,com.fsck.k9.widget.list.MessageListRemoteViewFactory,Domain Layer,0.1111111111111111

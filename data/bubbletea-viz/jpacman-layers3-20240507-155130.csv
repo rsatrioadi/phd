@@ -1,0 +1,65 @@
+package,class,layer,count
+nl.tudelft.jpacman,nl.tudelft.jpacman.Launcher,Presentation Layer,0.42857142857142855
+nl.tudelft.jpacman,nl.tudelft.jpacman.Launcher,Domain Layer,0.2857142857142857
+nl.tudelft.jpacman,nl.tudelft.jpacman.Launcher,Service Layer,0.2857142857142857
+nl.tudelft.jpacman.board,nl.tudelft.jpacman.board.BoardFactory,Domain Layer,1.0
+nl.tudelft.jpacman.board,nl.tudelft.jpacman.board.BoardFactory$Ground,Domain Layer,1.0
+nl.tudelft.jpacman.board,nl.tudelft.jpacman.board.Direction,Domain Layer,1.0
+nl.tudelft.jpacman.board,nl.tudelft.jpacman.board.Unit,Presentation Layer,0.125
+nl.tudelft.jpacman.board,nl.tudelft.jpacman.board.Unit,Domain Layer,0.875
+nl.tudelft.jpacman.board,nl.tudelft.jpacman.board.Board,Domain Layer,1.0
+nl.tudelft.jpacman.board,nl.tudelft.jpacman.board.BoardFactory$Wall,Domain Layer,1.0
+nl.tudelft.jpacman.board,nl.tudelft.jpacman.board.Square,Domain Layer,1.0
+nl.tudelft.jpacman.game,nl.tudelft.jpacman.game.GameFactory,Domain Layer,1.0
+nl.tudelft.jpacman.game,nl.tudelft.jpacman.game.SinglePlayerGame,Domain Layer,1.0
+nl.tudelft.jpacman.game,nl.tudelft.jpacman.game.Game,Domain Layer,0.75
+nl.tudelft.jpacman.game,nl.tudelft.jpacman.game.Game,Service Layer,0.25
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.DefaultPlayerInteractionMap,Domain Layer,1.0
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.LevelFactory,Service Layer,0.5
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.LevelFactory,Domain Layer,0.5
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.Level$NpcMoveTask,Service Layer,1.0
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.PlayerFactory,Domain Layer,1.0
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.CollisionMap,Domain Layer,1.0
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.LevelFactory$RandomGhost,Domain Layer,1.0
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.Level$LevelObserver,Domain Layer,1.0
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.MapParser,Service Layer,0.5
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.MapParser,Data Source Layer,0.5
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.Player,Domain Layer,1.0
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.CollisionInteractionMap,Domain Layer,0.6666666666666666
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.CollisionInteractionMap,Service Layer,0.3333333333333333
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.Pellet,Domain Layer,1.0
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.CollisionInteractionMap$CollisionHandler,Domain Layer,1.0
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.Level,Domain Layer,1.0
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.PlayerCollisions,Service Layer,0.3333333333333333
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.PlayerCollisions,Domain Layer,0.6666666666666666
+nl.tudelft.jpacman.level,nl.tudelft.jpacman.level.CollisionInteractionMap$InverseCollisionHandler,Domain Layer,1.0
+nl.tudelft.jpacman.npc,nl.tudelft.jpacman.npc.Ghost,Domain Layer,1.0
+nl.tudelft.jpacman.npc.ghost,nl.tudelft.jpacman.npc.ghost.Pinky,Domain Layer,1.0
+nl.tudelft.jpacman.npc.ghost,nl.tudelft.jpacman.npc.ghost.Blinky,Domain Layer,1.0
+nl.tudelft.jpacman.npc.ghost,nl.tudelft.jpacman.npc.ghost.Clyde,Domain Layer,1.0
+nl.tudelft.jpacman.npc.ghost,nl.tudelft.jpacman.npc.ghost.GhostFactory,Domain Layer,1.0
+nl.tudelft.jpacman.npc.ghost,nl.tudelft.jpacman.npc.ghost.Inky,Domain Layer,1.0
+nl.tudelft.jpacman.npc.ghost,nl.tudelft.jpacman.npc.ghost.Navigation,Domain Layer,1.0
+nl.tudelft.jpacman.points,nl.tudelft.jpacman.points.PointCalculatorLoader,Data Source Layer,1.0
+nl.tudelft.jpacman.points,nl.tudelft.jpacman.points.DefaultPointCalculator,Domain Layer,1.0
+nl.tudelft.jpacman.points,nl.tudelft.jpacman.points.PointCalculator,Domain Layer,1.0
+nl.tudelft.jpacman.sprite,nl.tudelft.jpacman.sprite.EmptySprite,Domain Layer,0.75
+nl.tudelft.jpacman.sprite,nl.tudelft.jpacman.sprite.EmptySprite,Presentation Layer,0.25
+nl.tudelft.jpacman.sprite,nl.tudelft.jpacman.sprite.PacManSprites,Domain Layer,0.42857142857142855
+nl.tudelft.jpacman.sprite,nl.tudelft.jpacman.sprite.PacManSprites,Data Source Layer,0.42857142857142855
+nl.tudelft.jpacman.sprite,nl.tudelft.jpacman.sprite.PacManSprites,Presentation Layer,0.14285714285714285
+nl.tudelft.jpacman.sprite,nl.tudelft.jpacman.sprite.ImageSprite,Domain Layer,0.75
+nl.tudelft.jpacman.sprite,nl.tudelft.jpacman.sprite.ImageSprite,Presentation Layer,0.25
+nl.tudelft.jpacman.sprite,nl.tudelft.jpacman.sprite.Sprite,Presentation Layer,0.5
+nl.tudelft.jpacman.sprite,nl.tudelft.jpacman.sprite.Sprite,Domain Layer,0.5
+nl.tudelft.jpacman.sprite,nl.tudelft.jpacman.sprite.AnimatedSprite,Domain Layer,0.8333333333333334
+nl.tudelft.jpacman.sprite,nl.tudelft.jpacman.sprite.AnimatedSprite,Presentation Layer,0.16666666666666666
+nl.tudelft.jpacman.sprite,nl.tudelft.jpacman.sprite.SpriteStore,Data Source Layer,0.5
+nl.tudelft.jpacman.sprite,nl.tudelft.jpacman.sprite.SpriteStore,Domain Layer,0.5
+nl.tudelft.jpacman.ui,nl.tudelft.jpacman.ui.Action,Domain Layer,1.0
+nl.tudelft.jpacman.ui,nl.tudelft.jpacman.ui.PacKeyListener,Presentation Layer,1.0
+nl.tudelft.jpacman.ui,nl.tudelft.jpacman.ui.BoardPanel,Presentation Layer,1.0
+nl.tudelft.jpacman.ui,nl.tudelft.jpacman.ui.PacManUiBuilder,Presentation Layer,1.0
+nl.tudelft.jpacman.ui,nl.tudelft.jpacman.ui.ScorePanel,Presentation Layer,1.0
+nl.tudelft.jpacman.ui,nl.tudelft.jpacman.ui.ScorePanel$ScoreFormatter,Presentation Layer,1.0
+nl.tudelft.jpacman.ui,nl.tudelft.jpacman.ui.PacManUI,Service Layer,1.0
