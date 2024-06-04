@@ -1,0 +1,33 @@
+"Name","Instance Count","Size (bytes)"
+"CH.ifa.draw.standard.ChangeAttributeCommand",39,1248
+"CH.ifa.draw.util.ColorEntry",15,360
+"CH.ifa.draw.standard.FigureEnumerator",8,128
+"CH.ifa.draw.standard.ToolButton",5,1160
+"CH.ifa.draw.util.PaletteIcon",5,160
+"CH.ifa.draw.util.CommandButton",4,928
+"CH.ifa.draw.util.CommandChoice",4,928
+"CH.ifa.draw.figures.ArrowTip",3,120
+"CH.ifa.draw.util.PaletteLayout",3,72
+"CH.ifa.draw.figures.FigureAttributes",2,48
+"CH.ifa.draw.standard.BufferedUpdateStrategy",2,64
+"CH.ifa.draw.util.Filler",2,448
+"CH.ifa.draw.applet.DrawApplet$1",1,16
+"CH.ifa.draw.applet.DrawApplet$2",1,16
+"CH.ifa.draw.applet.DrawApplet$3",1,16
+"CH.ifa.draw.figures.GroupCommand",1,24
+"CH.ifa.draw.figures.LineFigure",1,48
+"CH.ifa.draw.figures.TextFigure",1,72
+"CH.ifa.draw.figures.TextTool",1,48
+"CH.ifa.draw.figures.UngroupCommand",1,24
+"CH.ifa.draw.samples.pert.PertApplet",1,336
+"CH.ifa.draw.samples.pert.PertDependency",1,56
+"CH.ifa.draw.samples.pert.PertFigureCreationTool",1,40
+"CH.ifa.draw.standard.ConnectionTool",1,56
+"CH.ifa.draw.standard.CreationTool",1,40
+"CH.ifa.draw.standard.DeleteCommand",1,24
+"CH.ifa.draw.standard.DuplicateCommand",1,24
+"CH.ifa.draw.standard.SelectionTool",1,32
+"CH.ifa.draw.standard.StandardDrawing",1,40
+"CH.ifa.draw.standard.StandardDrawingView",1,320
+"CH.ifa.draw.util.ColorEntry[ ]",1,80
+"CH.ifa.draw.util.Iconkit",1,24

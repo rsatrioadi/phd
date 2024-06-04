@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tree type="Call Tree" threadSelection="All thread groups" threadStatus="All states" aggregationLevel="Methods">
+  <node leaf="false" class="sun.applet.AppletPanel" methodName="run" methodSignature="()V" time="32934363" count="2" selfTime="32588709" lineNumber="-1" percent="50.3">
+    <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="init" methodSignature="()V" time="342136" count="1" selfTime="146908" lineNumber="-1" percent="0.5">
+      <node leaf="false" class="CH.ifa.draw.samples.pert.PertApplet" methodName="createTools" methodSignature="(Ljava/awt/Panel;)V" time="146752" count="1" selfTime="22733" lineNumber="-1" percent="0.2">
+        <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="createTools" methodSignature="(Ljava/awt/Panel;)V" time="99652" count="1" selfTime="15" lineNumber="-1" percent="0.2">
+          <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="createToolButton" methodSignature="(Ljava/lang/String;Ljava/lang/String;LCH/ifa/draw/framework/Tool;)LCH/ifa/draw/standard/ToolButton;" time="93472" count="1" selfTime="1291" lineNumber="-1" percent="0.1">
+            <node leaf="false" class="CH.ifa.draw.standard.ToolButton" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/util/PaletteListener;Ljava/lang/String;Ljava/lang/String;LCH/ifa/draw/framework/Tool;)V" time="92181" count="1" selfTime="36599" lineNumber="-1" percent="0.1">
+              <node leaf="false" class="CH.ifa.draw.util.Iconkit" methodName="loadImageResource" methodSignature="(Ljava/lang/String;)Ljava/awt/Image;" time="55307" count="3" selfTime="1750" lineNumber="-1" percent="0.1">
+                <node leaf="true" class="java.net.URL" methodName="getContent" methodSignature="()Ljava/lang/Object;" time="50557" count="3" selfTime="50557" lineNumber="-1" percent="0.1"/>
+                <node leaf="true" class="java.lang.Class" methodName="getResource" methodSignature="(Ljava/lang/String;)Ljava/net/URL;" time="2366" count="3" selfTime="2366" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.awt.Toolkit" methodName="createImage" methodSignature="(Ljava/awt/image/ImageProducer;)Ljava/awt/Image;" time="613" count="3" selfTime="613" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.awt.Toolkit" methodName="getDefaultToolkit" methodSignature="()Ljava/awt/Toolkit;" time="18" count="3" selfTime="18" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="java.lang.Object" methodName="getClass" methodSignature="()Ljava/lang/Class;" time="3" count="3" selfTime="3" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="true" class="java.awt.Canvas" methodName="&lt;init&gt;" methodSignature="()V" time="275" count="1" selfTime="275" lineNumber="-1" percent="0.0"/>
+            </node>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="createSelectionTool" methodSignature="()LCH/ifa/draw/framework/Tool;" time="6141" count="1" selfTime="6131" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="CH.ifa.draw.standard.SelectionTool" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/framework/DrawingView;)V" time="9" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="CH.ifa.draw.standard.AbstractTool" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/framework/DrawingView;)V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="CH.ifa.draw.applet.DrawApplet" methodName="view" methodSignature="()LCH/ifa/draw/framework/DrawingView;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.awt.Panel" methodName="add" methodSignature="(Ljava/awt/Component;)Ljava/awt/Component;" time="24" count="1" selfTime="24" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="createToolButton" methodSignature="(Ljava/lang/String;Ljava/lang/String;LCH/ifa/draw/framework/Tool;)LCH/ifa/draw/standard/ToolButton;" time="19810" count="4" selfTime="6" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.standard.ToolButton" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/util/PaletteListener;Ljava/lang/String;Ljava/lang/String;LCH/ifa/draw/framework/Tool;)V" time="19804" count="4" selfTime="10256" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="CH.ifa.draw.util.Iconkit" methodName="loadImageResource" methodSignature="(Ljava/lang/String;)Ljava/awt/Image;" time="9394" count="12" selfTime="45" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.net.URL" methodName="getContent" methodSignature="()Ljava/lang/Object;" time="5536" count="12" selfTime="5536" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.Class" methodName="getResource" methodSignature="(Ljava/lang/String;)Ljava/net/URL;" time="3767" count="12" selfTime="3767" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.awt.Toolkit" methodName="createImage" methodSignature="(Ljava/awt/image/ImageProducer;)Ljava/awt/Image;" time="24" count="12" selfTime="24" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.awt.Toolkit" methodName="getDefaultToolkit" methodSignature="()Ljava/awt/Toolkit;" time="19" count="12" selfTime="19" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="java.lang.Object" methodName="getClass" methodSignature="()Ljava/lang/Class;" time="3" count="12" selfTime="3" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.awt.Canvas" methodName="&lt;init&gt;" methodSignature="()V" time="151" count="4" selfTime="151" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="CH.ifa.draw.util.Iconkit" methodName="instance" methodSignature="()LCH/ifa/draw/util/Iconkit;" time="3" count="4" selfTime="3" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="CH.ifa.draw.figures.TextFigure" methodName="&lt;init&gt;" methodSignature="()V" time="3257" count="1" selfTime="28" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.figures.TextFigure" methodName="setAttribute" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)V" time="2996" count="1" selfTime="12" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="CH.ifa.draw.figures.AttributeFigure" methodName="setAttribute" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)V" time="2981" count="1" selfTime="2930" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="CH.ifa.draw.figures.FigureAttributes" methodName="set" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)V" time="21" count="1" selfTime="12" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.Hashtable" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="false" class="CH.ifa.draw.figures.FigureAttributes" methodName="&lt;init&gt;" methodSignature="()V" time="20" count="1" selfTime="10" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.Hashtable" methodName="&lt;init&gt;" methodSignature="()V" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.0"/>
+              </node>
+              <node leaf="false" class="CH.ifa.draw.figures.TextFigure" methodName="changed" methodSignature="()V" time="10" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="CH.ifa.draw.standard.AbstractFigure" methodName="changed" methodSignature="()V" time="5" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="CH.ifa.draw.standard.AbstractFigure" methodName="invalidate" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+            </node>
+            <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="3" count="3" selfTime="3" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.figures.TextFigure" methodName="createCurrentFont" methodSignature="()Ljava/awt/Font;" time="213" count="1" selfTime="207" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.awt.Font" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;II)V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.util.ColorMap" methodName="color" methodSignature="(Ljava/lang/String;)Ljava/awt/Color;" time="9" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.lang.String" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="5" count="15" selfTime="5" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.figures.AttributeFigure" methodName="&lt;init&gt;" methodSignature="()V" time="7" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="CH.ifa.draw.standard.AbstractFigure" methodName="&lt;init&gt;" methodSignature="()V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.lang.String" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="CH.ifa.draw.samples.pert.PertDependency" methodName="&lt;init&gt;" methodSignature="()V" time="828" count="1" selfTime="9" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.figures.LineConnection" methodName="&lt;init&gt;" methodSignature="()V" time="817" count="1" selfTime="781" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="CH.ifa.draw.figures.PolyLineFigure" methodName="&lt;init&gt;" methodSignature="(I)V" time="25" count="1" selfTime="10" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.util.Vector" methodName="&lt;init&gt;" methodSignature="(I)V" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="CH.ifa.draw.standard.AbstractFigure" methodName="&lt;init&gt;" methodSignature="()V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="CH.ifa.draw.figures.ArrowTip" methodName="&lt;init&gt;" methodSignature="()V" time="10" count="2" selfTime="10" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="CH.ifa.draw.figures.PolyLineFigure" methodName="setEndDecoration" methodSignature="(LCH/ifa/draw/figures/LineDecoration;)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="CH.ifa.draw.figures.ArrowTip" methodName="&lt;init&gt;" methodSignature="()V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="CH.ifa.draw.figures.LineFigure" methodName="&lt;init&gt;" methodSignature="()V" time="304" count="1" selfTime="212" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.figures.PolyLineFigure" methodName="&lt;init&gt;" methodSignature="()V" time="80" count="1" selfTime="68" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.util.Vector" methodName="&lt;init&gt;" methodSignature="(I)V" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="CH.ifa.draw.standard.AbstractFigure" methodName="&lt;init&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.figures.PolyLineFigure" methodName="addPoint" methodSignature="(II)V" time="12" count="2" selfTime="3" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.awt.Point" methodName="&lt;init&gt;" methodSignature="(II)V" time="5" count="2" selfTime="5" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.Vector" methodName="addElement" methodSignature="(Ljava/lang/Object;)V" time="3" count="2" selfTime="3" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="CH.ifa.draw.standard.AbstractFigure" methodName="changed" methodSignature="()V" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="CH.ifa.draw.samples.pert.PertFigureCreationTool" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/framework/DrawingView;)V" time="65" count="1" selfTime="29" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.standard.CreationTool" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/framework/DrawingView;)V" time="36" count="1" selfTime="32" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="CH.ifa.draw.standard.AbstractTool" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/framework/DrawingView;)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="true" class="java.awt.Panel" methodName="add" methodSignature="(Ljava/awt/Component;)Ljava/awt/Component;" time="51" count="4" selfTime="51" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="CH.ifa.draw.applet.DrawApplet" methodName="view" methodSignature="()LCH/ifa/draw/framework/DrawingView;" time="15" count="4" selfTime="15" lineNumber="-1" percent="0.0"/>
+        <node leaf="false" class="CH.ifa.draw.figures.TextTool" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/framework/DrawingView;LCH/ifa/draw/framework/Figure;)V" time="13" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.standard.CreationTool" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/framework/DrawingView;LCH/ifa/draw/framework/Figure;)V" time="10" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="CH.ifa.draw.standard.AbstractTool" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/framework/DrawingView;)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="CH.ifa.draw.standard.ConnectionTool" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/framework/DrawingView;LCH/ifa/draw/framework/ConnectionFigure;)V" time="10" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="CH.ifa.draw.standard.AbstractTool" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/framework/DrawingView;)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="CH.ifa.draw.figures.TextFigure" methodName="&lt;clinit&gt;" methodSignature="()V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+        <node leaf="false" class="CH.ifa.draw.standard.CreationTool" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/framework/DrawingView;LCH/ifa/draw/framework/Figure;)V" time="5" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="CH.ifa.draw.standard.AbstractTool" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/framework/DrawingView;)V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="CH.ifa.draw.figures.AttributeFigure" methodName="&lt;clinit&gt;" methodSignature="()V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="initDrawing" methodSignature="()V" time="23766" count="1" selfTime="11" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="setDrawing" methodSignature="(LCH/ifa/draw/framework/Drawing;)V" time="16433" count="1" selfTime="36" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="clearSelection" methodSignature="()V" time="16373" count="1" selfTime="8" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="selectionChanged" methodSignature="()V" time="15004" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="selectionChanged" methodSignature="(LCH/ifa/draw/framework/DrawingView;)V" time="14999" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="setupAttributes" methodSignature="()V" time="14996" count="1" selfTime="42" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.awt.Choice" methodName="select" methodSignature="(I)V" time="13901" count="3" selfTime="13901" lineNumber="-1" percent="0.0"/>
+                  <node leaf="false" class="CH.ifa.draw.util.ColorMap" methodName="colorIndex" methodSignature="(Ljava/awt/Color;)I" time="941" count="2" selfTime="472" lineNumber="-1" percent="0.0">
+                    <node leaf="true" class="java.awt.Color" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="469" count="11" selfTime="469" lineNumber="-1" percent="0.0"/>
+                  </node>
+                  <node leaf="false" class="CH.ifa.draw.figures.AttributeFigure" methodName="getDefaultAttribute" methodSignature="(Ljava/lang/String;)Ljava/lang/Object;" time="100" count="5" selfTime="5" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="CH.ifa.draw.figures.AttributeFigure" methodName="initializeAttributes" methodSignature="()V" time="84" count="1" selfTime="13" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="java.lang.Integer" methodName="&lt;init&gt;" methodSignature="(I)V" time="35" count="3" selfTime="35" lineNumber="-1" percent="0.0"/>
+                      <node leaf="false" class="CH.ifa.draw.figures.FigureAttributes" methodName="&lt;init&gt;" methodSignature="()V" time="19" count="1" selfTime="9" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="java.util.Hashtable" methodName="&lt;init&gt;" methodSignature="()V" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="false" class="CH.ifa.draw.figures.FigureAttributes" methodName="set" methodSignature="(Ljava/lang/String;Ljava/lang/Object;)V" time="13" count="7" selfTime="3" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="java.util.Hashtable" methodName="put" methodSignature="(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;" time="10" count="7" selfTime="10" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="true" class="java.awt.Color" methodName="&lt;init&gt;" methodSignature="(I)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+                    </node>
+                    <node leaf="false" class="CH.ifa.draw.figures.FigureAttributes" methodName="get" methodSignature="(Ljava/lang/String;)Ljava/lang/Object;" time="11" count="5" selfTime="5" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="java.util.Hashtable" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="6" count="5" selfTime="6" lineNumber="-1" percent="0.0"/>
+                    </node>
+                  </node>
+                  <node leaf="true" class="java.awt.Choice" methodName="select" methodSignature="(Ljava/lang/String;)V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+                  <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="selectionElements" methodSignature="()LCH/ifa/draw/framework/FigureEnumeration;" time="4" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="CH.ifa.draw.standard.FigureEnumerator" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Vector;)V" time="4" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                      <node leaf="true" class="java.util.Vector" methodName="elements" methodSignature="()Ljava/util/Enumeration;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                    </node>
+                  </node>
+                  <node leaf="true" class="java.lang.Integer" methodName="intValue" methodSignature="()I" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+            </node>
+            <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="selectionElements" methodSignature="()LCH/ifa/draw/framework/FigureEnumeration;" time="1356" count="1" selfTime="1341" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="CH.ifa.draw.standard.FigureEnumerator" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Vector;)V" time="15" count="1" selfTime="9" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.Vector" methodName="elements" methodSignature="()Ljava/util/Enumeration;" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+              </node>
+            </node>
+            <node leaf="true" class="java.util.Vector" methodName="&lt;init&gt;" methodSignature="()V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+            <node leaf="false" class="CH.ifa.draw.standard.FigureEnumerator" methodName="hasMoreElements" methodSignature="()Z" time="2" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.util.Enumeration" methodName="hasMoreElements" methodSignature="()Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+            </node>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="checkMinimumSize" methodSignature="()V" time="22" count="1" selfTime="8" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="CH.ifa.draw.standard.CompositeFigure" methodName="figures" methodSignature="()LCH/ifa/draw/framework/FigureEnumeration;" time="11" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="CH.ifa.draw.standard.FigureEnumerator" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Vector;)V" time="8" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.Vector" methodName="elements" methodSignature="()Ljava/util/Enumeration;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+              </node>
+            </node>
+            <node leaf="true" class="java.awt.Dimension" methodName="&lt;init&gt;" methodSignature="(II)V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.standard.StandardDrawing" methodName="addDrawingChangeListener" methodSignature="(LCH/ifa/draw/framework/DrawingChangeListener;)V" time="2" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.util.Vector" methodName="addElement" methodSignature="(Ljava/lang/Object;)V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="createDrawing" methodSignature="()LCH/ifa/draw/framework/Drawing;" time="6158" count="1" selfTime="6124" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.standard.StandardDrawing" methodName="&lt;init&gt;" methodSignature="()V" time="34" count="1" selfTime="9" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="CH.ifa.draw.standard.CompositeFigure" methodName="&lt;init&gt;" methodSignature="()V" time="21" count="1" selfTime="7" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.util.Vector" methodName="&lt;init&gt;" methodSignature="()V" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+              <node leaf="true" class="CH.ifa.draw.standard.AbstractFigure" methodName="&lt;init&gt;" methodSignature="()V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.util.Vector" methodName="&lt;init&gt;" methodSignature="(I)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="toolDone" methodSignature="()V" time="1164" count="1" selfTime="8" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="setTool" methodSignature="(LCH/ifa/draw/framework/Tool;Ljava/lang/String;)V" time="1144" count="1" selfTime="589" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="CH.ifa.draw.standard.AbstractTool" methodName="activate" methodSignature="()V" time="555" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="clearSelection" methodSignature="()V" time="550" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="selectionChanged" methodSignature="()V" time="532" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="selectionChanged" methodSignature="(LCH/ifa/draw/framework/DrawingView;)V" time="531" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                    <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="setupAttributes" methodSignature="()V" time="531" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+                      <node leaf="false" class="CH.ifa.draw.figures.AttributeFigure" methodName="getDefaultAttribute" methodSignature="(Ljava/lang/String;)Ljava/lang/Object;" time="508" count="5" selfTime="260" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="CH.ifa.draw.figures.FigureAttributes" methodName="get" methodSignature="(Ljava/lang/String;)Ljava/lang/Object;" time="248" count="5" selfTime="198" lineNumber="-1" percent="0.0">
+                          <node leaf="true" class="java.util.Hashtable" methodName="get" methodSignature="(Ljava/lang/Object;)Ljava/lang/Object;" time="50" count="5" selfTime="50" lineNumber="-1" percent="0.0"/>
+                        </node>
+                      </node>
+                      <node leaf="true" class="java.awt.Choice" methodName="select" methodSignature="(I)V" time="7" count="3" selfTime="7" lineNumber="-1" percent="0.0"/>
+                      <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="selectionElements" methodSignature="()LCH/ifa/draw/framework/FigureEnumeration;" time="6" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                        <node leaf="false" class="CH.ifa.draw.standard.FigureEnumerator" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Vector;)V" time="5" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                          <node leaf="true" class="java.util.Vector" methodName="elements" methodSignature="()Ljava/util/Enumeration;" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+                        </node>
+                      </node>
+                      <node leaf="false" class="CH.ifa.draw.util.ColorMap" methodName="colorIndex" methodSignature="(Ljava/awt/Color;)I" time="4" count="2" selfTime="3" lineNumber="-1" percent="0.0">
+                        <node leaf="true" class="java.awt.Color" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="1" count="11" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      </node>
+                      <node leaf="true" class="java.awt.Choice" methodName="select" methodSignature="(Ljava/lang/String;)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                      <node leaf="true" class="java.lang.Integer" methodName="intValue" methodSignature="()I" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                    </node>
+                  </node>
+                </node>
+                <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="selectionElements" methodSignature="()LCH/ifa/draw/framework/FigureEnumeration;" time="9" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                  <node leaf="false" class="CH.ifa.draw.standard.FigureEnumerator" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Vector;)V" time="8" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                    <node leaf="true" class="java.util.Vector" methodName="elements" methodSignature="()Ljava/util/Enumeration;" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+                  </node>
+                </node>
+                <node leaf="true" class="java.util.Vector" methodName="&lt;init&gt;" methodSignature="()V" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+                <node leaf="true" class="CH.ifa.draw.standard.FigureEnumerator" methodName="hasMoreElements" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+            </node>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="setSelected" methodSignature="(LCH/ifa/draw/standard/ToolButton;)V" time="10" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="CH.ifa.draw.util.PaletteButton" methodName="select" methodSignature="()V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="CH.ifa.draw.standard.ToolButton" methodName="name" methodSignature="()Ljava/lang/String;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="CH.ifa.draw.standard.ToolButton" methodName="tool" methodSignature="()LCH/ifa/draw/framework/Tool;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+      <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="createDrawingView" methodSignature="()LCH/ifa/draw/standard/StandardDrawingView;" time="9249" count="1" selfTime="1884" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/framework/DrawingEditor;II)V" time="7365" count="1" selfTime="895" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.awt.Panel" methodName="&lt;init&gt;" methodSignature="()V" time="6446" count="1" selfTime="6446" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="CH.ifa.draw.standard.BufferedUpdateStrategy" methodName="&lt;init&gt;" methodSignature="()V" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.awt.Dimension" methodName="&lt;init&gt;" methodSignature="(II)V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.util.Vector" methodName="&lt;init&gt;" methodSignature="()V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.awt.Point" methodName="&lt;init&gt;" methodSignature="(II)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="CH.ifa.draw.standard.StandardDrawingView" methodName="setDisplayUpdate" methodSignature="(LCH/ifa/draw/framework/Painter;)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+      <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="createButtons" methodSignature="(Ljava/awt/Panel;)V" time="8878" count="1" selfTime="8244" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="CH.ifa.draw.util.CommandButton" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/util/Command;)V" time="326" count="4" selfTime="13" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.awt.Button" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="312" count="4" selfTime="312" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="CH.ifa.draw.util.Command" methodName="name" methodSignature="()Ljava/lang/String;" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="CH.ifa.draw.util.Filler" methodName="&lt;init&gt;" methodSignature="(II)V" time="130" count="2" selfTime="12" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.util.Filler" methodName="&lt;init&gt;" methodSignature="(IILjava/awt/Color;)V" time="118" count="2" selfTime="5" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.awt.Canvas" methodName="&lt;init&gt;" methodSignature="()V" time="113" count="2" selfTime="113" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="true" class="java.awt.Panel" methodName="add" methodSignature="(Ljava/awt/Component;)Ljava/awt/Component;" time="61" count="8" selfTime="61" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.awt.Button" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="16" count="2" selfTime="16" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.awt.Choice" methodName="&lt;init&gt;" methodSignature="()V" time="15" count="1" selfTime="15" lineNumber="-1" percent="0.0"/>
+        <node leaf="false" class="CH.ifa.draw.standard.DeleteCommand" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;LCH/ifa/draw/framework/DrawingView;)V" time="12" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.standard.FigureTransferCommand" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;LCH/ifa/draw/framework/DrawingView;)V" time="8" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="CH.ifa.draw.util.Command" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="CH.ifa.draw.standard.DuplicateCommand" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;LCH/ifa/draw/framework/DrawingView;)V" time="9" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.standard.FigureTransferCommand" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;LCH/ifa/draw/framework/DrawingView;)V" time="4" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="CH.ifa.draw.util.Command" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="CH.ifa.draw.figures.UngroupCommand" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;LCH/ifa/draw/framework/DrawingView;)V" time="8" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="CH.ifa.draw.util.Command" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.awt.Label" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="CH.ifa.draw.applet.DrawApplet$2" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/applet/DrawApplet;)V" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="CH.ifa.draw.applet.DrawApplet$3" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/applet/DrawApplet;)V" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+        <node leaf="false" class="CH.ifa.draw.figures.GroupCommand" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;LCH/ifa/draw/framework/DrawingView;)V" time="7" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="CH.ifa.draw.util.Command" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="CH.ifa.draw.applet.DrawApplet$1" methodName="&lt;init&gt;" methodSignature="(LCH/ifa/draw/applet/DrawApplet;)V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.awt.Choice" methodName="addItem" methodSignature="(Ljava/lang/String;)V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.util.StringTokenizer" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.awt.Button" methodName="addActionListener" methodSignature="(Ljava/awt/event/ActionListener;)V" time="3" count="2" selfTime="3" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.awt.Choice" methodName="addItemListener" methodSignature="(Ljava/awt/event/ItemListener;)V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.awt.Choice" methodName="getItemCount" methodSignature="()I" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.util.StringTokenizer" methodName="hasMoreTokens" methodSignature="()Z" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="createAttributeChoices" methodSignature="(Ljava/awt/Panel;)V" time="4744" count="1" selfTime="486" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="createColorChoice" methodSignature="(Ljava/lang/String;)Ljava/awt/Choice;" time="3490" count="2" selfTime="1803" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.util.ColorMap" methodName="&lt;clinit&gt;" methodSignature="()V" time="997" count="1" selfTime="960" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="CH.ifa.draw.util.ColorEntry" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/awt/Color;)V" time="29" count="15" selfTime="29" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.awt.Color" methodName="&lt;init&gt;" methodSignature="(I)V" time="8" count="4" selfTime="8" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.util.CommandChoice" methodName="&lt;init&gt;" methodSignature="()V" time="492" count="2" selfTime="16" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.awt.Choice" methodName="&lt;init&gt;" methodSignature="()V" time="471" count="2" selfTime="471" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.Vector" methodName="&lt;init&gt;" methodSignature="(I)V" time="5" count="2" selfTime="5" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.util.CommandChoice" methodName="addItem" methodSignature="(LCH/ifa/draw/util/Command;)V" time="91" count="30" selfTime="65" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.util.Vector" methodName="addElement" methodSignature="(Ljava/lang/Object;)V" time="18" count="30" selfTime="18" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="CH.ifa.draw.util.Command" methodName="name" methodSignature="()Ljava/lang/String;" time="8" count="30" selfTime="8" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.standard.ChangeAttributeCommand" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;LCH/ifa/draw/framework/DrawingView;)V" time="48" count="30" selfTime="15" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="CH.ifa.draw.util.Command" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="33" count="30" selfTime="33" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.util.ColorMap" methodName="name" methodSignature="(I)Ljava/lang/String;" time="26" count="30" selfTime="18" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="CH.ifa.draw.util.ColorMap" methodName="size" methodSignature="()I" time="8" count="30" selfTime="8" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.util.ColorMap" methodName="color" methodSignature="(I)Ljava/awt/Color;" time="23" count="30" selfTime="17" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="CH.ifa.draw.util.ColorMap" methodName="size" methodSignature="()I" time="6" count="30" selfTime="6" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="CH.ifa.draw.util.ColorMap" methodName="size" methodSignature="()I" time="10" count="32" selfTime="10" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.awt.Panel" methodName="add" methodSignature="(Ljava/awt/Component;)Ljava/awt/Component;" time="315" count="8" selfTime="315" lineNumber="-1" percent="0.0"/>
+        <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="createFontChoice" methodSignature="()Ljava/awt/Choice;" time="257" count="1" selfTime="5" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.awt.Toolkit" methodName="getDefaultToolkit" methodSignature="()Ljava/awt/Toolkit;" time="213" count="1" selfTime="213" lineNumber="-1" percent="0.0"/>
+          <node leaf="false" class="CH.ifa.draw.util.CommandChoice" methodName="&lt;init&gt;" methodSignature="()V" time="15" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.awt.Choice" methodName="&lt;init&gt;" methodSignature="()V" time="13" count="1" selfTime="13" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.util.Vector" methodName="&lt;init&gt;" methodSignature="(I)V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="true" class="java.awt.Toolkit" methodName="getFontList" methodSignature="()[Ljava/lang/String;" time="10" count="1" selfTime="10" lineNumber="-1" percent="0.0"/>
+          <node leaf="false" class="CH.ifa.draw.standard.ChangeAttributeCommand" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;LCH/ifa/draw/framework/DrawingView;)V" time="7" count="5" selfTime="3" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="CH.ifa.draw.util.Command" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="4" count="5" selfTime="4" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.util.CommandChoice" methodName="addItem" methodSignature="(LCH/ifa/draw/util/Command;)V" time="7" count="5" selfTime="4" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.util.Vector" methodName="addElement" methodSignature="(Ljava/lang/Object;)V" time="2" count="5" selfTime="2" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="CH.ifa.draw.util.Command" methodName="name" methodSignature="()Ljava/lang/String;" time="1" count="5" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="true" class="java.lang.Integer" methodName="&lt;init&gt;" methodSignature="(I)V" time="85" count="4" selfTime="85" lineNumber="-1" percent="0.0"/>
+        <node leaf="false" class="CH.ifa.draw.util.CommandChoice" methodName="&lt;init&gt;" methodSignature="()V" time="39" count="1" selfTime="14" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.awt.Choice" methodName="&lt;init&gt;" methodSignature="()V" time="20" count="1" selfTime="20" lineNumber="-1" percent="0.0"/>
+          <node leaf="true" class="java.util.Vector" methodName="&lt;init&gt;" methodSignature="(I)V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.awt.Label" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="39" count="4" selfTime="39" lineNumber="-1" percent="0.0"/>
+        <node leaf="false" class="CH.ifa.draw.util.CommandChoice" methodName="addItem" methodSignature="(LCH/ifa/draw/util/Command;)V" time="28" count="4" selfTime="27" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.util.Vector" methodName="addElement" methodSignature="(Ljava/lang/Object;)V" time="1" count="4" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="CH.ifa.draw.standard.ChangeAttributeCommand" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;LCH/ifa/draw/framework/DrawingView;)V" time="5" count="4" selfTime="1" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="CH.ifa.draw.util.Command" methodName="&lt;init&gt;" methodSignature="(Ljava/lang/String;)V" time="4" count="4" selfTime="4" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+      <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="createAttributesPanel" methodSignature="()Ljava/awt/Panel;" time="1245" count="1" selfTime="1190" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.awt.Panel" methodName="&lt;init&gt;" methodSignature="()V" time="36" count="1" selfTime="36" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="CH.ifa.draw.util.PaletteLayout" methodName="&lt;init&gt;" methodSignature="(ILjava/awt/Point;Z)V" time="9" count="1" selfTime="9" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.awt.Point" methodName="&lt;init&gt;" methodSignature="(II)V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.awt.Panel" methodName="setLayout" methodSignature="(Ljava/awt/LayoutManager;)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="CH.ifa.draw.util.Iconkit" methodName="&lt;init&gt;" methodSignature="(Ljava/awt/Component;)V" time="489" count="1" selfTime="476" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.util.Hashtable" methodName="&lt;init&gt;" methodSignature="(I)V" time="8" count="1" selfTime="8" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.util.Vector" methodName="&lt;init&gt;" methodSignature="(I)V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="createToolPalette" methodSignature="()Ljava/awt/Panel;" time="30" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.awt.Panel" methodName="&lt;init&gt;" methodSignature="()V" time="14" count="1" selfTime="14" lineNumber="-1" percent="0.0"/>
+        <node leaf="false" class="CH.ifa.draw.util.PaletteLayout" methodName="&lt;init&gt;" methodSignature="(ILjava/awt/Point;)V" time="10" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="CH.ifa.draw.util.PaletteLayout" methodName="&lt;init&gt;" methodSignature="(ILjava/awt/Point;Z)V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.awt.Panel" methodName="setLayout" methodSignature="(Ljava/awt/LayoutManager;)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.awt.Point" methodName="&lt;init&gt;" methodSignature="(II)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="createButtonPanel" methodSignature="()Ljava/awt/Panel;" time="23" count="1" selfTime="6" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.awt.Panel" methodName="&lt;init&gt;" methodSignature="()V" time="14" count="1" selfTime="14" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="CH.ifa.draw.util.PaletteLayout" methodName="&lt;init&gt;" methodSignature="(ILjava/awt/Point;Z)V" time="2" count="1" selfTime="2" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.awt.Point" methodName="&lt;init&gt;" methodSignature="(II)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="setBufferedDisplayUpdate" methodSignature="()V" time="21" count="1" selfTime="8" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.awt.Button" methodName="setLabel" methodSignature="(Ljava/lang/String;)V" time="7" count="1" selfTime="7" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="CH.ifa.draw.standard.BufferedUpdateStrategy" methodName="&lt;init&gt;" methodSignature="()V" time="6" count="1" selfTime="6" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="setupAttributes" methodSignature="()V" time="16" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="selectionElements" methodSignature="()LCH/ifa/draw/framework/FigureEnumeration;" time="3" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.standard.FigureEnumerator" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Vector;)V" time="3" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.util.Vector" methodName="elements" methodSignature="()Ljava/util/Enumeration;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="false" class="CH.ifa.draw.util.ColorMap" methodName="colorIndex" methodSignature="(Ljava/awt/Color;)I" time="3" count="2" selfTime="2" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.awt.Color" methodName="equals" methodSignature="(Ljava/lang/Object;)Z" time="1" count="11" selfTime="1" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="CH.ifa.draw.figures.AttributeFigure" methodName="getDefaultAttribute" methodSignature="(Ljava/lang/String;)Ljava/lang/Object;" time="2" count="5" selfTime="0" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="CH.ifa.draw.figures.FigureAttributes" methodName="get" methodSignature="(Ljava/lang/String;)Ljava/lang/Object;" time="2" count="5" selfTime="2" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="true" class="java.awt.Choice" methodName="select" methodSignature="(I)V" time="2" count="3" selfTime="2" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="CH.ifa.draw.standard.FigureEnumerator" methodName="hasMoreElements" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.awt.Choice" methodName="select" methodSignature="(Ljava/lang/String;)V" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="CH.ifa.draw.util.Filler" methodName="getBackground" methodSignature="()Ljava/awt/Color;" time="6" count="2" selfTime="1" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.awt.Canvas" methodName="getBackground" methodSignature="()Ljava/awt/Color;" time="5" count="2" selfTime="5" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="CH.ifa.draw.util.Iconkit" methodName="&lt;clinit&gt;" methodSignature="()V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.awt.BorderLayout" methodName="&lt;init&gt;" methodSignature="()V" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="CH.ifa.draw.applet.DrawApplet" methodName="&lt;init&gt;" methodSignature="()V" time="2696" count="1" selfTime="792" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.applet.Applet" methodName="&lt;init&gt;" methodSignature="()V" time="1904" count="1" selfTime="1904" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="true" class="CH.ifa.draw.applet.DrawApplet" methodName="&lt;clinit&gt;" methodSignature="()V" time="822" count="1" selfTime="822" lineNumber="-1" percent="0.0"/>
+  </node>
+  <node leaf="false" class="java.awt.EventDispatchThread" methodName="run" methodSignature="()V" time="32540794" count="1" selfTime="32514328" lineNumber="-1" percent="49.7">
+    <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="paint" methodSignature="(Ljava/awt/Graphics;)V" time="8897" count="1" selfTime="11" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="CH.ifa.draw.standard.BufferedUpdateStrategy" methodName="draw" methodSignature="(Ljava/awt/Graphics;LCH/ifa/draw/framework/DrawingView;)V" time="8886" count="1" selfTime="5764" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.awt.Graphics" methodName="drawImage" methodSignature="(Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z" time="2304" count="1" selfTime="2304" lineNumber="-1" percent="0.0"/>
+        <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="drawAll" methodSignature="(Ljava/awt/Graphics;)V" time="799" count="1" selfTime="492" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="drawBackground" methodSignature="(Ljava/awt/Graphics;)V" time="273" count="1" selfTime="255" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.awt.Graphics" methodName="fillRect" methodSignature="(IIII)V" time="15" count="1" selfTime="15" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="java.awt.Graphics" methodName="setColor" methodSignature="(Ljava/awt/Color;)V" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="drawDrawing" methodSignature="(Ljava/awt/Graphics;)V" time="18" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="CH.ifa.draw.standard.CompositeFigure" methodName="draw" methodSignature="(Ljava/awt/Graphics;)V" time="14" count="1" selfTime="4" lineNumber="-1" percent="0.0">
+              <node leaf="false" class="CH.ifa.draw.standard.CompositeFigure" methodName="figures" methodSignature="()LCH/ifa/draw/framework/FigureEnumeration;" time="9" count="1" selfTime="2" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="CH.ifa.draw.standard.FigureEnumerator" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Vector;)V" time="7" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.util.Vector" methodName="elements" methodSignature="()Ljava/util/Enumeration;" time="4" count="1" selfTime="4" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="false" class="CH.ifa.draw.standard.FigureEnumerator" methodName="hasMoreElements" methodSignature="()Z" time="1" count="1" selfTime="0" lineNumber="-1" percent="0.0">
+                <node leaf="true" class="java.util.Enumeration" methodName="hasMoreElements" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+              </node>
+            </node>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="drawHandles" methodSignature="(Ljava/awt/Graphics;)V" time="16" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+            <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="selectionHandles" methodSignature="()Ljava/util/Enumeration;" time="14" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+              <node leaf="true" class="java.util.Vector" methodName="&lt;init&gt;" methodSignature="()V" time="5" count="1" selfTime="5" lineNumber="-1" percent="0.0"/>
+              <node leaf="false" class="CH.ifa.draw.standard.StandardDrawingView" methodName="selectionElements" methodSignature="()LCH/ifa/draw/framework/FigureEnumeration;" time="3" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                <node leaf="false" class="CH.ifa.draw.standard.FigureEnumerator" methodName="&lt;init&gt;" methodSignature="(Ljava/util/Vector;)V" time="2" count="1" selfTime="1" lineNumber="-1" percent="0.0">
+                  <node leaf="true" class="java.util.Vector" methodName="elements" methodSignature="()Ljava/util/Enumeration;" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+                </node>
+              </node>
+              <node leaf="true" class="java.util.Vector" methodName="elements" methodSignature="()Ljava/util/Enumeration;" time="3" count="1" selfTime="3" lineNumber="-1" percent="0.0"/>
+            </node>
+            <node leaf="true" class="java.util.Enumeration" methodName="hasMoreElements" methodSignature="()Z" time="1" count="1" selfTime="1" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="true" class="java.awt.Image" methodName="getGraphics" methodSignature="()Ljava/awt/Graphics;" time="19" count="1" selfTime="19" lineNumber="-1" percent="0.0"/>
+      </node>
+    </node>
+    <node leaf="false" class="CH.ifa.draw.util.PaletteLayout" methodName="preferredLayoutSize" methodSignature="(Ljava/awt/Container;)Ljava/awt/Dimension;" time="8028" count="3" selfTime="6" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="CH.ifa.draw.util.PaletteLayout" methodName="minimumLayoutSize" methodSignature="(Ljava/awt/Container;)Ljava/awt/Dimension;" time="8022" count="3" selfTime="350" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="java.awt.Component" methodName="getMinimumSize" methodSignature="()Ljava/awt/Dimension;" time="7106" count="21" selfTime="7079" lineNumber="-1" percent="0.0">
+          <node leaf="false" class="CH.ifa.draw.standard.ToolButton" methodName="getMinimumSize" methodSignature="()Ljava/awt/Dimension;" time="18" count="5" selfTime="9" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.awt.Dimension" methodName="&lt;init&gt;" methodSignature="(II)V" time="6" count="5" selfTime="6" lineNumber="-1" percent="0.0"/>
+            <node leaf="true" class="CH.ifa.draw.util.PaletteIcon" methodName="getWidth" methodSignature="()I" time="3" count="5" selfTime="3" lineNumber="-1" percent="0.0"/>
+          </node>
+          <node leaf="false" class="CH.ifa.draw.util.Filler" methodName="getMinimumSize" methodSignature="()Ljava/awt/Dimension;" time="9" count="2" selfTime="3" lineNumber="-1" percent="0.0">
+            <node leaf="true" class="java.awt.Dimension" methodName="&lt;init&gt;" methodSignature="(II)V" time="6" count="2" selfTime="6" lineNumber="-1" percent="0.0"/>
+          </node>
+        </node>
+        <node leaf="true" class="java.awt.Container" methodName="getComponentCount" methodSignature="()I" time="282" count="3" selfTime="282" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.lang.Math" methodName="max" methodSignature="(II)I" time="227" count="21" selfTime="227" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.awt.Component" methodName="isVisible" methodSignature="()Z" time="20" count="21" selfTime="20" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.awt.Container" methodName="getComponent" methodSignature="(I)Ljava/awt/Component;" time="14" count="21" selfTime="14" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.awt.Container" methodName="getInsets" methodSignature="()Ljava/awt/Insets;" time="14" count="3" selfTime="14" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="java.awt.Dimension" methodName="&lt;init&gt;" methodSignature="(II)V" time="9" count="3" selfTime="9" lineNumber="-1" percent="0.0"/>
+      </node>
+    </node>
+    <node leaf="false" class="CH.ifa.draw.util.PaletteLayout" methodName="layoutContainer" methodSignature="(Ljava/awt/Container;)V" time="5984" count="3" selfTime="77" lineNumber="-1" percent="0.0">
+      <node leaf="true" class="java.awt.Component" methodName="setBounds" methodSignature="(IIII)V" time="5498" count="21" selfTime="5498" lineNumber="-1" percent="0.0"/>
+      <node leaf="false" class="java.awt.Component" methodName="getMinimumSize" methodSignature="()Ljava/awt/Dimension;" time="349" count="21" selfTime="338" lineNumber="-1" percent="0.0">
+        <node leaf="false" class="CH.ifa.draw.standard.ToolButton" methodName="getMinimumSize" methodSignature="()Ljava/awt/Dimension;" time="8" count="5" selfTime="5" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.awt.Dimension" methodName="&lt;init&gt;" methodSignature="(II)V" time="3" count="5" selfTime="3" lineNumber="-1" percent="0.0"/>
+        </node>
+        <node leaf="false" class="CH.ifa.draw.util.Filler" methodName="getMinimumSize" methodSignature="()Ljava/awt/Dimension;" time="3" count="2" selfTime="0" lineNumber="-1" percent="0.0">
+          <node leaf="true" class="java.awt.Dimension" methodName="&lt;init&gt;" methodSignature="(II)V" time="3" count="2" selfTime="3" lineNumber="-1" percent="0.0"/>
+        </node>
+      </node>
+      <node leaf="true" class="java.awt.Container" methodName="getInsets" methodSignature="()Ljava/awt/Insets;" time="49" count="3" selfTime="49" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.awt.Container" methodName="getComponent" methodSignature="(I)Ljava/awt/Component;" time="8" count="21" selfTime="8" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.awt.Component" methodName="isVisible" methodSignature="()Z" time="2" count="21" selfTime="2" lineNumber="-1" percent="0.0"/>
+      <node leaf="true" class="java.awt.Container" methodName="getComponentCount" methodSignature="()I" time="1" count="3" selfTime="1" lineNumber="-1" percent="0.0"/>
+    </node>
+    <node leaf="false" class="CH.ifa.draw.util.PaletteButton" methodName="paint" methodSignature="(Ljava/awt/Graphics;)V" time="3557" count="5" selfTime="12" lineNumber="-1" percent="0.0">
+      <node leaf="false" class="CH.ifa.draw.standard.ToolButton" methodName="paintNormal" methodSignature="(Ljava/awt/Graphics;)V" time="3189" count="4" selfTime="44" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.awt.Graphics" methodName="drawImage" methodSignature="(Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z" time="3144" count="4" selfTime="3144" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="CH.ifa.draw.util.PaletteIcon" methodName="normal" methodSignature="()Ljava/awt/Image;" time="1" count="8" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="false" class="CH.ifa.draw.standard.ToolButton" methodName="paintSelected" methodSignature="(Ljava/awt/Graphics;)V" time="353" count="1" selfTime="3" lineNumber="-1" percent="0.0">
+        <node leaf="true" class="java.awt.Graphics" methodName="drawImage" methodSignature="(Ljava/awt/Image;IILjava/awt/image/ImageObserver;)Z" time="349" count="1" selfTime="349" lineNumber="-1" percent="0.0"/>
+        <node leaf="true" class="CH.ifa.draw.util.PaletteIcon" methodName="selected" methodSignature="()Ljava/awt/Image;" time="1" count="2" selfTime="1" lineNumber="-1" percent="0.0"/>
+      </node>
+      <node leaf="true" class="CH.ifa.draw.standard.ToolButton" methodName="paintBackground" methodSignature="(Ljava/awt/Graphics;)V" time="3" count="5" selfTime="3" lineNumber="-1" percent="0.0"/>
+    </node>
+  </node>
+</tree>
