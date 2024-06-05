@@ -1,0 +1,1084 @@
+package,class,method,layer
+CH.ifa.draw.applet,CH.ifa.draw.applet.DrawApplet,CH.ifa.draw.applet.DrawApplet.CH.ifa.draw.applet.DrawApplet(),Cross-Cutting
+CH.ifa.draw.applet,CH.ifa.draw.applet.DrawApplet,CH.ifa.draw.applet.DrawApplet.drawing(),Domain Layer
+CH.ifa.draw.applet,CH.ifa.draw.applet.DrawApplet,CH.ifa.draw.applet.DrawApplet.init(),Presentation Layer
+CH.ifa.draw.applet,CH.ifa.draw.applet.DrawApplet,"CH.ifa.draw.applet.DrawApplet.paletteUserOver(CH.ifa.draw.util.PaletteButton,boolean)",Presentation Layer
+CH.ifa.draw.applet,CH.ifa.draw.applet.DrawApplet,CH.ifa.draw.applet.DrawApplet.paletteUserSelected(CH.ifa.draw.util.PaletteButton),Presentation Layer
+CH.ifa.draw.applet,CH.ifa.draw.applet.DrawApplet,CH.ifa.draw.applet.DrawApplet.selectionChanged(CH.ifa.draw.framework.DrawingView),Presentation Layer
+CH.ifa.draw.applet,CH.ifa.draw.applet.DrawApplet,CH.ifa.draw.applet.DrawApplet.tool(),Cross-Cutting
+CH.ifa.draw.applet,CH.ifa.draw.applet.DrawApplet,CH.ifa.draw.applet.DrawApplet.toolDone(),Presentation Layer
+CH.ifa.draw.applet,CH.ifa.draw.applet.DrawApplet,CH.ifa.draw.applet.DrawApplet.view(),Service Layer
+CH.ifa.draw.applet,CH.ifa.draw.applet.SleeperThread,CH.ifa.draw.applet.SleeperThread.run(),Presentation Layer
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.CH.ifa.draw.application.DrawApplication(),Presentation Layer
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.CH.ifa.draw.application.DrawApplication(java.lang.String),Presentation Layer
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.drawing(),Cross-Cutting
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.exit(),Cross-Cutting
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.open(),Presentation Layer
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,"CH.ifa.draw.application.DrawApplication.paletteUserOver(CH.ifa.draw.util.PaletteButton,boolean)",Presentation Layer
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.paletteUserSelected(CH.ifa.draw.util.PaletteButton),Presentation Layer
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.print(),Presentation Layer
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.promptNew(),Service Layer
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.promptOpen(),Presentation Layer
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.promptSaveAs(),Service Layer
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.promptSaveAsSerialized(),Data Source Layer
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.selectionChanged(CH.ifa.draw.framework.DrawingView),Presentation Layer
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.setDrawing(CH.ifa.draw.framework.Drawing),Service Layer
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.showStatus(java.lang.String),Presentation Layer
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.tool(),Cross-Cutting
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.toolDone(),Presentation Layer
+CH.ifa.draw.application,CH.ifa.draw.application.DrawApplication,CH.ifa.draw.application.DrawApplication.view(),Cross-Cutting
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.ChopPolygonConnector,CH.ifa.draw.contrib.ChopPolygonConnector.CH.ifa.draw.contrib.ChopPolygonConnector(),Cross-Cutting
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.ChopPolygonConnector,CH.ifa.draw.contrib.ChopPolygonConnector.CH.ifa.draw.contrib.ChopPolygonConnector(CH.ifa.draw.framework.Figure),Service Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.DiamondFigure,CH.ifa.draw.contrib.DiamondFigure.CH.ifa.draw.contrib.DiamondFigure(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.DiamondFigure,"CH.ifa.draw.contrib.DiamondFigure.CH.ifa.draw.contrib.DiamondFigure(java.awt.Point,java.awt.Point)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.DiamondFigure,CH.ifa.draw.contrib.DiamondFigure.connectionInsets(),Presentation Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.DiamondFigure,"CH.ifa.draw.contrib.DiamondFigure.containsPoint(int,int)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.DiamondFigure,CH.ifa.draw.contrib.DiamondFigure.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.CH.ifa.draw.contrib.PolygonFigure(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,"CH.ifa.draw.contrib.PolygonFigure.CH.ifa.draw.contrib.PolygonFigure(int,int)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.CH.ifa.draw.contrib.PolygonFigure(java.awt.Polygon),Data Source Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,"CH.ifa.draw.contrib.PolygonFigure.addPoint(int,int)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,"CH.ifa.draw.contrib.PolygonFigure.basicDisplayBox(java.awt.Point,java.awt.Point)",Presentation Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,"CH.ifa.draw.contrib.PolygonFigure.basicMoveBy(int,int)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.bounds(java.awt.Polygon),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.center(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.center(java.awt.Polygon),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.chop(java.awt.Point),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,"CH.ifa.draw.contrib.PolygonFigure.chop(java.awt.Polygon,java.awt.Point)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,"CH.ifa.draw.contrib.PolygonFigure.connectorAt(int,int)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,"CH.ifa.draw.contrib.PolygonFigure.containsPoint(int,int)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.displayBox(),Cross-Cutting
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,"CH.ifa.draw.contrib.PolygonFigure.distanceFromLine(int,int,int,int,int,int)",Cross-Cutting
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.drawBackground(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.drawFrame(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,"CH.ifa.draw.contrib.PolygonFigure.findSegment(int,int)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.getPolygon(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.handles(),Presentation Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,"CH.ifa.draw.contrib.PolygonFigure.insertPointAt(java.awt.Point,int)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.isEmpty(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.locator(int),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.outermostPoint(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.pointAt(int),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.pointCount(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.points(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.removePointAt(int),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,"CH.ifa.draw.contrib.PolygonFigure.scaleRotate(java.awt.Point,java.awt.Polygon,java.awt.Point)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,"CH.ifa.draw.contrib.PolygonFigure.setPointAt(java.awt.Point,int)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.smoothPoints(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,"CH.ifa.draw.contrib.PolygonFigure.splitSegment(int,int)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.contrib.PolygonFigure.write(CH.ifa.draw.util.StorableOutput),Data Source Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonHandle,"CH.ifa.draw.contrib.PolygonHandle.CH.ifa.draw.contrib.PolygonHandle(CH.ifa.draw.contrib.PolygonFigure,CH.ifa.draw.framework.Locator,int)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonHandle,"CH.ifa.draw.contrib.PolygonHandle.invokeEnd(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonHandle,"CH.ifa.draw.contrib.PolygonHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonHandle,CH.ifa.draw.contrib.PolygonHandle.locate(),Presentation Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonScaleHandle,CH.ifa.draw.contrib.PolygonScaleHandle.CH.ifa.draw.contrib.PolygonScaleHandle(CH.ifa.draw.contrib.PolygonFigure),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonScaleHandle,CH.ifa.draw.contrib.PolygonScaleHandle.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonScaleHandle,"CH.ifa.draw.contrib.PolygonScaleHandle.invokeEnd(int,int,CH.ifa.draw.framework.Drawing)",Cross-Cutting
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonScaleHandle,"CH.ifa.draw.contrib.PolygonScaleHandle.invokeStart(int,int,CH.ifa.draw.framework.Drawing)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonScaleHandle,"CH.ifa.draw.contrib.PolygonScaleHandle.invokeStep(int,int,CH.ifa.draw.framework.Drawing)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonScaleHandle,CH.ifa.draw.contrib.PolygonScaleHandle.locate(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonTool,CH.ifa.draw.contrib.PolygonTool.CH.ifa.draw.contrib.PolygonTool(CH.ifa.draw.framework.DrawingView),Service Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonTool,CH.ifa.draw.contrib.PolygonTool.activate(),Cross-Cutting
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonTool,CH.ifa.draw.contrib.PolygonTool.deactivate(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonTool,"CH.ifa.draw.contrib.PolygonTool.mouseDown(java.awt.event.MouseEvent,int,int)",Service Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonTool,"CH.ifa.draw.contrib.PolygonTool.mouseDrag(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonTool,"CH.ifa.draw.contrib.PolygonTool.mouseMove(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.PolygonTool,"CH.ifa.draw.contrib.PolygonTool.mouseUp(java.awt.event.MouseEvent,int,int)",Service Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,CH.ifa.draw.contrib.TriangleFigure.CH.ifa.draw.contrib.TriangleFigure(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,"CH.ifa.draw.contrib.TriangleFigure.CH.ifa.draw.contrib.TriangleFigure(java.awt.Point,java.awt.Point)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,CH.ifa.draw.contrib.TriangleFigure.center(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,CH.ifa.draw.contrib.TriangleFigure.chop(java.awt.Point),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,CH.ifa.draw.contrib.TriangleFigure.clone(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,CH.ifa.draw.contrib.TriangleFigure.connectionInsets(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,"CH.ifa.draw.contrib.TriangleFigure.containsPoint(int,int)",Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,CH.ifa.draw.contrib.TriangleFigure.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,CH.ifa.draw.contrib.TriangleFigure.handles(),Presentation Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,CH.ifa.draw.contrib.TriangleFigure.polygon(),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,CH.ifa.draw.contrib.TriangleFigure.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,CH.ifa.draw.contrib.TriangleFigure.rotate(double),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleFigure,CH.ifa.draw.contrib.TriangleFigure.write(CH.ifa.draw.util.StorableOutput),Data Source Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleRotationHandle,CH.ifa.draw.contrib.TriangleRotationHandle.CH.ifa.draw.contrib.TriangleRotationHandle(CH.ifa.draw.contrib.TriangleFigure),Domain Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleRotationHandle,CH.ifa.draw.contrib.TriangleRotationHandle.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleRotationHandle,"CH.ifa.draw.contrib.TriangleRotationHandle.invokeEnd(int,int,CH.ifa.draw.framework.Drawing)",Cross-Cutting
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleRotationHandle,"CH.ifa.draw.contrib.TriangleRotationHandle.invokeStart(int,int,CH.ifa.draw.framework.Drawing)",Cross-Cutting
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleRotationHandle,"CH.ifa.draw.contrib.TriangleRotationHandle.invokeStep(int,int,CH.ifa.draw.framework.Drawing)",Service Layer
+CH.ifa.draw.contrib,CH.ifa.draw.contrib.TriangleRotationHandle,CH.ifa.draw.contrib.TriangleRotationHandle.locate(),Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.ArrowTip,CH.ifa.draw.figures.ArrowTip.CH.ifa.draw.figures.ArrowTip(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ArrowTip,"CH.ifa.draw.figures.ArrowTip.CH.ifa.draw.figures.ArrowTip(double,double,double)",Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.ArrowTip,"CH.ifa.draw.figures.ArrowTip.draw(java.awt.Graphics,int,int,int,int)",Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ArrowTip,"CH.ifa.draw.figures.ArrowTip.outline(int,int,int,int)",Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.ArrowTip,CH.ifa.draw.figures.ArrowTip.read(CH.ifa.draw.util.StorableInput),Data Source Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ArrowTip,CH.ifa.draw.figures.ArrowTip.write(CH.ifa.draw.util.StorableOutput),Data Source Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.AttributeFigure,CH.ifa.draw.figures.AttributeFigure.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.AttributeFigure,CH.ifa.draw.figures.AttributeFigure.getAttribute(java.lang.String),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.AttributeFigure,CH.ifa.draw.figures.AttributeFigure.getDefaultAttribute(java.lang.String),Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.AttributeFigure,CH.ifa.draw.figures.AttributeFigure.getFillColor(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.AttributeFigure,CH.ifa.draw.figures.AttributeFigure.getFrameColor(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.AttributeFigure,CH.ifa.draw.figures.AttributeFigure.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.AttributeFigure,"CH.ifa.draw.figures.AttributeFigure.setAttribute(java.lang.String,java.lang.Object)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.AttributeFigure,CH.ifa.draw.figures.AttributeFigure.write(CH.ifa.draw.util.StorableOutput),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.BorderDecorator,CH.ifa.draw.figures.BorderDecorator.CH.ifa.draw.figures.BorderDecorator(),Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.BorderDecorator,CH.ifa.draw.figures.BorderDecorator.CH.ifa.draw.figures.BorderDecorator(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.BorderDecorator,CH.ifa.draw.figures.BorderDecorator.connectionInsets(),Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.BorderDecorator,CH.ifa.draw.figures.BorderDecorator.displayBox(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.BorderDecorator,CH.ifa.draw.figures.BorderDecorator.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.BorderDecorator,CH.ifa.draw.figures.BorderDecorator.figureInvalidated(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.BorderTool,CH.ifa.draw.figures.BorderTool.CH.ifa.draw.figures.BorderTool(CH.ifa.draw.framework.DrawingView),Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.BorderTool,CH.ifa.draw.figures.BorderTool.action(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ChopEllipseConnector,CH.ifa.draw.figures.ChopEllipseConnector.CH.ifa.draw.figures.ChopEllipseConnector(),Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.ChopEllipseConnector,CH.ifa.draw.figures.ChopEllipseConnector.CH.ifa.draw.figures.ChopEllipseConnector(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ConnectedTextTool,"CH.ifa.draw.figures.ConnectedTextTool.CH.ifa.draw.figures.ConnectedTextTool(CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.Figure)",Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ConnectedTextTool,CH.ifa.draw.figures.ConnectedTextTool.activate(),Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ConnectedTextTool,"CH.ifa.draw.figures.ConnectedTextTool.mouseDown(java.awt.event.MouseEvent,int,int)",Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowConnection,CH.ifa.draw.figures.ElbowConnection.CH.ifa.draw.figures.ElbowConnection(),Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowConnection,CH.ifa.draw.figures.ElbowConnection.connectedTextLocator(CH.ifa.draw.framework.Figure),Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowConnection,CH.ifa.draw.figures.ElbowConnection.handles(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowConnection,CH.ifa.draw.figures.ElbowConnection.layoutConnection(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowConnection,CH.ifa.draw.figures.ElbowConnection.updateConnection(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowHandle,"CH.ifa.draw.figures.ElbowHandle.CH.ifa.draw.figures.ElbowHandle(CH.ifa.draw.figures.LineConnection,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowHandle,CH.ifa.draw.figures.ElbowHandle.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowHandle,"CH.ifa.draw.figures.ElbowHandle.invokeStart(int,int,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowHandle,"CH.ifa.draw.figures.ElbowHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowHandle,CH.ifa.draw.figures.ElbowHandle.locate(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ElbowTextLocator,CH.ifa.draw.figures.ElbowTextLocator.locate(CH.ifa.draw.framework.Figure),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.EllipseFigure,CH.ifa.draw.figures.EllipseFigure.CH.ifa.draw.figures.EllipseFigure(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.EllipseFigure,"CH.ifa.draw.figures.EllipseFigure.CH.ifa.draw.figures.EllipseFigure(java.awt.Point,java.awt.Point)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.EllipseFigure,"CH.ifa.draw.figures.EllipseFigure.basicDisplayBox(java.awt.Point,java.awt.Point)",Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.EllipseFigure,CH.ifa.draw.figures.EllipseFigure.connectionInsets(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.EllipseFigure,"CH.ifa.draw.figures.EllipseFigure.connectorAt(int,int)",Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.EllipseFigure,CH.ifa.draw.figures.EllipseFigure.displayBox(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.EllipseFigure,CH.ifa.draw.figures.EllipseFigure.drawBackground(java.awt.Graphics),Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.EllipseFigure,CH.ifa.draw.figures.EllipseFigure.drawFrame(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.EllipseFigure,CH.ifa.draw.figures.EllipseFigure.handles(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.EllipseFigure,CH.ifa.draw.figures.EllipseFigure.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.EllipseFigure,CH.ifa.draw.figures.EllipseFigure.write(CH.ifa.draw.util.StorableOutput),Data Source Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.FigureAttributes,CH.ifa.draw.figures.FigureAttributes.CH.ifa.draw.figures.FigureAttributes(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.FigureAttributes,CH.ifa.draw.figures.FigureAttributes.clone(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.FigureAttributes,CH.ifa.draw.figures.FigureAttributes.get(java.lang.String),Data Source Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.FigureAttributes,CH.ifa.draw.figures.FigureAttributes.hasDefined(java.lang.String),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.FigureAttributes,CH.ifa.draw.figures.FigureAttributes.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.FigureAttributes,"CH.ifa.draw.figures.FigureAttributes.set(java.lang.String,java.lang.Object)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.FigureAttributes,CH.ifa.draw.figures.FigureAttributes.write(CH.ifa.draw.util.StorableOutput),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.FontSizeHandle,"CH.ifa.draw.figures.FontSizeHandle.CH.ifa.draw.figures.FontSizeHandle(CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Locator)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.FontSizeHandle,CH.ifa.draw.figures.FontSizeHandle.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.FontSizeHandle,"CH.ifa.draw.figures.FontSizeHandle.invokeStart(int,int,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.FontSizeHandle,"CH.ifa.draw.figures.FontSizeHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupCommand,"CH.ifa.draw.figures.GroupCommand.CH.ifa.draw.figures.GroupCommand(java.lang.String,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupCommand,CH.ifa.draw.figures.GroupCommand.execute(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupCommand,CH.ifa.draw.figures.GroupCommand.isExecutable(),Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupFigure,CH.ifa.draw.figures.GroupFigure.CH.ifa.draw.figures.GroupFigure(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupFigure,"CH.ifa.draw.figures.GroupFigure.basicDisplayBox(java.awt.Point,java.awt.Point)",Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupFigure,CH.ifa.draw.figures.GroupFigure.canConnect(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupFigure,CH.ifa.draw.figures.GroupFigure.decompose(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupFigure,CH.ifa.draw.figures.GroupFigure.displayBox(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupFigure,CH.ifa.draw.figures.GroupFigure.handles(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupFigure,"CH.ifa.draw.figures.GroupFigure.setAttribute(java.lang.String,java.lang.Object)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupHandle,"CH.ifa.draw.figures.GroupHandle.CH.ifa.draw.figures.GroupHandle(CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Locator)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.GroupHandle,CH.ifa.draw.figures.GroupHandle.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ImageFigure,CH.ifa.draw.figures.ImageFigure.CH.ifa.draw.figures.ImageFigure(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ImageFigure,"CH.ifa.draw.figures.ImageFigure.CH.ifa.draw.figures.ImageFigure(java.awt.Image,java.lang.String,java.awt.Point)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ImageFigure,"CH.ifa.draw.figures.ImageFigure.basicDisplayBox(java.awt.Point,java.awt.Point)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ImageFigure,CH.ifa.draw.figures.ImageFigure.displayBox(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ImageFigure,CH.ifa.draw.figures.ImageFigure.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ImageFigure,CH.ifa.draw.figures.ImageFigure.handles(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ImageFigure,"CH.ifa.draw.figures.ImageFigure.imageUpdate(java.awt.Image,int,int,int,int,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ImageFigure,CH.ifa.draw.figures.ImageFigure.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ImageFigure,CH.ifa.draw.figures.ImageFigure.write(CH.ifa.draw.util.StorableOutput),Data Source Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.InsertImageCommand,"CH.ifa.draw.figures.InsertImageCommand.CH.ifa.draw.figures.InsertImageCommand(java.lang.String,java.lang.String,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.InsertImageCommand,CH.ifa.draw.figures.InsertImageCommand.execute(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.CH.ifa.draw.figures.LineConnection(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.canConnect(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,"CH.ifa.draw.figures.LineConnection.canConnect(CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.connectEnd(CH.ifa.draw.framework.Connector),Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.connectStart(CH.ifa.draw.framework.Connector),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.connectsSame(CH.ifa.draw.framework.ConnectionFigure),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.disconnectEnd(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.disconnectStart(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.end(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.endFigure(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.endPoint(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,"CH.ifa.draw.figures.LineConnection.endPoint(int,int)",Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.figureChanged(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.figureInvalidated(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.figureRemoved(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.figureRequestRemove(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.figureRequestUpdate(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.handles(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,"CH.ifa.draw.figures.LineConnection.insertPointAt(java.awt.Point,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.layoutConnection(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.read(CH.ifa.draw.util.StorableInput),Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.release(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.removePointAt(int),Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,"CH.ifa.draw.figures.LineConnection.setPointAt(java.awt.Point,int)",Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.start(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.startFigure(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.startPoint(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,"CH.ifa.draw.figures.LineConnection.startPoint(int,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.updateConnection(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineConnection,CH.ifa.draw.figures.LineConnection.write(CH.ifa.draw.util.StorableOutput),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineDecoration,"CH.ifa.draw.figures.LineDecoration.draw(java.awt.Graphics,int,int,int,int)",Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineFigure,CH.ifa.draw.figures.LineFigure.CH.ifa.draw.figures.LineFigure(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineFigure,"CH.ifa.draw.figures.LineFigure.basicDisplayBox(java.awt.Point,java.awt.Point)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineFigure,CH.ifa.draw.figures.LineFigure.endPoint(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineFigure,"CH.ifa.draw.figures.LineFigure.endPoint(int,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineFigure,"CH.ifa.draw.figures.LineFigure.setPoints(java.awt.Point,java.awt.Point)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineFigure,CH.ifa.draw.figures.LineFigure.startPoint(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.LineFigure,"CH.ifa.draw.figures.LineFigure.startPoint(int,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.NumberTextFigure,CH.ifa.draw.figures.NumberTextFigure.CH.ifa.draw.figures.NumberTextFigure(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.NumberTextFigure,CH.ifa.draw.figures.NumberTextFigure.getValue(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.NumberTextFigure,CH.ifa.draw.figures.NumberTextFigure.overlayColumns(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.NumberTextFigure,CH.ifa.draw.figures.NumberTextFigure.setValue(int),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineConnector,CH.ifa.draw.figures.PolyLineConnector.CH.ifa.draw.figures.PolyLineConnector(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineConnector,CH.ifa.draw.figures.PolyLineConnector.CH.ifa.draw.figures.PolyLineConnector(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.CH.ifa.draw.figures.PolyLineFigure(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.CH.ifa.draw.figures.PolyLineFigure(int),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,"CH.ifa.draw.figures.PolyLineFigure.CH.ifa.draw.figures.PolyLineFigure(int,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,"CH.ifa.draw.figures.PolyLineFigure.addPoint(int,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,"CH.ifa.draw.figures.PolyLineFigure.basicDisplayBox(java.awt.Point,java.awt.Point)",Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,"CH.ifa.draw.figures.PolyLineFigure.connectorAt(int,int)",Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,"CH.ifa.draw.figures.PolyLineFigure.containsPoint(int,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.displayBox(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,"CH.ifa.draw.figures.PolyLineFigure.findSegment(int,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.getAttribute(java.lang.String),Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.handles(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,"CH.ifa.draw.figures.PolyLineFigure.insertPointAt(java.awt.Point,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.isEmpty(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,"CH.ifa.draw.figures.PolyLineFigure.joinSegments(int,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.locator(int),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.pointAt(int),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.pointCount(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.points(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.removePointAt(int),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,"CH.ifa.draw.figures.PolyLineFigure.setAttribute(java.lang.String,java.lang.Object)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.setEndDecoration(CH.ifa.draw.figures.LineDecoration),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,"CH.ifa.draw.figures.PolyLineFigure.setPointAt(java.awt.Point,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.setStartDecoration(CH.ifa.draw.figures.LineDecoration),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,"CH.ifa.draw.figures.PolyLineFigure.splitSegment(int,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.figures.PolyLineFigure.write(CH.ifa.draw.util.StorableOutput),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineHandle,"CH.ifa.draw.figures.PolyLineHandle.CH.ifa.draw.figures.PolyLineHandle(CH.ifa.draw.figures.PolyLineFigure,CH.ifa.draw.framework.Locator,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineHandle,"CH.ifa.draw.figures.PolyLineHandle.invokeStart(int,int,CH.ifa.draw.framework.DrawingView)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineHandle,"CH.ifa.draw.figures.PolyLineHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineLocator,CH.ifa.draw.figures.PolyLineLocator.CH.ifa.draw.figures.PolyLineLocator(int),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.PolyLineLocator,CH.ifa.draw.figures.PolyLineLocator.locate(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RadiusHandle,CH.ifa.draw.figures.RadiusHandle.CH.ifa.draw.figures.RadiusHandle(CH.ifa.draw.figures.RoundRectangleFigure),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RadiusHandle,CH.ifa.draw.figures.RadiusHandle.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RadiusHandle,"CH.ifa.draw.figures.RadiusHandle.invokeStart(int,int,CH.ifa.draw.framework.DrawingView)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RadiusHandle,"CH.ifa.draw.figures.RadiusHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RadiusHandle,CH.ifa.draw.figures.RadiusHandle.locate(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RectangleFigure,CH.ifa.draw.figures.RectangleFigure.CH.ifa.draw.figures.RectangleFigure(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RectangleFigure,"CH.ifa.draw.figures.RectangleFigure.CH.ifa.draw.figures.RectangleFigure(java.awt.Point,java.awt.Point)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RectangleFigure,"CH.ifa.draw.figures.RectangleFigure.basicDisplayBox(java.awt.Point,java.awt.Point)",Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RectangleFigure,CH.ifa.draw.figures.RectangleFigure.displayBox(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RectangleFigure,CH.ifa.draw.figures.RectangleFigure.drawBackground(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RectangleFigure,CH.ifa.draw.figures.RectangleFigure.drawFrame(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RectangleFigure,CH.ifa.draw.figures.RectangleFigure.handles(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RectangleFigure,CH.ifa.draw.figures.RectangleFigure.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RectangleFigure,CH.ifa.draw.figures.RectangleFigure.write(CH.ifa.draw.util.StorableOutput),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,CH.ifa.draw.figures.RoundRectangleFigure.CH.ifa.draw.figures.RoundRectangleFigure(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,"CH.ifa.draw.figures.RoundRectangleFigure.CH.ifa.draw.figures.RoundRectangleFigure(java.awt.Point,java.awt.Point)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,"CH.ifa.draw.figures.RoundRectangleFigure.basicDisplayBox(java.awt.Point,java.awt.Point)",Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,CH.ifa.draw.figures.RoundRectangleFigure.connectionInsets(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,"CH.ifa.draw.figures.RoundRectangleFigure.connectorAt(int,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,CH.ifa.draw.figures.RoundRectangleFigure.displayBox(),Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,CH.ifa.draw.figures.RoundRectangleFigure.drawBackground(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,CH.ifa.draw.figures.RoundRectangleFigure.drawFrame(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,CH.ifa.draw.figures.RoundRectangleFigure.getArc(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,CH.ifa.draw.figures.RoundRectangleFigure.handles(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,CH.ifa.draw.figures.RoundRectangleFigure.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,"CH.ifa.draw.figures.RoundRectangleFigure.setArc(int,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.RoundRectangleFigure,CH.ifa.draw.figures.RoundRectangleFigure.write(CH.ifa.draw.util.StorableOutput),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ScribbleTool,CH.ifa.draw.figures.ScribbleTool.CH.ifa.draw.figures.ScribbleTool(CH.ifa.draw.framework.DrawingView),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ScribbleTool,CH.ifa.draw.figures.ScribbleTool.activate(),Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.ScribbleTool,CH.ifa.draw.figures.ScribbleTool.deactivate(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ScribbleTool,"CH.ifa.draw.figures.ScribbleTool.mouseDown(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ScribbleTool,"CH.ifa.draw.figures.ScribbleTool.mouseDrag(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ShortestDistanceConnector,CH.ifa.draw.figures.ShortestDistanceConnector.CH.ifa.draw.figures.ShortestDistanceConnector(),Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.ShortestDistanceConnector,CH.ifa.draw.figures.ShortestDistanceConnector.CH.ifa.draw.figures.ShortestDistanceConnector(CH.ifa.draw.framework.Figure),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ShortestDistanceConnector,CH.ifa.draw.figures.ShortestDistanceConnector.findEnd(CH.ifa.draw.framework.ConnectionFigure),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.ShortestDistanceConnector,CH.ifa.draw.figures.ShortestDistanceConnector.findStart(CH.ifa.draw.framework.ConnectionFigure),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.CH.ifa.draw.figures.TextFigure(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.acceptsTyping(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,"CH.ifa.draw.figures.TextFigure.basicDisplayBox(java.awt.Point,java.awt.Point)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.changed(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.connect(CH.ifa.draw.framework.Figure),Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.createCurrentFont(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.disconnect(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.displayBox(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.drawBackground(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.drawFrame(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.figureChanged(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.figureInvalidated(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.figureRemoved(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.figureRequestRemove(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.figureRequestUpdate(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.getAttribute(java.lang.String),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.getFont(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.getText(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.handles(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,"CH.ifa.draw.figures.TextFigure.moveBy(int,int)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.overlayColumns(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.readOnly(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.release(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,"CH.ifa.draw.figures.TextFigure.setAttribute(java.lang.String,java.lang.Object)",Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.setCurrentFontName(java.lang.String),Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.setCurrentFontSize(int),Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.setCurrentFontStyle(int),Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.setFont(java.awt.Font),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.setReadOnly(boolean),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.setText(java.lang.String),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.textDisplayBox(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextFigure,CH.ifa.draw.figures.TextFigure.write(CH.ifa.draw.util.StorableOutput),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextTool,"CH.ifa.draw.figures.TextTool.CH.ifa.draw.figures.TextTool(CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.Figure)",Cross-Cutting
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextTool,CH.ifa.draw.figures.TextTool.activate(),Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextTool,CH.ifa.draw.figures.TextTool.deactivate(),Domain Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextTool,"CH.ifa.draw.figures.TextTool.mouseDown(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextTool,"CH.ifa.draw.figures.TextTool.mouseDrag(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.TextTool,"CH.ifa.draw.figures.TextTool.mouseUp(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.UngroupCommand,"CH.ifa.draw.figures.UngroupCommand.CH.ifa.draw.figures.UngroupCommand(java.lang.String,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.UngroupCommand,CH.ifa.draw.figures.UngroupCommand.execute(),Service Layer
+CH.ifa.draw.figures,CH.ifa.draw.figures.UngroupCommand,CH.ifa.draw.figures.UngroupCommand.isExecutable(),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,"CH.ifa.draw.framework.ConnectionFigure.canConnect(CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,CH.ifa.draw.framework.ConnectionFigure.connectEnd(CH.ifa.draw.framework.Connector),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,CH.ifa.draw.framework.ConnectionFigure.connectStart(CH.ifa.draw.framework.Connector),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,CH.ifa.draw.framework.ConnectionFigure.connectsSame(CH.ifa.draw.framework.ConnectionFigure),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,CH.ifa.draw.framework.ConnectionFigure.disconnectEnd(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,CH.ifa.draw.framework.ConnectionFigure.disconnectStart(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,CH.ifa.draw.framework.ConnectionFigure.end(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,CH.ifa.draw.framework.ConnectionFigure.endPoint(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,"CH.ifa.draw.framework.ConnectionFigure.endPoint(int,int)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,"CH.ifa.draw.framework.ConnectionFigure.joinSegments(int,int)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,CH.ifa.draw.framework.ConnectionFigure.pointAt(int),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,CH.ifa.draw.framework.ConnectionFigure.pointCount(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,"CH.ifa.draw.framework.ConnectionFigure.setPointAt(java.awt.Point,int)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,"CH.ifa.draw.framework.ConnectionFigure.splitSegment(int,int)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,CH.ifa.draw.framework.ConnectionFigure.start(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,CH.ifa.draw.framework.ConnectionFigure.startPoint(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,"CH.ifa.draw.framework.ConnectionFigure.startPoint(int,int)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.ConnectionFigure,CH.ifa.draw.framework.ConnectionFigure.updateConnection(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Connector,"CH.ifa.draw.framework.Connector.containsPoint(int,int)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Connector,CH.ifa.draw.framework.Connector.displayBox(),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Connector,CH.ifa.draw.framework.Connector.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Connector,CH.ifa.draw.framework.Connector.findEnd(CH.ifa.draw.framework.ConnectionFigure),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Connector,CH.ifa.draw.framework.Connector.findStart(CH.ifa.draw.framework.ConnectionFigure),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Connector,CH.ifa.draw.framework.Connector.owner(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.add(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.addAll(java.util.Vector),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.addDrawingChangeListener(CH.ifa.draw.framework.DrawingChangeListener),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.bringToFront(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.drawingChangeListeners(),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.figureInvalidated(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.figureRequestRemove(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.figureRequestUpdate(CH.ifa.draw.framework.FigureChangeEvent),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.figures(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.figuresReverse(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,"CH.ifa.draw.framework.Drawing.findFigure(int,int)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.findFigure(java.awt.Rectangle),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,"CH.ifa.draw.framework.Drawing.findFigure(java.awt.Rectangle,CH.ifa.draw.framework.Figure)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,"CH.ifa.draw.framework.Drawing.findFigureInside(int,int)",Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,"CH.ifa.draw.framework.Drawing.findFigureInsideWithout(int,int,CH.ifa.draw.framework.Figure)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,"CH.ifa.draw.framework.Drawing.findFigureWithout(int,int,CH.ifa.draw.framework.Figure)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.lock(),Data Source Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.orphan(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.orphanAll(java.util.Vector),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.release(),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.remove(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.removeAll(java.util.Vector),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.removeDrawingChangeListener(CH.ifa.draw.framework.DrawingChangeListener),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,"CH.ifa.draw.framework.Drawing.replace(CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.sendToBack(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Drawing,CH.ifa.draw.framework.Drawing.unlock(),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingChangeEvent,"CH.ifa.draw.framework.DrawingChangeEvent.CH.ifa.draw.framework.DrawingChangeEvent(CH.ifa.draw.framework.Drawing,java.awt.Rectangle)",Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingChangeEvent,CH.ifa.draw.framework.DrawingChangeEvent.getDrawing(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingChangeEvent,CH.ifa.draw.framework.DrawingChangeEvent.getInvalidatedRectangle(),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingChangeListener,CH.ifa.draw.framework.DrawingChangeListener.drawingInvalidated(CH.ifa.draw.framework.DrawingChangeEvent),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingChangeListener,CH.ifa.draw.framework.DrawingChangeListener.drawingRequestUpdate(CH.ifa.draw.framework.DrawingChangeEvent),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingEditor,CH.ifa.draw.framework.DrawingEditor.drawing(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingEditor,CH.ifa.draw.framework.DrawingEditor.selectionChanged(CH.ifa.draw.framework.DrawingView),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingEditor,CH.ifa.draw.framework.DrawingEditor.showStatus(java.lang.String),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingEditor,CH.ifa.draw.framework.DrawingEditor.tool(),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingEditor,CH.ifa.draw.framework.DrawingEditor.toolDone(),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingEditor,CH.ifa.draw.framework.DrawingEditor.view(),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.add(CH.ifa.draw.framework.Figure),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.addAll(java.util.Vector),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.addToSelection(CH.ifa.draw.framework.Figure),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.addToSelectionAll(java.util.Vector),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.checkDamage(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.clearSelection(),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,"CH.ifa.draw.framework.DrawingView.createImage(int,int)",Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.drawAll(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.drawBackground(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.drawDrawing(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.drawHandles(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.drawing(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.editor(),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,"CH.ifa.draw.framework.DrawingView.findHandle(int,int)",Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.freezeView(),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.getBackground(),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.getConstrainer(),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.getFigureSelection(),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.getGraphics(),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.getMinimumSize(),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.getPreferredSize(),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.getSize(),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.lastClick(),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.paint(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.remove(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.removeFromSelection(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.repairDamage(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.selection(),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.selectionCount(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.selectionElements(),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.selectionZOrdered(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.setBackground(java.awt.Color),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.setConstrainer(CH.ifa.draw.framework.PointConstrainer),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.setCursor(java.awt.Cursor),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.setDisplayUpdate(CH.ifa.draw.framework.Painter),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.setDrawing(CH.ifa.draw.framework.Drawing),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.setEditor(CH.ifa.draw.framework.DrawingEditor),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.toggleSelection(CH.ifa.draw.framework.Figure),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.tool(),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.DrawingView.unfreezeView(),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.addFigureChangeListener(CH.ifa.draw.framework.FigureChangeListener),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.addToContainer(CH.ifa.draw.framework.FigureChangeListener),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,"CH.ifa.draw.framework.Figure.basicDisplayBox(java.awt.Point,java.awt.Point)",Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.canConnect(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.center(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.changed(),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.clone(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.connectedTextLocator(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.connectionInsets(),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,"CH.ifa.draw.framework.Figure.connectorAt(int,int)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.connectorVisibility(boolean),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,"CH.ifa.draw.framework.Figure.containsPoint(int,int)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.decompose(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.displayBox(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,"CH.ifa.draw.framework.Figure.displayBox(java.awt.Point,java.awt.Point)",Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.displayBox(java.awt.Rectangle),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.figures(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,"CH.ifa.draw.framework.Figure.findFigureInside(int,int)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.getAttribute(java.lang.String),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.handles(),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.includes(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.invalidate(),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.isEmpty(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.listener(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,"CH.ifa.draw.framework.Figure.moveBy(int,int)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.release(),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.removeFigureChangeListener(CH.ifa.draw.framework.FigureChangeListener),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.removeFromContainer(CH.ifa.draw.framework.FigureChangeListener),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,"CH.ifa.draw.framework.Figure.setAttribute(java.lang.String,java.lang.Object)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.size(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure.willChange(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureChangeEvent,CH.ifa.draw.framework.FigureChangeEvent.CH.ifa.draw.framework.FigureChangeEvent(CH.ifa.draw.framework.Figure),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureChangeEvent,"CH.ifa.draw.framework.FigureChangeEvent.CH.ifa.draw.framework.FigureChangeEvent(CH.ifa.draw.framework.Figure,java.awt.Rectangle)",Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureChangeEvent,CH.ifa.draw.framework.FigureChangeEvent.getFigure(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureChangeEvent,CH.ifa.draw.framework.FigureChangeEvent.getInvalidatedRectangle(),Data Source Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureChangeListener,CH.ifa.draw.framework.FigureChangeListener.figureChanged(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureChangeListener,CH.ifa.draw.framework.FigureChangeListener.figureInvalidated(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureChangeListener,CH.ifa.draw.framework.FigureChangeListener.figureRemoved(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureChangeListener,CH.ifa.draw.framework.FigureChangeListener.figureRequestRemove(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureChangeListener,CH.ifa.draw.framework.FigureChangeListener.figureRequestUpdate(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureEnumeration,CH.ifa.draw.framework.FigureEnumeration.nextFigure(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureSelection,CH.ifa.draw.framework.FigureSelection.CH.ifa.draw.framework.FigureSelection(java.util.Vector),Data Source Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureSelection,CH.ifa.draw.framework.FigureSelection.getData(java.lang.String),Data Source Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.FigureSelection,CH.ifa.draw.framework.FigureSelection.getType(),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.HJDError,CH.ifa.draw.framework.HJDError.CH.ifa.draw.framework.HJDError(java.lang.String),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.Handle,"CH.ifa.draw.framework.Handle.containsPoint(int,int)",Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Handle,CH.ifa.draw.framework.Handle.displayBox(),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Handle,CH.ifa.draw.framework.Handle.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Handle,"CH.ifa.draw.framework.Handle.invokeEnd(int,int,CH.ifa.draw.framework.Drawing)",Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.Handle,"CH.ifa.draw.framework.Handle.invokeEnd(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Handle,"CH.ifa.draw.framework.Handle.invokeStart(int,int,CH.ifa.draw.framework.Drawing)",Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Handle,"CH.ifa.draw.framework.Handle.invokeStart(int,int,CH.ifa.draw.framework.DrawingView)",Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Handle,"CH.ifa.draw.framework.Handle.invokeStep(int,int,CH.ifa.draw.framework.Drawing)",Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.Handle,"CH.ifa.draw.framework.Handle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.Handle,CH.ifa.draw.framework.Handle.locate(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Handle,CH.ifa.draw.framework.Handle.owner(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Locator,CH.ifa.draw.framework.Locator.locate(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Painter,"CH.ifa.draw.framework.Painter.draw(java.awt.Graphics,CH.ifa.draw.framework.DrawingView)",Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.PointConstrainer,CH.ifa.draw.framework.PointConstrainer.constrainPoint(java.awt.Point),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.PointConstrainer,CH.ifa.draw.framework.PointConstrainer.getStepX(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.PointConstrainer,CH.ifa.draw.framework.PointConstrainer.getStepY(),Domain Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Tool,CH.ifa.draw.framework.Tool.activate(),Service Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Tool,CH.ifa.draw.framework.Tool.deactivate(),Cross-Cutting
+CH.ifa.draw.framework,CH.ifa.draw.framework.Tool,"CH.ifa.draw.framework.Tool.keyDown(java.awt.event.KeyEvent,int)",Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Tool,"CH.ifa.draw.framework.Tool.mouseDown(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Tool,"CH.ifa.draw.framework.Tool.mouseDrag(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Tool,"CH.ifa.draw.framework.Tool.mouseMove(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.framework,CH.ifa.draw.framework.Tool,"CH.ifa.draw.framework.Tool.mouseUp(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.AnimationDecorator,CH.ifa.draw.samples.javadraw.AnimationDecorator.CH.ifa.draw.samples.javadraw.AnimationDecorator(),Domain Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.AnimationDecorator,CH.ifa.draw.samples.javadraw.AnimationDecorator.CH.ifa.draw.samples.javadraw.AnimationDecorator(CH.ifa.draw.framework.Figure),Cross-Cutting
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.AnimationDecorator,CH.ifa.draw.samples.javadraw.AnimationDecorator.animationStep(),Domain Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.AnimationDecorator,"CH.ifa.draw.samples.javadraw.AnimationDecorator.basicDisplayBox(java.awt.Point,java.awt.Point)",Presentation Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.AnimationDecorator,"CH.ifa.draw.samples.javadraw.AnimationDecorator.basicMoveBy(int,int)",Domain Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.AnimationDecorator,CH.ifa.draw.samples.javadraw.AnimationDecorator.displayBox(),Cross-Cutting
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.AnimationDecorator,CH.ifa.draw.samples.javadraw.AnimationDecorator.read(CH.ifa.draw.util.StorableInput),Data Source Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.AnimationDecorator,CH.ifa.draw.samples.javadraw.AnimationDecorator.velocity(),Domain Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.AnimationDecorator,"CH.ifa.draw.samples.javadraw.AnimationDecorator.velocity(int,int)",Domain Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.AnimationDecorator,CH.ifa.draw.samples.javadraw.AnimationDecorator.write(CH.ifa.draw.util.StorableOutput),Data Source Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.Animator,"CH.ifa.draw.samples.javadraw.Animator.CH.ifa.draw.samples.javadraw.Animator(CH.ifa.draw.util.Animatable,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.Animator,CH.ifa.draw.samples.javadraw.Animator.end(),Domain Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.Animator,CH.ifa.draw.samples.javadraw.Animator.run(),Presentation Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.Animator,CH.ifa.draw.samples.javadraw.Animator.start(),Service Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.BouncingDrawing,CH.ifa.draw.samples.javadraw.BouncingDrawing.CH.ifa.draw.samples.javadraw.BouncingDrawing(),Cross-Cutting
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.BouncingDrawing,CH.ifa.draw.samples.javadraw.BouncingDrawing.add(CH.ifa.draw.framework.Figure),Service Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.BouncingDrawing,CH.ifa.draw.samples.javadraw.BouncingDrawing.animationStep(),Service Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.BouncingDrawing,CH.ifa.draw.samples.javadraw.BouncingDrawing.remove(CH.ifa.draw.framework.Figure),Service Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.BouncingDrawing,"CH.ifa.draw.samples.javadraw.BouncingDrawing.replace(CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure)",Service Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.FollowURLTool,"CH.ifa.draw.samples.javadraw.FollowURLTool.mouseMove(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.FollowURLTool,"CH.ifa.draw.samples.javadraw.FollowURLTool.mouseUp(java.awt.event.MouseEvent,int,int)",Service Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApp,CH.ifa.draw.samples.javadraw.JavaDrawApp.destroy(),Cross-Cutting
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApp,CH.ifa.draw.samples.javadraw.JavaDrawApp.endAnimation(),Cross-Cutting
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApp,CH.ifa.draw.samples.javadraw.JavaDrawApp.main(java.lang.String[]),Presentation Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApp,CH.ifa.draw.samples.javadraw.JavaDrawApp.open(),Service Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApp,CH.ifa.draw.samples.javadraw.JavaDrawApp.openView(),Presentation Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApp,CH.ifa.draw.samples.javadraw.JavaDrawApp.startAnimation(),Service Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApplet,CH.ifa.draw.samples.javadraw.JavaDrawApplet.CH.ifa.draw.samples.javadraw.JavaDrawApplet(),Cross-Cutting
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApplet,CH.ifa.draw.samples.javadraw.JavaDrawApplet.destroy(),Cross-Cutting
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApplet,CH.ifa.draw.samples.javadraw.JavaDrawApplet.endAnimation(),Presentation Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApplet,CH.ifa.draw.samples.javadraw.JavaDrawApplet.startAnimation(),Presentation Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawApplet,CH.ifa.draw.samples.javadraw.JavaDrawApplet.toggleAnimation(),Presentation Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawViewer,CH.ifa.draw.samples.javadraw.JavaDrawViewer.CH.ifa.draw.samples.javadraw.JavaDrawViewer(),Cross-Cutting
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawViewer,CH.ifa.draw.samples.javadraw.JavaDrawViewer.drawing(),Domain Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawViewer,CH.ifa.draw.samples.javadraw.JavaDrawViewer.init(),Service Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawViewer,CH.ifa.draw.samples.javadraw.JavaDrawViewer.selectionChanged(CH.ifa.draw.framework.DrawingView),Cross-Cutting
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawViewer,CH.ifa.draw.samples.javadraw.JavaDrawViewer.tool(),Presentation Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawViewer,CH.ifa.draw.samples.javadraw.JavaDrawViewer.toolDone(),Cross-Cutting
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.JavaDrawViewer,CH.ifa.draw.samples.javadraw.JavaDrawViewer.view(),Cross-Cutting
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.MySelectionTool,CH.ifa.draw.samples.javadraw.MySelectionTool.CH.ifa.draw.samples.javadraw.MySelectionTool(CH.ifa.draw.framework.DrawingView),Cross-Cutting
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.MySelectionTool,"CH.ifa.draw.samples.javadraw.MySelectionTool.mouseDown(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.PatternPainter,CH.ifa.draw.samples.javadraw.PatternPainter.CH.ifa.draw.samples.javadraw.PatternPainter(java.awt.Image),Presentation Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.PatternPainter,"CH.ifa.draw.samples.javadraw.PatternPainter.draw(java.awt.Graphics,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.URLTool,CH.ifa.draw.samples.javadraw.URLTool.CH.ifa.draw.samples.javadraw.URLTool(CH.ifa.draw.framework.DrawingView),Service Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.URLTool,CH.ifa.draw.samples.javadraw.URLTool.deactivate(CH.ifa.draw.framework.DrawingView),Service Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.URLTool,CH.ifa.draw.samples.javadraw.URLTool.endAction(java.awt.event.ActionEvent),Service Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.URLTool,"CH.ifa.draw.samples.javadraw.URLTool.mouseDown(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.samples.javadraw,CH.ifa.draw.samples.javadraw.URLTool,"CH.ifa.draw.samples.javadraw.URLTool.mouseUp(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.samples.net,CH.ifa.draw.samples.net.NetApp,CH.ifa.draw.samples.net.NetApp.main(java.lang.String[]),Presentation Layer
+CH.ifa.draw.samples.net,CH.ifa.draw.samples.net.NodeFigure,CH.ifa.draw.samples.net.NodeFigure.CH.ifa.draw.samples.net.NodeFigure(),Cross-Cutting
+CH.ifa.draw.samples.net,CH.ifa.draw.samples.net.NodeFigure,"CH.ifa.draw.samples.net.NodeFigure.connectorAt(int,int)",Domain Layer
+CH.ifa.draw.samples.net,CH.ifa.draw.samples.net.NodeFigure,CH.ifa.draw.samples.net.NodeFigure.connectorVisibility(boolean),Presentation Layer
+CH.ifa.draw.samples.net,CH.ifa.draw.samples.net.NodeFigure,"CH.ifa.draw.samples.net.NodeFigure.containsPoint(int,int)",Domain Layer
+CH.ifa.draw.samples.net,CH.ifa.draw.samples.net.NodeFigure,CH.ifa.draw.samples.net.NodeFigure.displayBox(),Presentation Layer
+CH.ifa.draw.samples.net,CH.ifa.draw.samples.net.NodeFigure,CH.ifa.draw.samples.net.NodeFigure.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.samples.net,CH.ifa.draw.samples.net.NodeFigure,CH.ifa.draw.samples.net.NodeFigure.handles(),Presentation Layer
+CH.ifa.draw.samples.nothing,CH.ifa.draw.samples.nothing.NothingApp,CH.ifa.draw.samples.nothing.NothingApp.main(java.lang.String[]),Presentation Layer
+CH.ifa.draw.samples.nothing,CH.ifa.draw.samples.nothing.NothingApplet,CH.ifa.draw.samples.nothing.NothingApplet.CH.ifa.draw.samples.nothing.NothingApplet(),Cross-Cutting
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertApplet,CH.ifa.draw.samples.pert.PertApplet.CH.ifa.draw.samples.pert.PertApplet(),Service Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertApplication,CH.ifa.draw.samples.pert.PertApplication.main(java.lang.String[]),Service Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertDependency,CH.ifa.draw.samples.pert.PertDependency.CH.ifa.draw.samples.pert.PertDependency(),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertDependency,"CH.ifa.draw.samples.pert.PertDependency.canConnect(CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure)",Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertDependency,"CH.ifa.draw.samples.pert.PertDependency.handleConnect(CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure)",Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertDependency,"CH.ifa.draw.samples.pert.PertDependency.handleDisconnect(CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure)",Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertDependency,CH.ifa.draw.samples.pert.PertDependency.handles(),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.CH.ifa.draw.samples.pert.PertFigure(),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.addPostTask(CH.ifa.draw.samples.pert.PertFigure),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.addPreTask(CH.ifa.draw.samples.pert.PertFigure),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,"CH.ifa.draw.samples.pert.PertFigure.basicDisplayBox(java.awt.Point,java.awt.Point)",Presentation Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.connectionInsets(),Presentation Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.displayBox(),Presentation Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.duration(),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.end(),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.figureChanged(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.figureRemoved(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.handles(),Presentation Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.hasCycle(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.notifyPostTasks(),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.readTasks(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.removePostTask(CH.ifa.draw.samples.pert.PertFigure),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.removePreTask(CH.ifa.draw.samples.pert.PertFigure),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.setEnd(int),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.start(),Service Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.update(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.updateDurations(),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,CH.ifa.draw.samples.pert.PertFigure.write(CH.ifa.draw.util.StorableOutput),Domain Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigure,"CH.ifa.draw.samples.pert.PertFigure.writeTasks(CH.ifa.draw.util.StorableOutput,java.util.Vector)",Data Source Layer
+CH.ifa.draw.samples.pert,CH.ifa.draw.samples.pert.PertFigureCreationTool,CH.ifa.draw.samples.pert.PertFigureCreationTool.CH.ifa.draw.samples.pert.PertFigureCreationTool(CH.ifa.draw.framework.DrawingView),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractConnector,CH.ifa.draw.standard.AbstractConnector.CH.ifa.draw.standard.AbstractConnector(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractConnector,CH.ifa.draw.standard.AbstractConnector.CH.ifa.draw.standard.AbstractConnector(CH.ifa.draw.framework.Figure),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractConnector,"CH.ifa.draw.standard.AbstractConnector.containsPoint(int,int)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractConnector,CH.ifa.draw.standard.AbstractConnector.displayBox(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractConnector,CH.ifa.draw.standard.AbstractConnector.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractConnector,CH.ifa.draw.standard.AbstractConnector.findEnd(CH.ifa.draw.framework.ConnectionFigure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractConnector,CH.ifa.draw.standard.AbstractConnector.findStart(CH.ifa.draw.framework.ConnectionFigure),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractConnector,CH.ifa.draw.standard.AbstractConnector.owner(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractConnector,CH.ifa.draw.standard.AbstractConnector.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractConnector,CH.ifa.draw.standard.AbstractConnector.write(CH.ifa.draw.util.StorableOutput),Data Source Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.addFigureChangeListener(CH.ifa.draw.framework.FigureChangeListener),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.addToContainer(CH.ifa.draw.framework.FigureChangeListener),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,"CH.ifa.draw.standard.AbstractFigure.basicDisplayBox(java.awt.Point,java.awt.Point)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.canConnect(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.center(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.changed(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.clone(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.connectedTextLocator(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.connectionInsets(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,"CH.ifa.draw.standard.AbstractFigure.connectorAt(int,int)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.connectorVisibility(boolean),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,"CH.ifa.draw.standard.AbstractFigure.containsPoint(int,int)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.decompose(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.displayBox(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,"CH.ifa.draw.standard.AbstractFigure.displayBox(java.awt.Point,java.awt.Point)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.displayBox(java.awt.Rectangle),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.figures(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,"CH.ifa.draw.standard.AbstractFigure.findFigureInside(int,int)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.getAttribute(java.lang.String),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.handles(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.includes(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.invalidate(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.isEmpty(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.listener(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,"CH.ifa.draw.standard.AbstractFigure.moveBy(int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.read(CH.ifa.draw.util.StorableInput),Data Source Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.release(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.removeFigureChangeListener(CH.ifa.draw.framework.FigureChangeListener),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.removeFromContainer(CH.ifa.draw.framework.FigureChangeListener),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,"CH.ifa.draw.standard.AbstractFigure.setAttribute(java.lang.String,java.lang.Object)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.size(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.willChange(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractFigure,CH.ifa.draw.standard.AbstractFigure.write(CH.ifa.draw.util.StorableOutput),Data Source Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,CH.ifa.draw.standard.AbstractHandle.CH.ifa.draw.standard.AbstractHandle(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,"CH.ifa.draw.standard.AbstractHandle.containsPoint(int,int)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,CH.ifa.draw.standard.AbstractHandle.displayBox(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,CH.ifa.draw.standard.AbstractHandle.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,"CH.ifa.draw.standard.AbstractHandle.invokeEnd(int,int,CH.ifa.draw.framework.Drawing)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,"CH.ifa.draw.standard.AbstractHandle.invokeEnd(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,"CH.ifa.draw.standard.AbstractHandle.invokeStart(int,int,CH.ifa.draw.framework.Drawing)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,"CH.ifa.draw.standard.AbstractHandle.invokeStart(int,int,CH.ifa.draw.framework.DrawingView)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,"CH.ifa.draw.standard.AbstractHandle.invokeStep(int,int,CH.ifa.draw.framework.Drawing)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,"CH.ifa.draw.standard.AbstractHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,CH.ifa.draw.standard.AbstractHandle.locate(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractHandle,CH.ifa.draw.standard.AbstractHandle.owner(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractLocator,CH.ifa.draw.standard.AbstractLocator.clone(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractLocator,CH.ifa.draw.standard.AbstractLocator.read(CH.ifa.draw.util.StorableInput),Data Source Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractLocator,CH.ifa.draw.standard.AbstractLocator.write(CH.ifa.draw.util.StorableOutput),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractTool,CH.ifa.draw.standard.AbstractTool.CH.ifa.draw.standard.AbstractTool(CH.ifa.draw.framework.DrawingView),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractTool,CH.ifa.draw.standard.AbstractTool.activate(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractTool,CH.ifa.draw.standard.AbstractTool.deactivate(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractTool,CH.ifa.draw.standard.AbstractTool.drawing(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractTool,CH.ifa.draw.standard.AbstractTool.editor(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractTool,"CH.ifa.draw.standard.AbstractTool.keyDown(java.awt.event.KeyEvent,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractTool,"CH.ifa.draw.standard.AbstractTool.mouseDown(java.awt.event.MouseEvent,int,int)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractTool,"CH.ifa.draw.standard.AbstractTool.mouseDrag(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractTool,"CH.ifa.draw.standard.AbstractTool.mouseMove(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractTool,"CH.ifa.draw.standard.AbstractTool.mouseUp(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AbstractTool,CH.ifa.draw.standard.AbstractTool.view(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ActionTool,CH.ifa.draw.standard.ActionTool.CH.ifa.draw.standard.ActionTool(CH.ifa.draw.framework.DrawingView),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ActionTool,CH.ifa.draw.standard.ActionTool.action(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ActionTool,"CH.ifa.draw.standard.ActionTool.mouseDown(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ActionTool,"CH.ifa.draw.standard.ActionTool.mouseUp(java.awt.event.MouseEvent,int,int)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AlignCommand,"CH.ifa.draw.standard.AlignCommand.CH.ifa.draw.standard.AlignCommand(java.lang.String,CH.ifa.draw.framework.DrawingView,int)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AlignCommand,CH.ifa.draw.standard.AlignCommand.execute(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.AlignCommand,CH.ifa.draw.standard.AlignCommand.isExecutable(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.BoxHandleKit,CH.ifa.draw.standard.BoxHandleKit.CH.ifa.draw.standard.BoxHandleKit(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.BoxHandleKit,"CH.ifa.draw.standard.BoxHandleKit.addCornerHandles(CH.ifa.draw.framework.Figure,java.util.Vector)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.BoxHandleKit,"CH.ifa.draw.standard.BoxHandleKit.addHandles(CH.ifa.draw.framework.Figure,java.util.Vector)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.BoxHandleKit,CH.ifa.draw.standard.BoxHandleKit.east(CH.ifa.draw.framework.Figure),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.BoxHandleKit,CH.ifa.draw.standard.BoxHandleKit.north(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.BoxHandleKit,CH.ifa.draw.standard.BoxHandleKit.northEast(CH.ifa.draw.framework.Figure),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.BoxHandleKit,CH.ifa.draw.standard.BoxHandleKit.northWest(CH.ifa.draw.framework.Figure),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.BoxHandleKit,CH.ifa.draw.standard.BoxHandleKit.south(CH.ifa.draw.framework.Figure),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.BoxHandleKit,CH.ifa.draw.standard.BoxHandleKit.southEast(CH.ifa.draw.framework.Figure),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.BoxHandleKit,CH.ifa.draw.standard.BoxHandleKit.southWest(CH.ifa.draw.framework.Figure),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.BoxHandleKit,CH.ifa.draw.standard.BoxHandleKit.west(CH.ifa.draw.framework.Figure),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.BringToFrontCommand,"CH.ifa.draw.standard.BringToFrontCommand.CH.ifa.draw.standard.BringToFrontCommand(java.lang.String,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.BringToFrontCommand,CH.ifa.draw.standard.BringToFrontCommand.execute(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.BringToFrontCommand,CH.ifa.draw.standard.BringToFrontCommand.isExecutable(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.BufferedUpdateStrategy,CH.ifa.draw.standard.BufferedUpdateStrategy.CH.ifa.draw.standard.BufferedUpdateStrategy(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.BufferedUpdateStrategy,"CH.ifa.draw.standard.BufferedUpdateStrategy.draw(java.awt.Graphics,CH.ifa.draw.framework.DrawingView)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeAttributeCommand,"CH.ifa.draw.standard.ChangeAttributeCommand.CH.ifa.draw.standard.ChangeAttributeCommand(java.lang.String,java.lang.String,java.lang.Object,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeAttributeCommand,CH.ifa.draw.standard.ChangeAttributeCommand.execute(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeAttributeCommand,CH.ifa.draw.standard.ChangeAttributeCommand.isExecutable(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeConnectionEndHandle,CH.ifa.draw.standard.ChangeConnectionEndHandle.CH.ifa.draw.standard.ChangeConnectionEndHandle(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeConnectionEndHandle,CH.ifa.draw.standard.ChangeConnectionEndHandle.locate(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeConnectionHandle,CH.ifa.draw.standard.ChangeConnectionHandle.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeConnectionHandle,"CH.ifa.draw.standard.ChangeConnectionHandle.invokeEnd(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeConnectionHandle,"CH.ifa.draw.standard.ChangeConnectionHandle.invokeStart(int,int,CH.ifa.draw.framework.DrawingView)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeConnectionHandle,"CH.ifa.draw.standard.ChangeConnectionHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeConnectionStartHandle,CH.ifa.draw.standard.ChangeConnectionStartHandle.CH.ifa.draw.standard.ChangeConnectionStartHandle(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChangeConnectionStartHandle,CH.ifa.draw.standard.ChangeConnectionStartHandle.locate(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChopBoxConnector,CH.ifa.draw.standard.ChopBoxConnector.CH.ifa.draw.standard.ChopBoxConnector(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChopBoxConnector,CH.ifa.draw.standard.ChopBoxConnector.CH.ifa.draw.standard.ChopBoxConnector(CH.ifa.draw.framework.Figure),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChopBoxConnector,CH.ifa.draw.standard.ChopBoxConnector.findEnd(CH.ifa.draw.framework.ConnectionFigure),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.ChopBoxConnector,CH.ifa.draw.standard.ChopBoxConnector.findStart(CH.ifa.draw.framework.ConnectionFigure),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.add(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.addAll(java.util.Vector),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.bringToFront(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.figureAt(int),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.figureChanged(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.figureCount(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.figureInvalidated(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.figureRemoved(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.figureRequestRemove(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.figureRequestUpdate(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.figures(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.figuresReverse(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,"CH.ifa.draw.standard.CompositeFigure.findFigure(int,int)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.findFigure(java.awt.Rectangle),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,"CH.ifa.draw.standard.CompositeFigure.findFigure(java.awt.Rectangle,CH.ifa.draw.framework.Figure)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,"CH.ifa.draw.standard.CompositeFigure.findFigureInside(int,int)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,"CH.ifa.draw.standard.CompositeFigure.findFigureInsideWithout(int,int,CH.ifa.draw.framework.Figure)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,"CH.ifa.draw.standard.CompositeFigure.findFigureWithout(int,int,CH.ifa.draw.framework.Figure)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.includes(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.orphan(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.orphanAll(java.util.Vector),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.release(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.remove(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.removeAll(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.removeAll(java.util.Vector),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,"CH.ifa.draw.standard.CompositeFigure.replace(CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Figure)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.sendToBack(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CompositeFigure,CH.ifa.draw.standard.CompositeFigure.write(CH.ifa.draw.util.StorableOutput),Data Source Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionHandle,"CH.ifa.draw.standard.ConnectionHandle.CH.ifa.draw.standard.ConnectionHandle(CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Locator,CH.ifa.draw.framework.ConnectionFigure)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionHandle,CH.ifa.draw.standard.ConnectionHandle.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionHandle,"CH.ifa.draw.standard.ConnectionHandle.invokeEnd(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionHandle,"CH.ifa.draw.standard.ConnectionHandle.invokeStart(int,int,CH.ifa.draw.framework.DrawingView)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionHandle,"CH.ifa.draw.standard.ConnectionHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionTool,"CH.ifa.draw.standard.ConnectionTool.CH.ifa.draw.standard.ConnectionTool(CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.ConnectionFigure)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionTool,CH.ifa.draw.standard.ConnectionTool.deactivate(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionTool,"CH.ifa.draw.standard.ConnectionTool.mouseDown(java.awt.event.MouseEvent,int,int)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionTool,"CH.ifa.draw.standard.ConnectionTool.mouseDrag(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionTool,"CH.ifa.draw.standard.ConnectionTool.mouseMove(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ConnectionTool,"CH.ifa.draw.standard.ConnectionTool.mouseUp(java.awt.event.MouseEvent,int,int)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CopyCommand,"CH.ifa.draw.standard.CopyCommand.CH.ifa.draw.standard.CopyCommand(java.lang.String,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CopyCommand,CH.ifa.draw.standard.CopyCommand.execute(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CopyCommand,CH.ifa.draw.standard.CopyCommand.isExecutable(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CreationTool,"CH.ifa.draw.standard.CreationTool.CH.ifa.draw.standard.CreationTool(CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.Figure)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CreationTool,CH.ifa.draw.standard.CreationTool.activate(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CreationTool,"CH.ifa.draw.standard.CreationTool.mouseDown(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CreationTool,"CH.ifa.draw.standard.CreationTool.mouseDrag(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CreationTool,"CH.ifa.draw.standard.CreationTool.mouseUp(java.awt.event.MouseEvent,int,int)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CutCommand,"CH.ifa.draw.standard.CutCommand.CH.ifa.draw.standard.CutCommand(java.lang.String,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CutCommand,CH.ifa.draw.standard.CutCommand.execute(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.CutCommand,CH.ifa.draw.standard.CutCommand.isExecutable(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.CH.ifa.draw.standard.DecoratorFigure(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.CH.ifa.draw.standard.DecoratorFigure(CH.ifa.draw.framework.Figure),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,"CH.ifa.draw.standard.DecoratorFigure.basicDisplayBox(java.awt.Point,java.awt.Point)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.canConnect(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.connectedTextLocator(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.connectionInsets(),Data Source Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,"CH.ifa.draw.standard.DecoratorFigure.connectorAt(int,int)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.connectorVisibility(boolean),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,"CH.ifa.draw.standard.DecoratorFigure.containsPoint(int,int)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.decompose(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.decorate(CH.ifa.draw.framework.Figure),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.displayBox(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.draw(java.awt.Graphics),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.figureChanged(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.figureInvalidated(CH.ifa.draw.framework.FigureChangeEvent),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.figureRemoved(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.figureRequestRemove(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.figureRequestUpdate(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.figures(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,"CH.ifa.draw.standard.DecoratorFigure.findFigureInside(int,int)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.getAttribute(java.lang.String),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.handles(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.includes(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,"CH.ifa.draw.standard.DecoratorFigure.moveBy(int,int)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.peelDecoration(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.release(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,"CH.ifa.draw.standard.DecoratorFigure.setAttribute(java.lang.String,java.lang.Object)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DecoratorFigure,CH.ifa.draw.standard.DecoratorFigure.write(CH.ifa.draw.util.StorableOutput),Data Source Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DeleteCommand,"CH.ifa.draw.standard.DeleteCommand.CH.ifa.draw.standard.DeleteCommand(java.lang.String,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DeleteCommand,CH.ifa.draw.standard.DeleteCommand.execute(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DeleteCommand,CH.ifa.draw.standard.DeleteCommand.isExecutable(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.DragTracker,"CH.ifa.draw.standard.DragTracker.CH.ifa.draw.standard.DragTracker(CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.Figure)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DragTracker,"CH.ifa.draw.standard.DragTracker.mouseDown(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DragTracker,"CH.ifa.draw.standard.DragTracker.mouseDrag(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DuplicateCommand,"CH.ifa.draw.standard.DuplicateCommand.CH.ifa.draw.standard.DuplicateCommand(java.lang.String,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DuplicateCommand,CH.ifa.draw.standard.DuplicateCommand.execute(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.DuplicateCommand,CH.ifa.draw.standard.DuplicateCommand.isExecutable(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.EastHandle,"CH.ifa.draw.standard.EastHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureChangeEventMulticaster,"CH.ifa.draw.standard.FigureChangeEventMulticaster.CH.ifa.draw.standard.FigureChangeEventMulticaster(java.util.EventListener,java.util.EventListener)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureChangeEventMulticaster,"CH.ifa.draw.standard.FigureChangeEventMulticaster.add(CH.ifa.draw.framework.FigureChangeListener,CH.ifa.draw.framework.FigureChangeListener)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureChangeEventMulticaster,CH.ifa.draw.standard.FigureChangeEventMulticaster.figureChanged(CH.ifa.draw.framework.FigureChangeEvent),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureChangeEventMulticaster,CH.ifa.draw.standard.FigureChangeEventMulticaster.figureInvalidated(CH.ifa.draw.framework.FigureChangeEvent),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureChangeEventMulticaster,CH.ifa.draw.standard.FigureChangeEventMulticaster.figureRemoved(CH.ifa.draw.framework.FigureChangeEvent),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureChangeEventMulticaster,CH.ifa.draw.standard.FigureChangeEventMulticaster.figureRequestRemove(CH.ifa.draw.framework.FigureChangeEvent),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureChangeEventMulticaster,CH.ifa.draw.standard.FigureChangeEventMulticaster.figureRequestUpdate(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureChangeEventMulticaster,"CH.ifa.draw.standard.FigureChangeEventMulticaster.remove(CH.ifa.draw.framework.FigureChangeListener,CH.ifa.draw.framework.FigureChangeListener)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureEnumerator,CH.ifa.draw.standard.FigureEnumerator.CH.ifa.draw.standard.FigureEnumerator(java.util.Vector),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureEnumerator,CH.ifa.draw.standard.FigureEnumerator.hasMoreElements(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureEnumerator,CH.ifa.draw.standard.FigureEnumerator.nextElement(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.FigureEnumerator,CH.ifa.draw.standard.FigureEnumerator.nextFigure(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.GridConstrainer,"CH.ifa.draw.standard.GridConstrainer.CH.ifa.draw.standard.GridConstrainer(int,int)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.GridConstrainer,CH.ifa.draw.standard.GridConstrainer.constrainPoint(java.awt.Point),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.GridConstrainer,CH.ifa.draw.standard.GridConstrainer.getStepX(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.GridConstrainer,CH.ifa.draw.standard.GridConstrainer.getStepY(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.HandleTracker,"CH.ifa.draw.standard.HandleTracker.CH.ifa.draw.standard.HandleTracker(CH.ifa.draw.framework.DrawingView,CH.ifa.draw.framework.Handle)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.HandleTracker,"CH.ifa.draw.standard.HandleTracker.mouseDown(java.awt.event.MouseEvent,int,int)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.HandleTracker,"CH.ifa.draw.standard.HandleTracker.mouseDrag(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.HandleTracker,"CH.ifa.draw.standard.HandleTracker.mouseUp(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.LocatorConnector,CH.ifa.draw.standard.LocatorConnector.CH.ifa.draw.standard.LocatorConnector(),Data Source Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.LocatorConnector,"CH.ifa.draw.standard.LocatorConnector.CH.ifa.draw.standard.LocatorConnector(CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Locator)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.LocatorConnector,"CH.ifa.draw.standard.LocatorConnector.containsPoint(int,int)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.LocatorConnector,CH.ifa.draw.standard.LocatorConnector.displayBox(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.LocatorConnector,CH.ifa.draw.standard.LocatorConnector.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.LocatorConnector,CH.ifa.draw.standard.LocatorConnector.read(CH.ifa.draw.util.StorableInput),Data Source Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.LocatorConnector,CH.ifa.draw.standard.LocatorConnector.write(CH.ifa.draw.util.StorableOutput),Data Source Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.LocatorHandle,"CH.ifa.draw.standard.LocatorHandle.CH.ifa.draw.standard.LocatorHandle(CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Locator)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.LocatorHandle,CH.ifa.draw.standard.LocatorHandle.locate(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.NorthEastHandle,"CH.ifa.draw.standard.NorthEastHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.NorthHandle,"CH.ifa.draw.standard.NorthHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.NorthWestHandle,"CH.ifa.draw.standard.NorthWestHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.NullHandle,"CH.ifa.draw.standard.NullHandle.CH.ifa.draw.standard.NullHandle(CH.ifa.draw.framework.Figure,CH.ifa.draw.framework.Locator)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.NullHandle,CH.ifa.draw.standard.NullHandle.draw(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.OffsetLocator,CH.ifa.draw.standard.OffsetLocator.CH.ifa.draw.standard.OffsetLocator(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.OffsetLocator,CH.ifa.draw.standard.OffsetLocator.CH.ifa.draw.standard.OffsetLocator(CH.ifa.draw.framework.Locator),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.OffsetLocator,"CH.ifa.draw.standard.OffsetLocator.CH.ifa.draw.standard.OffsetLocator(CH.ifa.draw.framework.Locator,int,int)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.OffsetLocator,CH.ifa.draw.standard.OffsetLocator.locate(CH.ifa.draw.framework.Figure),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.OffsetLocator,"CH.ifa.draw.standard.OffsetLocator.moveBy(int,int)",Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.OffsetLocator,CH.ifa.draw.standard.OffsetLocator.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.OffsetLocator,CH.ifa.draw.standard.OffsetLocator.write(CH.ifa.draw.util.StorableOutput),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.PasteCommand,"CH.ifa.draw.standard.PasteCommand.CH.ifa.draw.standard.PasteCommand(java.lang.String,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.PasteCommand,CH.ifa.draw.standard.PasteCommand.execute(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,CH.ifa.draw.standard.RelativeLocator.CH.ifa.draw.standard.RelativeLocator(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,"CH.ifa.draw.standard.RelativeLocator.CH.ifa.draw.standard.RelativeLocator(double,double)",Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,CH.ifa.draw.standard.RelativeLocator.center(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,CH.ifa.draw.standard.RelativeLocator.east(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,CH.ifa.draw.standard.RelativeLocator.locate(CH.ifa.draw.framework.Figure),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,CH.ifa.draw.standard.RelativeLocator.north(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,CH.ifa.draw.standard.RelativeLocator.northEast(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,CH.ifa.draw.standard.RelativeLocator.northWest(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,CH.ifa.draw.standard.RelativeLocator.read(CH.ifa.draw.util.StorableInput),Data Source Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,CH.ifa.draw.standard.RelativeLocator.south(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,CH.ifa.draw.standard.RelativeLocator.southEast(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,CH.ifa.draw.standard.RelativeLocator.southWest(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,CH.ifa.draw.standard.RelativeLocator.west(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.RelativeLocator,CH.ifa.draw.standard.RelativeLocator.write(CH.ifa.draw.util.StorableOutput),Data Source Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ReverseFigureEnumerator,CH.ifa.draw.standard.ReverseFigureEnumerator.CH.ifa.draw.standard.ReverseFigureEnumerator(java.util.Vector),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.ReverseFigureEnumerator,CH.ifa.draw.standard.ReverseFigureEnumerator.hasMoreElements(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.ReverseFigureEnumerator,CH.ifa.draw.standard.ReverseFigureEnumerator.nextElement(),Data Source Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ReverseFigureEnumerator,CH.ifa.draw.standard.ReverseFigureEnumerator.nextFigure(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.SelectAreaTracker,CH.ifa.draw.standard.SelectAreaTracker.CH.ifa.draw.standard.SelectAreaTracker(CH.ifa.draw.framework.DrawingView),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.SelectAreaTracker,"CH.ifa.draw.standard.SelectAreaTracker.mouseDown(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.SelectAreaTracker,"CH.ifa.draw.standard.SelectAreaTracker.mouseDrag(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.SelectAreaTracker,"CH.ifa.draw.standard.SelectAreaTracker.mouseUp(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.SelectionTool,CH.ifa.draw.standard.SelectionTool.CH.ifa.draw.standard.SelectionTool(CH.ifa.draw.framework.DrawingView),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.SelectionTool,"CH.ifa.draw.standard.SelectionTool.mouseDown(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.SelectionTool,"CH.ifa.draw.standard.SelectionTool.mouseDrag(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.SelectionTool,"CH.ifa.draw.standard.SelectionTool.mouseUp(java.awt.event.MouseEvent,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.SendToBackCommand,"CH.ifa.draw.standard.SendToBackCommand.CH.ifa.draw.standard.SendToBackCommand(java.lang.String,CH.ifa.draw.framework.DrawingView)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.SendToBackCommand,CH.ifa.draw.standard.SendToBackCommand.execute(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.SendToBackCommand,CH.ifa.draw.standard.SendToBackCommand.isExecutable(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.SimpleUpdateStrategy,CH.ifa.draw.standard.SimpleUpdateStrategy.CH.ifa.draw.standard.SimpleUpdateStrategy(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.SimpleUpdateStrategy,"CH.ifa.draw.standard.SimpleUpdateStrategy.draw(java.awt.Graphics,CH.ifa.draw.framework.DrawingView)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.SouthEastHandle,"CH.ifa.draw.standard.SouthEastHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.SouthHandle,"CH.ifa.draw.standard.SouthHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.SouthWestHandle,"CH.ifa.draw.standard.SouthWestHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,CH.ifa.draw.standard.StandardDrawing.CH.ifa.draw.standard.StandardDrawing(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,CH.ifa.draw.standard.StandardDrawing.addDrawingChangeListener(CH.ifa.draw.framework.DrawingChangeListener),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,"CH.ifa.draw.standard.StandardDrawing.basicDisplayBox(java.awt.Point,java.awt.Point)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,CH.ifa.draw.standard.StandardDrawing.displayBox(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,CH.ifa.draw.standard.StandardDrawing.drawingChangeListeners(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,CH.ifa.draw.standard.StandardDrawing.figureInvalidated(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,CH.ifa.draw.standard.StandardDrawing.figureRequestRemove(CH.ifa.draw.framework.FigureChangeEvent),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,CH.ifa.draw.standard.StandardDrawing.figureRequestUpdate(CH.ifa.draw.framework.FigureChangeEvent),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,CH.ifa.draw.standard.StandardDrawing.handles(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,CH.ifa.draw.standard.StandardDrawing.lock(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,CH.ifa.draw.standard.StandardDrawing.remove(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,CH.ifa.draw.standard.StandardDrawing.removeDrawingChangeListener(CH.ifa.draw.framework.DrawingChangeListener),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawing,CH.ifa.draw.standard.StandardDrawing.unlock(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,"CH.ifa.draw.standard.StandardDrawingView.CH.ifa.draw.standard.StandardDrawingView(CH.ifa.draw.framework.DrawingEditor,int,int)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.add(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.addAll(java.util.Vector),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.addBackground(CH.ifa.draw.framework.Painter),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.addForeground(CH.ifa.draw.framework.Painter),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.addToSelection(CH.ifa.draw.framework.Figure),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.addToSelectionAll(java.util.Vector),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.checkDamage(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.clearSelection(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.drawAll(java.awt.Graphics),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.drawBackground(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.drawDrawing(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.drawHandles(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.drawing(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.drawingInvalidated(CH.ifa.draw.framework.DrawingChangeEvent),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.drawingRequestUpdate(CH.ifa.draw.framework.DrawingChangeEvent),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.editor(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,"CH.ifa.draw.standard.StandardDrawingView.findHandle(int,int)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.freezeView(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.getConstrainer(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.getFigureSelection(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.getMinimumSize(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.getPreferredSize(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.isFocusTraversable(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.keyPressed(java.awt.event.KeyEvent),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.keyReleased(java.awt.event.KeyEvent),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.keyTyped(java.awt.event.KeyEvent),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.lastClick(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.mouseClicked(java.awt.event.MouseEvent),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.mouseDragged(java.awt.event.MouseEvent),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.mouseEntered(java.awt.event.MouseEvent),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.mouseExited(java.awt.event.MouseEvent),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.mouseMoved(java.awt.event.MouseEvent),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.mousePressed(java.awt.event.MouseEvent),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.mouseReleased(java.awt.event.MouseEvent),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.paint(java.awt.Graphics),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.remove(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.removeBackground(CH.ifa.draw.framework.Painter),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.removeForeground(CH.ifa.draw.framework.Painter),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.removeFromSelection(CH.ifa.draw.framework.Figure),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.repairDamage(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.selection(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.selectionCount(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.selectionElements(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.selectionZOrdered(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.setConstrainer(CH.ifa.draw.framework.PointConstrainer),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.setDisplayUpdate(CH.ifa.draw.framework.Painter),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.setDrawing(CH.ifa.draw.framework.Drawing),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.setEditor(CH.ifa.draw.framework.DrawingEditor),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.toggleSelection(CH.ifa.draw.framework.Figure),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.tool(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.unfreezeView(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.StandardDrawingView,CH.ifa.draw.standard.StandardDrawingView.update(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.TextHolder,CH.ifa.draw.standard.TextHolder.acceptsTyping(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.TextHolder,CH.ifa.draw.standard.TextHolder.connect(CH.ifa.draw.framework.Figure),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.TextHolder,CH.ifa.draw.standard.TextHolder.getFont(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.TextHolder,CH.ifa.draw.standard.TextHolder.getText(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.TextHolder,CH.ifa.draw.standard.TextHolder.overlayColumns(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.TextHolder,CH.ifa.draw.standard.TextHolder.setText(java.lang.String),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.TextHolder,CH.ifa.draw.standard.TextHolder.textDisplayBox(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToggleGridCommand,"CH.ifa.draw.standard.ToggleGridCommand.CH.ifa.draw.standard.ToggleGridCommand(java.lang.String,CH.ifa.draw.framework.DrawingView,java.awt.Point)",Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToggleGridCommand,CH.ifa.draw.standard.ToggleGridCommand.execute(),Service Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToolButton,"CH.ifa.draw.standard.ToolButton.CH.ifa.draw.standard.ToolButton(CH.ifa.draw.util.PaletteListener,java.lang.String,java.lang.String,CH.ifa.draw.framework.Tool)",Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToolButton,CH.ifa.draw.standard.ToolButton.attributeValue(),Domain Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToolButton,CH.ifa.draw.standard.ToolButton.getMinimumSize(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToolButton,CH.ifa.draw.standard.ToolButton.getPreferredSize(),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToolButton,CH.ifa.draw.standard.ToolButton.name(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToolButton,CH.ifa.draw.standard.ToolButton.paintBackground(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToolButton,CH.ifa.draw.standard.ToolButton.paintNormal(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToolButton,CH.ifa.draw.standard.ToolButton.paintPressed(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToolButton,CH.ifa.draw.standard.ToolButton.paintSelected(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.standard,CH.ifa.draw.standard.ToolButton,CH.ifa.draw.standard.ToolButton.tool(),Cross-Cutting
+CH.ifa.draw.standard,CH.ifa.draw.standard.WestHandle,"CH.ifa.draw.standard.WestHandle.invokeStep(int,int,int,int,CH.ifa.draw.framework.DrawingView)",Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Animatable,CH.ifa.draw.util.Animatable.animationStep(),Service Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Clipboard,CH.ifa.draw.util.Clipboard.getClipboard(),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.Clipboard,CH.ifa.draw.util.Clipboard.getContents(),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Clipboard,CH.ifa.draw.util.Clipboard.setContents(java.lang.Object),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.ColorMap,CH.ifa.draw.util.ColorMap.CH.ifa.draw.util.ColorMap(),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.ColorMap,CH.ifa.draw.util.ColorMap.color(int),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.ColorMap,CH.ifa.draw.util.ColorMap.color(java.lang.String),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.ColorMap,CH.ifa.draw.util.ColorMap.colorIndex(java.awt.Color),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.ColorMap,CH.ifa.draw.util.ColorMap.isTransparent(java.awt.Color),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.ColorMap,CH.ifa.draw.util.ColorMap.name(int),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.ColorMap,CH.ifa.draw.util.ColorMap.size(),Domain Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Command,CH.ifa.draw.util.Command.CH.ifa.draw.util.Command(java.lang.String),Service Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Command,CH.ifa.draw.util.Command.execute(),Service Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Command,CH.ifa.draw.util.Command.isExecutable(),Domain Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Command,CH.ifa.draw.util.Command.name(),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.CommandButton,CH.ifa.draw.util.CommandButton.CH.ifa.draw.util.CommandButton(CH.ifa.draw.util.Command),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.CommandButton,CH.ifa.draw.util.CommandButton.actionPerformed(java.awt.event.ActionEvent),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.CommandChoice,CH.ifa.draw.util.CommandChoice.CH.ifa.draw.util.CommandChoice(),Service Layer
+CH.ifa.draw.util,CH.ifa.draw.util.CommandChoice,CH.ifa.draw.util.CommandChoice.addItem(CH.ifa.draw.util.Command),Domain Layer
+CH.ifa.draw.util,CH.ifa.draw.util.CommandChoice,CH.ifa.draw.util.CommandChoice.itemStateChanged(java.awt.event.ItemEvent),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.CommandMenu,CH.ifa.draw.util.CommandMenu.CH.ifa.draw.util.CommandMenu(java.lang.String),Domain Layer
+CH.ifa.draw.util,CH.ifa.draw.util.CommandMenu,CH.ifa.draw.util.CommandMenu.actionPerformed(java.awt.event.ActionEvent),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.CommandMenu,CH.ifa.draw.util.CommandMenu.add(CH.ifa.draw.util.Command),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.CommandMenu,"CH.ifa.draw.util.CommandMenu.add(CH.ifa.draw.util.Command,java.awt.MenuShortcut)",Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.CommandMenu,CH.ifa.draw.util.CommandMenu.checkEnabled(),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.CommandMenu,"CH.ifa.draw.util.CommandMenu.enable(java.lang.String,boolean)",Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.CommandMenu,CH.ifa.draw.util.CommandMenu.remove(CH.ifa.draw.util.Command),Domain Layer
+CH.ifa.draw.util,CH.ifa.draw.util.CommandMenu,CH.ifa.draw.util.CommandMenu.remove(java.awt.MenuItem),Service Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Filler,"CH.ifa.draw.util.Filler.CH.ifa.draw.util.Filler(int,int)",Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.Filler,"CH.ifa.draw.util.Filler.CH.ifa.draw.util.Filler(int,int,java.awt.Color)",Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.Filler,CH.ifa.draw.util.Filler.getBackground(),Domain Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Filler,CH.ifa.draw.util.Filler.getMinimumSize(),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.Filler,CH.ifa.draw.util.Filler.getPreferredSize(),Domain Layer
+CH.ifa.draw.util,CH.ifa.draw.util.FloatingTextField,CH.ifa.draw.util.FloatingTextField.CH.ifa.draw.util.FloatingTextField(),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.FloatingTextField,CH.ifa.draw.util.FloatingTextField.addActionListener(java.awt.event.ActionListener),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.FloatingTextField,CH.ifa.draw.util.FloatingTextField.createOverlay(java.awt.Container),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.FloatingTextField,"CH.ifa.draw.util.FloatingTextField.createOverlay(java.awt.Container,java.awt.Font)",Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.FloatingTextField,CH.ifa.draw.util.FloatingTextField.endOverlay(),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.FloatingTextField,CH.ifa.draw.util.FloatingTextField.getPreferredSize(int),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.FloatingTextField,CH.ifa.draw.util.FloatingTextField.getText(),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.FloatingTextField,CH.ifa.draw.util.FloatingTextField.removeActionListener(java.awt.event.ActionListener),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.FloatingTextField,"CH.ifa.draw.util.FloatingTextField.setBounds(java.awt.Rectangle,java.lang.String)",Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,"CH.ifa.draw.util.Geom.angleToPoint(java.awt.Rectangle,double)",Domain Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,CH.ifa.draw.util.Geom.center(java.awt.Rectangle),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,"CH.ifa.draw.util.Geom.direction(int,int,int,int)",Domain Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,CH.ifa.draw.util.Geom.east(java.awt.Rectangle),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,"CH.ifa.draw.util.Geom.intersect(int,int,int,int,int,int,int,int)",Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,"CH.ifa.draw.util.Geom.length(int,int,int,int)",Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,"CH.ifa.draw.util.Geom.length2(int,int,int,int)",Domain Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,"CH.ifa.draw.util.Geom.lineContainsPoint(int,int,int,int,int,int)",Domain Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,CH.ifa.draw.util.Geom.north(java.awt.Rectangle),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,"CH.ifa.draw.util.Geom.ovalAngleToPoint(java.awt.Rectangle,double)",Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,"CH.ifa.draw.util.Geom.pointToAngle(java.awt.Rectangle,java.awt.Point)",Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,"CH.ifa.draw.util.Geom.polarToPoint(double,double,double)",Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,"CH.ifa.draw.util.Geom.range(int,int,int)",Domain Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,CH.ifa.draw.util.Geom.south(java.awt.Rectangle),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.Geom,CH.ifa.draw.util.Geom.west(java.awt.Rectangle),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.Iconkit,CH.ifa.draw.util.Iconkit.CH.ifa.draw.util.Iconkit(java.awt.Component),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Iconkit,CH.ifa.draw.util.Iconkit.getImage(java.lang.String),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Iconkit,CH.ifa.draw.util.Iconkit.instance(),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.Iconkit,CH.ifa.draw.util.Iconkit.loadImage(java.lang.String),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Iconkit,CH.ifa.draw.util.Iconkit.loadImageResource(java.lang.String),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Iconkit,CH.ifa.draw.util.Iconkit.loadRegisteredImages(java.awt.Component),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Iconkit,"CH.ifa.draw.util.Iconkit.registerAndLoadImage(java.awt.Component,java.lang.String)",Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Iconkit,CH.ifa.draw.util.Iconkit.registerImage(java.lang.String),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.CH.ifa.draw.util.PaletteButton(CH.ifa.draw.util.PaletteListener),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.mouseClicked(java.awt.event.MouseEvent),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.mouseDragged(java.awt.event.MouseEvent),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.mouseEntered(java.awt.event.MouseEvent),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.mouseExited(java.awt.event.MouseEvent),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.mouseMoved(java.awt.event.MouseEvent),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.mousePressed(java.awt.event.MouseEvent),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.mouseReleased(java.awt.event.MouseEvent),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.name(),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.paint(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.paintBackground(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.paintNormal(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.paintPressed(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.paintSelected(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.reset(),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.select(),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.update(java.awt.Graphics),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteButton,CH.ifa.draw.util.PaletteButton.value(),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteIcon,"CH.ifa.draw.util.PaletteIcon.CH.ifa.draw.util.PaletteIcon(java.awt.Dimension,java.awt.Image,java.awt.Image,java.awt.Image)",Service Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteIcon,CH.ifa.draw.util.PaletteIcon.getHeight(),Domain Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteIcon,CH.ifa.draw.util.PaletteIcon.getWidth(),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteIcon,CH.ifa.draw.util.PaletteIcon.normal(),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteIcon,CH.ifa.draw.util.PaletteIcon.pressed(),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteIcon,CH.ifa.draw.util.PaletteIcon.selected(),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteLayout,CH.ifa.draw.util.PaletteLayout.CH.ifa.draw.util.PaletteLayout(int),Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteLayout,"CH.ifa.draw.util.PaletteLayout.CH.ifa.draw.util.PaletteLayout(int,java.awt.Point)",Service Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteLayout,"CH.ifa.draw.util.PaletteLayout.CH.ifa.draw.util.PaletteLayout(int,java.awt.Point,boolean)",Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteLayout,"CH.ifa.draw.util.PaletteLayout.addLayoutComponent(java.lang.String,java.awt.Component)",Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteLayout,CH.ifa.draw.util.PaletteLayout.layoutContainer(java.awt.Container),Service Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteLayout,CH.ifa.draw.util.PaletteLayout.minimumLayoutSize(java.awt.Container),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteLayout,CH.ifa.draw.util.PaletteLayout.preferredLayoutSize(java.awt.Container),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteLayout,CH.ifa.draw.util.PaletteLayout.removeLayoutComponent(java.awt.Component),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteListener,"CH.ifa.draw.util.PaletteListener.paletteUserOver(CH.ifa.draw.util.PaletteButton,boolean)",Presentation Layer
+CH.ifa.draw.util,CH.ifa.draw.util.PaletteListener,CH.ifa.draw.util.PaletteListener.paletteUserSelected(CH.ifa.draw.util.PaletteButton),Service Layer
+CH.ifa.draw.util,CH.ifa.draw.util.ReverseVectorEnumerator,CH.ifa.draw.util.ReverseVectorEnumerator.CH.ifa.draw.util.ReverseVectorEnumerator(java.util.Vector),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.ReverseVectorEnumerator,CH.ifa.draw.util.ReverseVectorEnumerator.hasMoreElements(),Cross-Cutting
+CH.ifa.draw.util,CH.ifa.draw.util.ReverseVectorEnumerator,CH.ifa.draw.util.ReverseVectorEnumerator.nextElement(),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Storable,CH.ifa.draw.util.Storable.read(CH.ifa.draw.util.StorableInput),Domain Layer
+CH.ifa.draw.util,CH.ifa.draw.util.Storable,CH.ifa.draw.util.Storable.write(CH.ifa.draw.util.StorableOutput),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.StorableInput,CH.ifa.draw.util.StorableInput.CH.ifa.draw.util.StorableInput(java.io.InputStream),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.StorableInput,CH.ifa.draw.util.StorableInput.readBoolean(),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.StorableInput,CH.ifa.draw.util.StorableInput.readColor(),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.StorableInput,CH.ifa.draw.util.StorableInput.readDouble(),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.StorableInput,CH.ifa.draw.util.StorableInput.readInt(),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.StorableInput,CH.ifa.draw.util.StorableInput.readStorable(),Domain Layer
+CH.ifa.draw.util,CH.ifa.draw.util.StorableInput,CH.ifa.draw.util.StorableInput.readString(),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.StorableOutput,CH.ifa.draw.util.StorableOutput.CH.ifa.draw.util.StorableOutput(java.io.OutputStream),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.StorableOutput,CH.ifa.draw.util.StorableOutput.close(),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.StorableOutput,CH.ifa.draw.util.StorableOutput.writeBoolean(boolean),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.StorableOutput,CH.ifa.draw.util.StorableOutput.writeColor(java.awt.Color),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.StorableOutput,CH.ifa.draw.util.StorableOutput.writeDouble(double),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.StorableOutput,CH.ifa.draw.util.StorableOutput.writeInt(int),Data Source Layer
+CH.ifa.draw.util,CH.ifa.draw.util.StorableOutput,CH.ifa.draw.util.StorableOutput.writeStorable(CH.ifa.draw.util.Storable),Service Layer
+CH.ifa.draw.util,CH.ifa.draw.util.StorableOutput,CH.ifa.draw.util.StorableOutput.writeString(java.lang.String),Cross-Cutting
