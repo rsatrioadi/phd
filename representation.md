@@ -24,23 +24,32 @@ Based on the requirements, we describe our LPG schemas for source code structure
 
     With the node labels defined as:
 
-    * **_Structure_**: a class-type, including what languages may call structs, records, enumerations, etc. (The definitions of and _Structure_’s relations to _Type_ and _Primitive_ are therefore trivial for people familiar with object orientation.)
+    * **_Type_**: either a Primitive type or a Structure.
+    * **_Primitive_**: a specific kind of Type that is defined by a programming language, e.g., `int`, `boolean`, etc.
+    * **_Structure_**: a specific kind of Type, including what languages may call structs, records, enumerations, etc. (The definitions of and _Structure_’s relations to _Type_ and _Primitive_ are therefore trivial for people familiar with object orientation.)
     * **_Container_**: anything in the language/platform that contains Structures or allows organization of Structures, e.g., package, directory, module, or namespace. _Structure_ extends _Container_ because some programming languages allow nested classes.    
     * **_Variable_** is self-explanatory; however, we point out that it includes what languages may call field, attribute, property, function/method parameter, etc.
     * **_Script_**: a code expression or a block of statements; lines of code that produce value or make effects.
-    * **_Operation_**: a kind of _Script_ that is identified with a signature (name and parameters) and return type.    
-    * **_Constructor_**: a kind of _Operation_ whose sole purpose is the creation of a _Structure_ instance. We consider a _Constructor_’s return type to be the _Structure_ that it creates, even though, e.g., Java considers constructors to have no return type.
+    * **_Operation_**: a specific kind of _Script_ that is identified with a signature (name and parameters) and return type.    
+    * **_Constructor_**: a specific kind of _Operation_ whose sole purpose is the creation of a _Structure_ instance. We consider a _Constructor_’s return type to be the _Structure_ that it creates, even though, e.g., Java considers constructors to have no return type.
     
     And the edge labels as follows:
     
-    * **_specializes_** is for inheritance, including Java’s extends and implements keywords, mixins, etc.    
-    * **_invokes_** denotes invocations. A _Script_ that does not have a signature (i.e., not an _Operation_) cannot be referred to, and therefore invoked by, another _Script_. An example is field initializers.
-    * **_instantiates_** is a convenience edge that can be derived from other terms in the graph. _M instantiates S_ when _Structure S_ has a _Constructor C_ that is invoked by _Script M_.
-    * The other edge types **_contains_**, **_type_**, **_returnType_**, **_hasVariable_**, **_hasScript_**, and **_hasParameter_** should be self-explanatory.
+    * **_specializes_** is for inheritance, including Java’s `extends` and `implements` keywords, mixins, etc. This edge is defined from a Structure to another.    
+    * **_invokes_** denotes invocations. A _Script_ that does not have a signature (i.e., not an _Operation_) cannot be referred to, and therefore invoked by, another _Script_. An example is field initializers. This edge is defined from a Script to an Operation.
+    * **_instantiates_** is a convenience edge that can be derived from other terms in the graph. _M instantiates S_ when _Structure S_ has a _Constructor C_ that is invoked by _Script M_. It is defined from a Script to a Structure.
+    * **_contains_** is a containment relationship defined for Container to Container or Container to Structure.
+    * **_type_** is for the type of a Variable, i.e., defined from a Variable to a Type.
+    * **_returnType_** is for the return type of an Operation, i.e., defined from an Operation to a Type.
+    * **_hasVariable_** is defined from a Structure to a Variable; the meaning is self-explanatory.
+    * **_hasScript_** is defined from a Structure to a Script; the meaning is self-explanatory.
+    * **_hasParameter_**  is defined from an Operation to a Variable; the meaning is self-explanatory.
 
 - LPG schema for abstract structure knowledge
 
     ![Compacted LPG schema.](/figures/compacted.svg)
+
+    This more compact schema contains only Container, Type, Structure, and Primitive nodes.
 
     When a detailed LPG is available, an abstracted version can be derived by applying the following definitions of edges and then removing _Variable_ and _Script_ nodes (and consequently their connected edges):
 
